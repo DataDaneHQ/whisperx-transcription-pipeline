@@ -2,21 +2,7 @@
 
 <br>
 
-## Table of Contents
-
-- [The Problem](#the-problem)
-- [The Workplace Build — Scripts 01–03](#the-workplace-build--scripts-0103)
-- [Use It Yourself — Scripts 04–06](#use-it-yourself--scripts-0406)
-- [A Real Use Case](#a-real-use-case)
-- [GPU Build](#gpu-build)
-- [Stack & Dependencies](#stack--dependencies)
-- [Repo Structure](#repo-structure)
-
----
-
-<br>
-
-## The Problem
+## Overview
 
 An enforcement team had over 1,000 call recordings to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
 
@@ -31,6 +17,17 @@ Their existing tool was Word's built-in speech-to-text. It wasn't built for batc
 - Logs every processed file so nothing is transcribed twice
 
 The result: investigators got reliable, speaker-labelled transcripts at scale, with strict privacy maintained throughout — giving them exactly what they needed to filter and prioritise calls efficiently.
+
+<br>
+
+### Table of Contents
+
+- [The Workplace Build — Scripts 01–03](#the-workplace-build--scripts-0103)
+- [Use It Yourself — Scripts 04–06](#use-it-yourself--scripts-0406)
+- [A Real Use Case](#a-real-use-case)
+- [GPU Build](#gpu-build)
+- [Stack & Dependencies](#stack--dependencies)
+- [Repo Structure](#repo-structure)
 
 ---
 
