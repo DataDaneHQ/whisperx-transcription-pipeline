@@ -66,7 +66,7 @@ if (file.exists(audio_file) && !dir.exists(audio_file)) {
 # 3️⃣ Load Processed Files Log --------------------------------------------
 # ──────────────────────────────────────────────────────────────────────────────
 
-log_path <- here::here("05_Resources", "processed_files_log_standard.csv")
+log_path <- here::here("03_Transcribe_Audio", "processed_files_log_standard.csv")
 
 if (file.exists(log_path)) {
   processed_log <- read.csv(log_path, stringsAsFactors = FALSE)

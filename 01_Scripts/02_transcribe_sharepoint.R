@@ -93,7 +93,7 @@ if (nrow(audio_df) == 0) {
 # ──────────────────────────────────────────────────────────────────────────────
 
 # Get log path file
-log_path <- here("05_Resources", "processed_files_log.csv")
+log_path <- here("03_Transcribe_Audio", "processed_files_log.csv")
 
 # Load existing log or create empty one
 if (file.exists(log_path)) {

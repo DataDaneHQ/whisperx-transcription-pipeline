@@ -6,7 +6,7 @@
 
 An enforcement team had over 1,000 call recordings to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
 
-Their existing tool was Word's built-in speech-to-text. It wasn't built for batch processing, produced unreliable output, and couldn't reliably identify who was speaking. A commercial transcription tool was the obvious answer, but procurement takes time, and the organisation's GenAI policy was still catching up with the technology. Neither path was going to move fast enough.
+Their existing tool was Word's built-in speech-to-text. It wasn't built for batch processing, produced unreliable output, and couldn't reliably identify who was speaking. A commercial transcription tool was the obvious answer, but procurement takes time, and the organisation's GenAI policy was still catching up with the technology. Neither path was going to move fast enough — and any solution had to operate within existing IT and GenAI policy boundaries. 
 
 **I tested and evaluated options, then built and deployed a pipeline in-house that met every requirement:**
 
@@ -51,7 +51,7 @@ The pipeline runs in three scripts:
 
 **Distributed compute across team hardware**
 
-Running 1,000+ calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 19 days of continuous processing. By distributing the workload across the full team — each analyst running the pipeline on their own machine overnight — that timeframe dropped to a fraction.
+Running 1,000+ calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 19 days of overnight processing. By distributing the workload across the full team — each analyst running the pipeline on their own machine overnight — that timeframe dropped to a fraction.
 
 **Privacy-by-design — analysts never see a single file**
 
@@ -155,42 +155,25 @@ For context: a one-hour recording that takes approximately 1 hour 45 minutes on 
 
 <br>
 
-## Stack & Dependencies
-
-- **R** — orchestration, SharePoint integration, logging
-- **Python 3.10** — AI model execution via Reticulate bridge
-- **WhisperX** — transcription engine
-- **Faster-Whisper** — optimised Whisper backend
-- **Pyannote** — speaker diarisation (3 models: `speaker-diarization-3.1`, `segmentation-3.0`, `speaker-diarization-community-1`)
-- **PyTorch** — model inference engine
-- **Microsoft365R** — SharePoint connectivity (workplace build)
-- **Shiny + miniUI** — browser-based control panel
-- **FFmpeg** — audio processing
-- **Hugging Face Hub** — model download and authentication
-
-**Disk space:** approximately 5–7 GB (Python environment, models, and dependencies)
-
----
-
-<br>
-
 ## Repo Structure
 
 ```
 whisperx-transcription-pipeline/
-├── 00_Resources/              # Images and repo assets
-├── 01_Documents/              # Setup guides and SOP
 ├── 01_Scripts/
-│   ├── 01_setup_whisperx.R                        # One-time environment setup
-│   ├── 02_transcribe_sharepoint.R                 # Workplace build — SharePoint transcription
-│   ├── 03_run_transcription_gadget_helper.R        # Gadget helper — workplace build
-│   ├── 04_transcribe_standard_ui_build.R           # Standard build — local transcription
-│   ├── 05_save_whisperx_result.R                   # Emergency result recovery
+│   ├── 01_setup_whisperx.R                            # One-time environment setup
+│   ├── 02_transcribe_sharepoint.R                     # Workplace build — SharePoint transcription
+│   ├── 03_run_transcription_gadget_helper.R           # Gadget helper — workplace build
+│   ├── 04_transcribe_standard_ui_build.R              # Standard build — local transcription
+│   ├── 05_save_whisperx_result.R                      # Emergency result recovery
 │   └── 06_run_transcription_gadget_helper_standard.R  # Gadget helper — standard build
 ├── 02_Audio/
-│   └── JFK_Test/                                  # Test recording for setup verification
-└── 04_Documents/
-    └── processed_files_log_standard.csv           # Completion log — standard build
+│   ├── JFK_Test/                                      # 11 second test recording for setup verification
+|   └── Our_Common_Bond_Test/                          # 4:34 min test two person recording
+├── 03_Transcribe_Audio/                               # Folder to store local recordings and transcriptions
+|   ├── processed_files_log.csv                        # Completion log — workplace build
+|   └── processed_files_log_standard.csv               # Completion log — standard build
+├── 04_Documents/                                      # Setup guides and SOP
+└── 05_Resources/                                      # Images and repo assets
 ```
 
 ---
