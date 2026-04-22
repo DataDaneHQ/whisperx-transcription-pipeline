@@ -217,7 +217,7 @@ This version is designed for transcription of audio files stored locally within 
 - Already transcribed files are automatically skipped on subsequent runs
 - Transcription outputs are saved to a `Completed` subfolder alongside the original audio file within your project folder
 
-<img src=../"05_Resources/folder_structure_image.png" alt="Example folder structure output" width="80%">  
+<img src="../05_Resources/folder_structure_image.png" alt="Example folder structure output" width="80%">  
 
 All advanced options — model size, language, speakers, and output formats — work identically to the enforcement version. Refer to the **Advanced Options** section under [How to Run](#how-to-run) for full details.
 
