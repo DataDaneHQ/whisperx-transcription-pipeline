@@ -63,7 +63,7 @@ Before starting:
 4. GitHub will create a copy under your account
 5. You'll be redirected to your forked repository — the URL will show your username
 
-<img src="05_Resources/fork_image.png" alt="Fork button location on a GitHub repo page" width="100%">
+<img src="../05_Resources/fork_image.png" alt="Fork button location on a GitHub repo page" width="100%">
 
 <br>
 
@@ -75,7 +75,7 @@ Before starting:
 4. Click the copy icon to copy the URL — it will look like:
    `https://github.com/YOUR-USERNAME/repo-name.git`
 
-<img src="05_Resources/clone_image.png" alt="GitHub Code button showing HTTPS URL and copy icon" width="800">
+<img src="../05_Resources/clone_image.png" alt="GitHub Code button showing HTTPS URL and copy icon" width="800">
 
 <br>
 
@@ -88,7 +88,7 @@ Before starting:
 5. Click **Create Project**
 6. RStudio will download the repository and open it as a project automatically
 
-<img src="05_Resources/link_rstudio_image.png" alt="Paste Repo URL" width="500">
+<img src="../05_Resources/link_rstudio_image.png" alt="Paste Repo URL" width="500">
 
 ---
 
@@ -154,7 +154,7 @@ WhisperX uses FFmpeg to process audio files efficiently.
    - Type: `C:\ffmpeg\bin`
    - Click "OK" twice  
 
-<img src="05_Resources/ffmpeg_variables.png" alt="File issues found">  
+<img src="../05_Resources/ffmpeg_variables.png" alt="File issues found">  
 
 4. **Restart RStudio** if currently open (File → Quit Session...)  
 5. **Verify:** Run `ffmpeg -version` in RStudio Terminal
@@ -203,7 +203,7 @@ This version is designed for transcription of audio files stored locally within 
 
    All other settings are pre-configured — leave them as they are.
 
-<img src="05_Resources/standard_run_image.png" alt="Standard Shiny UI Control Panel">  
+<img src="../05_Resources/standard_run_image.png" alt="Standard Shiny UI Control Panel">  
 
 4. Scroll down and select "Confirm & Run"
 
@@ -217,7 +217,7 @@ This version is designed for transcription of audio files stored locally within 
 - Already transcribed files are automatically skipped on subsequent runs
 - Transcription outputs are saved to a `Completed` subfolder alongside the original audio file within your project folder
 
-<img src="05_Resources/folder_structure_image.png" alt="Example folder structure output" width="80%">  
+<img src=../"05_Resources/folder_structure_image.png" alt="Example folder structure output" width="80%">  
 
 All advanced options — model size, language, speakers, and output formats — work identically to the enforcement version. Refer to the **Advanced Options** section under [How to Run](#how-to-run) for full details.
 
@@ -231,21 +231,21 @@ From time to time scripts and documentation may be updated. To ensure you're alw
 
 1. Open your forked repository on GitHub and click **Sync fork** to retrieve the latest updates from the original repository.
 
-   <img src="05_Resources/sync_fork_image.png" alt="Syncing your fork" width="800">
+   <img src="../05_Resources/sync_fork_image.png" alt="Syncing your fork" width="800">
 
 2. Open your forked `whisperx-transcription-pipeline` project in RStudio.
 
 3. Close all currently open scripts.
 
-   <img src="05_Resources/close_scripts_image.png" alt="Close open scripts">
+   <img src="../05_Resources/close_scripts_image.png" alt="Close open scripts">
 
 4. Open the **Git** tab in the top right pane and click **Pull** — or the down arrow if the pane is too narrow to display the full label.
 
-   <img src="05_Resources/pull_image.png" alt="Git Pull" width="500">
+   <img src="../05_Resources/pull_image.png" alt="Git Pull" width="500">
 
 5. Reopen your scripts — your repository and project files are now up to date.
 
-   <img src="05_Resources/reopen_scripts_image.png" alt="Repository and scripts folder structure">
+   <img src="../05_Resources/reopen_scripts_image.png" alt="Repository and scripts folder structure">
 
 ---
 
