@@ -21,6 +21,22 @@ This guide covers the standard build — a portable version of the same pipeline
 
 <br>
 
+## Contents
+
+- [What Gets Installed](#what-gets-installed)
+- [Prerequisites](#prerequisites)  
+- [Fork/Clone Repository](#forkclone-repository) 
+- [Configure Hugging Face Access](#configure-hugging-face-access-one-time)
+- [Install FFmpeg](#install-ffmpeg-one-time)
+- [Setup](#setup)
+- [How to Run](#how-to-run)
+- [Syncing Your Fork](#syncing-your-fork)
+- [Troubleshooting](#troubleshooting)
+
+---
+
+<br>
+
 ## What Gets Installed
 
 Nine core items will be installed:
@@ -197,7 +213,7 @@ This version is designed for transcription of audio files stored locally within 
 1. Open the standard transcription script: `01_Scripts` → `04_transcribe_standard_ui_build.R`
 2. Click anywhere inside the script and press `ctrl + shift + enter` to run it
 3. A browser window will open automatically titled **WhisperX Transcription — Run Configuration**. You only need to adjust three settings:
-   - **Audio File or Folder:** enter the path to your audio file or folder, separated by commas — e.g. `02_Test-Recordings, JFK_Test, 01_jfk.flac` for a single file, or `02_Test-Recordings, JFK_Test` for a folder
+   - **Audio File or Folder:** enter the path to your audio file or folder, separated by forward slashes — e.g. `02_Test-Recordings/JFK_Test/01_jfk.flac` for a single file, or `02_Test-Recordings/JFK_Test` for a folder
    - **Hugging Face Token:** paste your saved Hugging Face token into the text box
    - **Offline Mode:** on your first run, make sure this box is **unchecked**. All subsequent runs will default to Offline mode
 
@@ -219,7 +235,24 @@ This version is designed for transcription of audio files stored locally within 
 
 <img src="../05_Resources/folder_structure_image.png" alt="Example folder structure output" width="80%">  
 
-All advanced options — model size, language, speakers, and output formats — work identically to the enforcement version. Refer to the **Advanced Options** section under [How to Run](#how-to-run) for full details.
+<details>
+<summary>Advanced Options - Click to expand</summary>
+<br style="line-height:0.5;">  
+
+**Model Settings**
+
+- **Model Size** — seven options from tiny to large-v3-turbo. Larger models are more accurate but slower. Leave set to the default large-v3 unless advised otherwise.
+- **Language Code** — set to `en` for English. Set to `NULL` to auto-detect — useful for mixed-language recordings but slightly slower.
+- **Min/Max Speakers** — set the expected number of speakers in the recording. Tighter bounds improve speaker identification accuracy.
+
+**Output Formats**
+
+- **JSON:** full data export
+- **TXT:** Human-readable transcript
+- **SRT:** Subtitle format for video
+- **CSV:** Spreadsheet format
+
+</details> 
 
 ---
 
