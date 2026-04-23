@@ -302,6 +302,14 @@ control panel and rerun
 - Don't panic — the transcription result is still available in your R environment
 - Open 05_save_whisperx_result.R and run it — this will save the transcription directly to your output directory without re-transcribing
 
+**Warning: "Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed"**  
+- This is a performance warning only — the pipeline will still work correctly without it  
+- hf_xet is an optional package that enables faster model downloads from Hugging Face  
+- To install it, run the following in your R console:
+```r
+reticulate::py_install("hf_xet", envname = "whisperx", pip = TRUE)
+```
+- Once installed the warning will no longer appear and model downloads will be faster
 ---
 
 <br>
