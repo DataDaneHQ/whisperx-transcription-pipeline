@@ -2,3 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore completed test runs
+02_test_Recordings/JFK_Test/Completed
+02_test_Recordings/JFK_Test/Subfolder_test/Completed
+
+# Ignore processed files logs
+03_Transcribe_Audio/processed_files_log.csv
+03_Transcribe_Audio/processed_files_log_standard.csv
