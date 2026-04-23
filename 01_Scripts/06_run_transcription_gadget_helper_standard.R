@@ -58,9 +58,9 @@ get_transcription_config <- function() {
           div(class = "card",
               div(class = "card-title", "Audio File or Folder"),
               textInput("audio_path", "Audio File or Folder Path",
-                        value = "02_Test-Recordings, JFK_Test, 01_jfk.flac",
+                        value = "02_Test_Recordings/JFK_Test/01_jfk.flac",
                         width = "100%"),
-              div(class = "hint", "Single file: 02_Test-Recordings, JFK_Test, 01_jfk.flac — Folder: 02_Test-Recordings, JFK_Test")
+              div(class = "hint", HTML("<strong>Single file</strong>: 02_Test_Recordings/JFK_Test/01_jfk.flac || <strong>Folder</strong>: 02_Test_Recordings/JFK_Test"))
           ),
           
           # ── HF Token ──
@@ -74,8 +74,8 @@ get_transcription_config <- function() {
               div(class = "card-title", "Model Settings"),
               fluidRow(
                 column(6, selectInput("model_size", "Model Size",
-                                      choices  = c("tiny", "base", "small", "medium", "large-v2"),
-                                      selected = "large-v2",
+                                      choices  = c("tiny", "base", "small", "medium", "large-v2", "large-v3", "large-v3-turbo"),
+                                      selected = "large-v3",
                                       width    = "100%")),
                 column(6, textInput("language", "Language Code",
                                     value = "en",
@@ -183,7 +183,7 @@ get_transcription_config <- function() {
   if (is.null(result)) stop("Script aborted by user.")
   
   # Parse comma-separated path into here::here() call
-  audio_parts <- trimws(strsplit(result$audio_path, ",")[[1]])
+  audio_parts <- trimws(strsplit(result$audio_path, "/")[[1]])
   
   # Unpack into global environment
   audio_file   <<- do.call(here::here, as.list(audio_parts))

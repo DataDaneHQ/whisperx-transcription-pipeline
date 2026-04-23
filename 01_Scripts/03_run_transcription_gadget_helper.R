@@ -85,8 +85,8 @@ get_transcription_config <- function() {
               div(class = "card-title", "Model Settings"),
               fluidRow(
                 column(6, selectInput("model_size", "Model Size",
-                                      choices  = c("tiny", "base", "small", "medium", "large-v2"),
-                                      selected = "large-v2",
+                                      choices  = c("tiny", "base", "small", "medium", "large-v2", "large-v3", "large-v3-turbo"),
+                                      selected = "large-v3",
                                       width    = "100%")),
                 column(6, textInput("language", "Language Code",
                                     value = "en",
