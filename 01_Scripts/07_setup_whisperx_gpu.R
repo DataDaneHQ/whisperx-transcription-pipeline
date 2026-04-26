@@ -119,8 +119,19 @@ cat("✓ cuDNN 8 installed\n\n")
 # ──────────────────────────────────────────────────────────────────────────────
 
 cat("▶️ Stage 6: Verifying GPU access...\n")
-use_condaenv("whisperx-gpu")
-py_run_string("import torch; print('PyTorch:', torch.__version__, '| CUDA:', torch.version.cuda, '| GPU available:', torch.cuda.is_available())")
+
+python_path <- file.path(
+  Sys.getenv("USERPROFILE"),
+  "AppData", "Local", "r-miniconda", "envs", "whisperx-gpu", "python.exe"
+)
+
+verify_script <- tempfile(fileext = ".py")
+writeLines('
+import torch
+print("PyTorch:", torch.__version__, "| CUDA:", torch.version.cuda, "| GPU available:", torch.cuda.is_available())
+', verify_script)
+
+system(paste(shQuote(python_path), shQuote(verify_script)), intern = FALSE)
 cat("  Expected: PyTorch: 2.5.1 | CUDA: 12.1 | GPU available: True\n")
 cat("  If GPU available shows False, do not proceed — check NVIDIA drivers.\n\n")
 
@@ -200,11 +211,6 @@ cat("(pyannote 3.3.2 calls hf_hub_download() with deprecated use_auth_token=\n")
 cat(" This patch updates only hf_hub_download() calls to use token= instead.\n")
 cat(" All other pyannote internal calls are left untouched.)\n\n")
 
-python_path <- file.path(
-  Sys.getenv("USERPROFILE"),
-  "AppData", "Local", "r-miniconda", "envs", "whisperx-gpu", "python.exe"
-)
-
 patch_script <- tempfile(fileext = ".py")
 writeLines('
 import os
@@ -263,36 +269,48 @@ cat("(First-time download: large-v3 ~3GB, pyannote models ~300MB)\n\n")
 
 hf_token <- readline(prompt = "Enter your Hugging Face token: ")
 
-py_run_string(sprintf("
+python_path <- file.path(
+  Sys.getenv("USERPROFILE"),
+  "AppData", "Local", "r-miniconda", "envs", "whisperx-gpu", "python.exe"
+)
+
+download_script <- tempfile(fileext = ".py")
+writeLines(sprintf('
+import os
 from huggingface_hub import login, snapshot_download
 import whisperx
 
-login(token='%s', add_to_git_credential=False)
+os.environ["HF_HUB_OFFLINE"]       = "0"
+os.environ["TRANSFORMERS_OFFLINE"] = "0"
+os.environ["HF_DATASETS_OFFLINE"]  = "0"
+
+login(token="%s", add_to_git_credential=False)
 
 # --- Download pyannote models ---
-print('Downloading pyannote models...')
+print("Downloading pyannote models...")
 models = [
-    'pyannote/speaker-diarization-3.1',
-    'pyannote/segmentation-3.0',
+    "pyannote/speaker-diarization-3.1",
+    "pyannote/segmentation-3.0",
 ]
 for model in models:
-    print(f'  Downloading {model}...')
+    print(f"  Downloading {model}...")
     snapshot_download(repo_id=model)
-    print(f'  ✅ {model} cached')
+    print(f"  ✅ {model} cached")
 
 # --- Download WhisperX large-v3 model ---
-print('Downloading WhisperX large-v3 model (~3GB)...')
-whisperx.load_model('large-v3', device='cpu', compute_type='int8')
-print('  ✅ large-v3 cached')
+print("Downloading WhisperX large-v3 model (~3GB)...")
+whisperx.load_model("large-v3", device="cpu", compute_type="int8")
+print("  ✅ large-v3 cached")
 
 # --- Download alignment model ---
-print('Downloading alignment model for English...')
-whisperx.load_align_model(language_code='en', device='cpu')
-print('  ✅ Alignment model cached')
+print("Downloading alignment model for English...")
+whisperx.load_align_model(language_code="en", device="cpu")
+print("  ✅ Alignment model cached")
 
-print('\\n✅ All models downloaded and cached')
-", hf_token))
+print("\\n✅ All models downloaded and cached")
+', hf_token), download_script)
 
+system(paste(shQuote(python_path), shQuote(download_script)), intern = FALSE)
 cat("✓ All models cached\n\n")
 
 
@@ -306,7 +324,6 @@ cat("Next steps:\n")
 cat("  1. Open 08_transcribe_gpu.R\n")
 cat("  2. Run with Ctrl+Shift+Enter\n")
 cat("  3. Configure your settings in the control panel that opens\n\n")
-cat("  4. Run with Ctrl+Shift+Enter\n\n")
 cat("Benchmark reference (RTX 3060 Laptop, large-v3, 4:34 recording):\n")
 cat("  Step 1 Load:        0:07\n")
 cat("  Step 2 Transcribe:  0:25\n")

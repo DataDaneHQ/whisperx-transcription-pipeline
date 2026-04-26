@@ -198,6 +198,13 @@ pip install speechbrain==0.5.16
 ```
 - Then restart your R session, force the conda environment, set your token, and re-run the Stage 10 model download block only
 
+**Stage 10 fails with reticulate environment errors**
+- Recent versions of reticulate manage their own Python via `uv`, 
+  conflicting with the conda environment
+- Ensure you have the latest version of `07_setup_whisperx_gpu.R` 
+  from the repository — Stage 10 now calls Python directly via 
+  `system()` and is not affected by reticulate version changes
+
 ---
 
 <br>
