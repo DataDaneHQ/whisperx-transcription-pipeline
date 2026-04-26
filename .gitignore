@@ -9,4 +9,5 @@
 
 # Ignore processed files logs
 03_Transcribe_Audio/processed_files_log.csv
+03_Transcribe_Audio/processed_files_log_gpu.csv
 03_Transcribe_Audio/processed_files_log_standard.csv
