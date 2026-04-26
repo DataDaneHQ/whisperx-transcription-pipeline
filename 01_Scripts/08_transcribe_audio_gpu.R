@@ -23,9 +23,12 @@
 
 library(here)
 
+# Open Control Panel in browser
 source(here::here("01_Scripts", "06_run_transcription_gadget_helper_standard.R"))
 get_transcription_config()
 
+# Define output directories
+output_dir <- file.path(dirname(audio_file), "Completed")
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 1️⃣ Locate Python and script --------------------------------------------
@@ -76,6 +79,7 @@ conda_bin <- file.path(
 )
 old_path <- Sys.getenv("PATH")
 Sys.setenv(PATH = paste(conda_lib_bin, conda_bin, old_path, sep = ";"))
+Sys.setenv(HF_TOKEN = hf_token)
 
 # Build command
 cmd <- paste(
@@ -83,7 +87,6 @@ cmd <- paste(
   shQuote(py_script_py),
   shQuote(audio_file_py),
   shQuote(output_dir_py),
-  shQuote(hf_token),
   shQuote(model_size),
   shQuote(language),
   as.character(min_speakers),
