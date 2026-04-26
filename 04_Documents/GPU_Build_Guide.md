@@ -173,6 +173,31 @@ For general errors — path issues, audio not found, output save failures, and H
 - Ensure PyTorch was installed via conda with `pytorch-cuda=12.1` — a pip-only install will not include CUDA support
 - Re-run `07_setup_whisperx_gpu.R` from scratch if unsure
 
+**Error: "httpx.LocalProtocolError: Illegal header value b'Bearer '"**
+- Your Hugging Face token is empty or was not captured correctly by the `readline()` prompt
+- Set it manually in the RStudio Console before re-running Stage 10:
+```r
+  hf_token <- "hf_your_actual_token_here"
+```
+- Then re-run the Stage 10 `py_run_string` block only — do not rerun the full script
+
+**Reticulate using wrong Python environment (Python 3.12 instead of 3.10)**
+- Newer versions of reticulate manage their own Python via `uv`, overriding your conda environment
+- Restart your R session (`Ctrl + Shift + F10`) and run these two lines before anything else:
+```r
+  library(reticulate)
+  reticulate::use_condaenv("whisperx-gpu", required = TRUE)
+```
+- Confirm it worked with `reticulate::py_config()` — you should see Python 3.10 from `r-miniconda/envs/whisperx-gpu`
+
+**Error: "ImportError: Lazy import of LazyModule...speechbrain.integrations.k2_fsa failed"**
+- speechbrain version incompatibility with the k2_fsa integration
+- In the RStudio Terminal with `whisperx-gpu` activated, run:
+```r
+pip install speechbrain==0.5.16
+```
+- Then restart your R session, force the conda environment, set your token, and re-run the Stage 10 model download block only
+
 ---
 
 <br>
