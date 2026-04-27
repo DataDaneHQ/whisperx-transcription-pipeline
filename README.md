@@ -150,6 +150,8 @@ The result was a structured, searchable record of the seminar that I could revis
 
 This is the kind of workflow this pipeline enables beyond the workplace: any recorded conversation, interview, meeting, or event becomes a structured, reviewable knowledge asset with minimal effort.
 
+📄 **[Event Intelligence Workflow →](04_Documents/Event_Intelligence_Workflow.md)**
+
 ---
 
 <br>
