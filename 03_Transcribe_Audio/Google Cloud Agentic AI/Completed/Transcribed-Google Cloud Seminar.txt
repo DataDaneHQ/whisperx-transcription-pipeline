@@ -1,0 +1,1270 @@
+[SPEAKER_04] (0:00.1 - 0:01.6):  Gentikei is your travel agent.
+[SPEAKER_04] (0:02.3 - 0:10.1): It is going to build the complete itinerary for you, but also find those parts of your calendar that are free.
+[SPEAKER_04] (0:10.9 - 0:11.8): Act as your agent.
+[SPEAKER_04] (0:12.1 - 0:13.5): Book the tickets within budget.
+[SPEAKER_04] (0:14.1 - 0:24.6):  which I need help with, reserve the hotel, and sometimes send confirmation to your manager, if you choose to do that, and takes the actual action of the agent.
+[SPEAKER_04] (0:25.2 - 0:33.9):  So today, we're going to stop talking about the potential, move towards the actual concrete outcomes, real ROI, massive efficiency, exponential growth.
+[SPEAKER_04] (0:35.9 - 0:39.1): Now, the agenda today is phenomenal.
+[SPEAKER_04] (0:40.4 - 0:44.3):  So let me just walk you through what we're going to take you through today.
+[SPEAKER_04] (0:44.3 - 0:53.1): So starting at the source, as I mentioned, Harry will show you how DeepMind's breakthrough intelligence powers Gemini 3, enabling agents to plan,
+[SPEAKER_04] (0:53.7 - 0:56.0):  reason, and understand complex intent.
+[SPEAKER_04] (0:56.9 - 1:01.1): Next, the foundation, Anna Canelio.
+[SPEAKER_04] (1:01.8 - 1:02.3): Did I do that
+[SPEAKER_04] (1:04.7 - 1:13.7):  We'll explain how integrating Gemini 3 models directly into your data warehouse achieves faster, secure insights at scale and stops hallucinations at the source.
+[SPEAKER_04] (1:14.6 - 1:17.7): Then on to agency as Pedro Carrera.
+[SPEAKER_04] (1:22.7 - 1:28.7):  We'll walk you through how Vertex enables agents to execute the workflows across your entire enterprise.
+[SPEAKER_04] (1:29.7 - 1:32.4): But none of this really matters without the outcomes from the real world.
+[SPEAKER_04] (1:33.6 - 1:39.2):  So we have Bernard Wilson, the chief customer officer from Paymark.
+[SPEAKER_04] (1:40.0 - 1:41.1): Where is Bernard sitting?
+[SPEAKER_04] (1:41.5 - 1:46.7): I just wanted to personally thank you for all the furniture you put in my house during the share house times for Paymark.
+[SPEAKER_04] (1:47.8 - 1:49.4):  I really love it.
+[SPEAKER_04] (1:49.5 - 1:57.1): He will be talking about leveraging the agentic AI to reimagine customer touchpoints and create truly personalized shopping journeys.
+[SPEAKER_04] (1:57.8 - 2:01.6): I actually just spoke to Bernard outside and he was talking about the shopping journey live.
+[SPEAKER_04] (2:02.3 - 2:02.9):  So it's not pretend.
+[SPEAKER_04] (2:03.5 - 2:11.0): And then following on from Bernard, we have Roger Barnes from Australia's leading energy retail billing enterprise, Tally Group.
+[SPEAKER_04] (2:11.2 - 2:13.8): Some of you might not have heard of Tally Group in this room.
+[SPEAKER_04] (2:14.3 - 2:16.1): Trust me, you want to hear about Tally Group.
+[SPEAKER_04] (2:16.8 - 2:28.2):  They are going to talk about how they've uncovered agentic AI and is allowing his business to transform legacy systems, slashing customer call handling times and the overall cost to serve.
+[SPEAKER_04] (2:28.2 - 2:29.7): It's a super interesting session.
+[SPEAKER_04] (2:31.0 - 2:32.1):  So a little bit of housekeeping.
+[SPEAKER_04] (2:32.1 - 2:36.0): Toilets, as you probably already know.
+[SPEAKER_04] (2:37.2 - 2:38.6):  morning, or just run to your right.
+[SPEAKER_04] (2:38.6 - 2:39.4): The men's are further.
+[SPEAKER_04] (2:39.4 - 2:40.9): The women's are closer.
+[SPEAKER_04] (2:40.9 - 2:43.1): There's an emergency exit.
+[SPEAKER_04] (2:43.5 - 2:44.5): Please use the stairs.
+[SPEAKER_04] (2:44.6 - 2:47.0): There are plenty of Googlers hovering around.
+[SPEAKER_04] (2:47.2 - 2:48.7): Some are more smiling than others.
+[SPEAKER_04] (2:49.1 - 2:50.5): If you need anything, please ask us.
+[SPEAKER_04] (2:51.3 - 2:52.4):  This session is for you.
+[SPEAKER_04] (2:53.4 - 2:58.1): You've dedicated the time to come here today, so we hope this is valuable.
+[SPEAKER_04] (2:58.2 - 3:03.5): You can take notes, AI or analog note taking, is that the word?
+[SPEAKER_04] (3:04.8 - 3:08.2):  But we want you to have the best time, so please sit back, relax, and enjoy the sessions.
+[SPEAKER_04] (3:09.5 - 3:13.7): So to kick off, I'd like to start at the source with my main man, Harry.
+[SPEAKER_04] (3:13.8 - 3:14.9): Please welcome Harry to the stage.
+[SPEAKER_04] (3:24.2 - 3:27.2):  I like how Beth didn't attempt my last name.
+[SPEAKER_04] (3:33.3 - 3:37.8):  It's a privilege to be here.
+[SPEAKER_04] (3:37.8 - 3:40.4): Thank you so much for taking the time this morning.
+[SPEAKER_04] (3:41.4 - 3:44.0):  AI has become indistinguishable from magic, hasn't it?
+[SPEAKER_04] (3:44.0 - 3:45.6): For a non-technical stakeholder like
+[SPEAKER_04] (3:56.3 - 3:58.2):  I've been able to do some incredible things.
+[SPEAKER_04] (3:58.6 - 4:05.8): And one of the things I did was, I white-coded this app with the guidance of my friend, Michael.
+[SPEAKER_04] (4:06.0 - 4:07.6): I'll speak to him right here.
+[SPEAKER_04] (4:08.1 - 4:10.7):  But it was like three sentences in this one prompt.
+[SPEAKER_04] (4:10.7 - 4:14.0): And I said, create an app where I can give a head shot.
+[SPEAKER_04] (4:14.7 - 4:20.5):  you know, made me in the style of the 60s and 70s and 80s, and it went and did that, right?
+[SPEAKER_04] (4:20.6 - 4:23.2): And I don't know about you, but I quite prefer that look.
+[SPEAKER_04] (4:23.3 - 4:24.3): I wish I had it.
+[SPEAKER_04] (4:26.5 - 4:35.7):  And it's, you know, you would probably need a front-end developer, a back-end developer, a database engineer or what have you, even 18, 24 months back to do something like this.
+[SPEAKER_04] (4:35.7 - 4:39.7): And so now you can see how people like Beth and myself and everybody at Google
+[SPEAKER_04] (4:39.9 - 4:43.6):  spend our time and days at work, we do things like this.
+[SPEAKER_04] (4:44.4 - 4:51.3): But what's really fascinating is all of this is built on some incredible reasoning capabilities and intelligence that's coming out of some
+[SPEAKER_04] (4:52.0 - 4:57.1):  unbelievable scientific research that comes out of our spiritual home within Alphabet.
+[SPEAKER_04] (4:57.6 - 5:00.5): It's a company called DeepMind, a company that we acquired
+[SPEAKER_04] (5:01.1 - 5:07.7):  Over 10 years ago, headed by a fellow by the name of Demis Hassabis, he's just an incredible CEO.
+[SPEAKER_04] (5:08.3 - 5:11.5): And some of the things that he's done and his team have done.
+[SPEAKER_04] (5:12.0 - 5:17.9):  is to inform our technology progress at Google and Alphabet through pioneering scientific research.
+[SPEAKER_04] (5:18.3 - 5:23.4): And a couple of examples of those, AlphaEvolve, have a look at this thing, right?
+[SPEAKER_04] (5:23.5 - 5:24.5): This is a coding agent.
+[SPEAKER_04] (5:25.4 - 5:34.8):  That looks at its own code and self-optimizes the code until it can not be any more optimal And some of the breakthroughs that it has come up with
+[SPEAKER_04] (5:37.1 - 5:39.1):  to observe.
+[SPEAKER_04] (5:39.8 - 5:46.5): By the next two is an AI model that predicts the weather 10 days in advance with a greater degree of accuracy than this.
+[SPEAKER_04] (5:48.2 - 5:49.1):  Anything else out there?
+[SPEAKER_04] (5:50.2 - 5:55.1): I don't think it is to credit Melvin's weather Alpha genome on the other side, you know, there's 98% of our DNA.
+[SPEAKER_04] (5:55.3 - 5:56.2): I'm told is a
+[SPEAKER_04] (6:01.4 - 6:10.5):  is non-coded, and at a molecular level, this AI agent is looking at how our DNA interacts with our genome.
+[SPEAKER_04] (6:11.2 - 6:16.7):  and makes predictions so we can better cure diseases like cancer and so forth.
+[SPEAKER_04] (6:17.1 - 6:19.8): But a fun one is the work that we did
+[SPEAKER_04] (6:20.6 - 6:27.1):  At DeepMind on AlphaGo, you all know that Go is a game like chess, but far more complex.
+[SPEAKER_04] (6:27.1 - 6:32.4): I'm told there's more moves that you can make in Go than there are atoms in the universe and so forth.
+[SPEAKER_04] (6:33.1 - 6:34.0): So it's pretty complex.
+[SPEAKER_04] (6:34.6 - 6:39.3):  And AlphaGo played Lee Sedol as a story champion.
+[SPEAKER_04] (6:39.7 - 6:45.8): And famously in move 37, it made a move that the commentators and Lee himself thought was a mistake.
+[SPEAKER_04] (6:46.7 - 7:00.7):  What went on after the analysis and after we had lost the game was they realized that AI had not just made moves on the back of predicting the next best move, but it actually reasoned through a brand new strategy.
+[SPEAKER_04] (7:01.1 - 7:07.3):  So it was the first time when we at scale saw AI reason across a tremendous amount of
+[SPEAKER_04] (7:14.2 - 7:21.6):  So it's this type of research that now allows us to bring to bear reasoning to the enterprise.
+[SPEAKER_04] (7:21.7 - 7:24.9): Now I'll play this video for you to see how this all becomes real for us.
+[SPEAKER_04] (7:26.6 - 7:28.2):  I've been using AI in my research.
+[SPEAKER_04] (7:29.3 - 7:32.5): It really has the potential to accelerate discoveries.
+[SPEAKER_04] (7:33.4 - 7:43.5):  My research work in infinite dimensional algebra and symmetry is really a tool for the high energy theoretical physics community looking to combine Einstein's theory of gravity with quantum mechanics.
+[SPEAKER_04] (7:44.2 - 7:47.7):  I was working on a paper with a colleague, which took several years to prepare.
+[SPEAKER_04] (7:47.9 - 7:52.5): Before sending it out to the journal, I decided to put it through Gemini for fact checking and verification.
+[SPEAKER_04] (7:52.5 - 7:54.4): It came straight back.
+[SPEAKER_04] (7:56.8 - 7:57.4):  not correct.
+[SPEAKER_04] (7:58.2 - 8:00.7): Partition 4.2 is mathematically incorrect as stated.
+[SPEAKER_04] (8:00.7 - 8:09.1): We gave three separate irrefutable reasons why our mathematical arguments around one particular step
+[SPEAKER_04] (8:11.0 - 8:14.5):  This was pretty destabilizing because the paper had already been peer-reviewed.
+[SPEAKER_04] (8:15.1 - 8:21.7): I debated, and the models who tried to appease me, as most AI models do by trying to guess what you want to hear.
+[SPEAKER_04] (8:22.7 - 8:28.7):  It took me a while to understand because it was really outside of my thought process, and the model's reasoning was completely correct.
+[SPEAKER_04] (8:29.6 - 8:36.5): The paper's at the forefront of research in the subject, and so there's very little context or training data that the model could be trained on.
+[SPEAKER_04] (8:36.8 - 8:40.2):  So it seemed as if it did the work of a highly trained mathematician.
+[SPEAKER_04] (8:41.1 - 8:46.7):  It helped us realize that we didn't need the full claim of that result and that a simpler result was actually true.
+[SPEAKER_04] (8:47.4 - 8:54.4): Once we have a unified theory of all the forces of nature, it'll completely change our understanding of ourselves and of the universe.
+[SPEAKER_04] (8:57.1 - 8:59.4):  That's a capability we call DeepThink.
+[SPEAKER_04] (9:00.2 - 9:03.1): And those are our deep research capability that you may have.
+[SPEAKER_04] (9:06.3 - 9:12.5):  The thing that I want to also mention here is why we have the brains, and DeepMind certainly
+[SPEAKER_04] (9:20.6 - 9:24.0):  So, I'm going to give you a little bit of background on what Google is doing.
+[SPEAKER_04] (9:35.7 - 9:38.7):  And we're making tremendous investments in that.
+[SPEAKER_04] (9:45.0 - 9:58.1):  to do is it allows us to create research like that, reasoning capabilities like what you've just seen, and it allows us to get best-in-class technology to the greatest many and deploy that planet scale.
+[SPEAKER_04] (9:59.3 - 10:09.8):  Now, one of the things that puts Alphabet in a category of one is we can actually take this research and apply it to over 12 products with over a billion users.
+[SPEAKER_04] (10:10.4 - 10:20.4):  What that means is we can take Gemini, this reasoning capability, deploy it in YouTube, deploy it in Google Play, deploy it in creating amazing photo
+[SPEAKER_04] (10:21.4 - 10:30.7):  experiences within Google Photos, apply it in Life Sciences in Verily and Calico, and apply it in Enterprise at Kmod and Caligroup through Google Cloud.
+[SPEAKER_04] (10:31.4 - 10:43.4):  And we can get that feedback loop and reapply that to our research and reinforce and create this phenomenal flywheel of research that then puts us in a category of one.
+[SPEAKER_04] (10:44.7 - 10:54.4):  And what that's allowed us to do just in the last two years, ever since the chat GPD moment and search was supposed to die and so forth,
+[SPEAKER_04] (10:54.9 - 11:04.7):  We went on the greatest innovation drive known in human history and we released about 47 new product offerings within a span of 24 months.
+[SPEAKER_04] (11:05.8 - 11:18.1):  And that piece of research is only possible when we're able to apply this in the real world, take that understanding, and reapply it to create new product possibilities.
+[SPEAKER_04] (11:20.6 - 11:23.8):  So, what I'm going to do is I'm going to show you how to do it.
+[SPEAKER_04] (11:35.4 - 11:45.0):  any room or any facility and AI basically creates, sorry, let me play that back again.
+[SPEAKER_04] (11:54.3 - 11:56.0):  AI creates that reality.
+[SPEAKER_04] (11:56.0 - 12:05.0): Imagine being able to take a picture of a big warehouse that is going to be converted into a Kmart and imagining what that store could look like.
+[SPEAKER_04] (12:05.2 - 12:10.5):  and doing that same thing in construction and factory settings and logistics and shipping and so forth.
+[SPEAKER_04] (12:11.2 - 12:18.4): So Genie is a world model that will create worlds, virtual worlds, automatically.
+[SPEAKER_04] (12:19.2 - 12:23.5):  and help with reasoning, AI will help reasoning through it.
+[SPEAKER_04] (12:27.0 - 12:39.1):  And here is an example of how we're taking all of the world model capabilities, our multi-modal capabilities, and then marrying it with robotics to create what we're calling embodied AI.
+[SPEAKER_04] (12:39.2 - 12:41.7): It's a phenomenal example of where this is going.
+[SPEAKER_04] (12:42.2 - 12:43.8):  and this is coming out in the next few months.
+[SPEAKER_04] (12:49.2 - 12:56.3):  Hi Aloha, can you use my location and sort the objects into the correct compost recycling and trash bins?
+[SPEAKER_05] (12:56.7 - 12:59.8): To perform the sorting task based on San Francisco Waste Guidelines,
+[SPEAKER_05] (13:00.2 - 13:05.1):  I will use the green bin for compost, the blue bin for recycling, and the black bin for trash.
+[SPEAKER_04] (13:07.8 - 13:11.4):  Here we have on our agentic layers, both control the robot and have access to the internet.
+[SPEAKER_04] (13:11.9 - 13:19.5): To sort the trash, I had to look at the rules and look at the objects on the table, think about where each object should go, matching the rules that I had looked up.
+[SPEAKER_05] (13:21.9 - 13:23.0):  The task is complete.
+[SPEAKER_04] (13:24.0 - 13:24.7): Good job, thanks.
+[SPEAKER_04] (13:26.3 - 13:29.3): So the concept of the world model is incredibly interesting, right?
+[SPEAKER_04] (13:30.2 - 13:42.5):  When you have something like Genie that can understand the multimodal world, the physical dimensions that we live in, what it can do is it can create synthetic data to actually train AI more and more.
+[SPEAKER_04] (13:43.1 - 13:46.8):  And so there's only so much real world data that you have, right?
+[SPEAKER_04] (13:47.4 - 13:55.1):  But what if you could create an unlimited number of worlds that are consistent with the physics of the real world, and use that to train AI?
+[SPEAKER_04] (13:55.3 - 13:57.5): It becomes incredibly powerful.
+[SPEAKER_04] (13:57.9 - 14:01.1): It enables robotics at scale, and it's sooner than we think.
+[SPEAKER_04] (14:01.6 - 14:07.8):  And that embodied intelligence is already being applied across the real world and across real economies.
+[SPEAKER_04] (14:08.3 - 14:11.0): I was in San Francisco just recently and I had
+[SPEAKER_04] (14:11.4 - 14:21.3):  the good fortune of actually taking one of these Waymo vehicles, and it was the most surreal experience, where this car was driving itself, it was perfectly safe, felt like a human was driving it.
+[SPEAKER_04] (14:21.9 - 14:31.5):  And now with the ability to actually take genie-like world models and give it synthetic data, you can actually make way more driverless cars much safer.
+[SPEAKER_04] (14:31.8 - 14:36.2): Just an incredible example of how this thing comes to bear in the real world.
+[SPEAKER_04] (14:36.9 - 14:38.6):  All of this is powered by 10x3.
+[SPEAKER_04] (14:39.8 - 14:42.9): This is our state-of-the-art reasoning capability.
+[SPEAKER_04] (14:43.4 - 14:47.2): This capability is not just for the scientific and the research field.
+[SPEAKER_04] (14:47.6 - 14:50.5): What you're going to see here today is how it's actually applied
+[SPEAKER_04] (14:51.5 - 14:55.9):  to impact the lives of every Australian with Tally Group and the work that Kmart is doing.
+[SPEAKER_04] (14:56.9 - 15:02.8):  So we work with all kinds of documents in our dailies.
+[SPEAKER_04] (15:03.4 - 15:09.5): This one is a particularly complex document that looks at building permits that have been issued last year and this year.
+[SPEAKER_04] (15:10.1 - 15:14.2):  Well, we've created this prompt that says, hey, compare the two, retrieve the information.
+[SPEAKER_04] (15:14.3 - 15:17.1): But more importantly, that last question is actually quite profound.
+[SPEAKER_04] (15:17.2 - 15:18.7): What do you think explains the difference?
+[SPEAKER_04] (15:19.3 - 15:28.1):  You go back to that AlphaGo example, you know, what we're asking AI to do here is actually reason through that significant amount of data that's in that particular document.
+[SPEAKER_04] (15:28.5 - 15:30.6): So table stakes, it looks at the data.
+[SPEAKER_04] (15:31.3 - 15:39.2):  It does knowledge retrieval, it presents the data in a structured form, which I think most AI can do.
+[SPEAKER_04] (15:39.7 - 15:41.3): But what really sets Gemini apart?
+[SPEAKER_04] (15:43.9 - 15:45.2):  It explains the difference.
+[SPEAKER_04] (15:45.3 - 15:51.4): It's not talking about why the building permits in 2025 October was actually far lower than it was in 2024.
+[SPEAKER_04] (15:52.6 - 15:56.4):  And the reason it talks about here is affordability and interest rates have gone up.
+[SPEAKER_04] (15:57.1 - 15:59.7): This particular suburb in the west is a high-end suburb.
+[SPEAKER_04] (16:00.1 - 16:03.9): And when interest rates go up, people don't tend to go and buy very expensive homes.
+[SPEAKER_04] (16:04.5 - 16:09.6):  And also, because of supply chain shocks, construction costs have gone up and so forth.
+[SPEAKER_04] (16:09.6 - 16:14.5): So this speaks to AI's reasoning ability, Gemini's reasoning ability, and the ability
+[SPEAKER_04] (16:15.0 - 16:19.7):  for us to take that reasoning intelligence and apply it to your enterprise data.
+[SPEAKER_04] (16:20.1 - 16:23.6): And I think that's where profound outcomes are created.
+[SPEAKER_04] (16:24.0 - 16:31.6):  those profound outcomes that TAMAR have created will certainly be surfaced by Bernie and certainly what Tally are doing.
+[SPEAKER_04] (16:31.7 - 16:35.1): And the reason why I said what Tally are doing is pretty important is because it's supposed to
+[SPEAKER_04] (16:35.6 - 16:36.8):  reduce our energy bills.
+[SPEAKER_04] (16:37.0 - 16:39.0): Roger, sir, from Brazil, I'm coming back to you.
+[SPEAKER_04] (16:40.9 - 16:43.8):  But Sundar talked about our significant investment.
+[SPEAKER_04] (16:43.8 - 16:52.1): We're investing $183 billion over the course of the next 80 to 24 months on building infrastructure that
+[SPEAKER_04] (16:52.7 - 16:56.1):  scales this reasoning intelligence to the world.
+[SPEAKER_04] (16:56.8 - 17:06.6): And a significant amount of that investment is actually coming to Australia and New Zealand, and not just through over 2 million miles of terrestrial undersea cables,
+[SPEAKER_04] (17:06.9 - 17:18.1):  but also in investment in TPUs in country, in data centers in country, and making sure that data residency requirements that our Australian regulators want us to meet are being met.
+[SPEAKER_04] (17:19.6 - 17:21.4): So we spoke briefly
+[SPEAKER_04] (17:24.8 - 17:26.7):  why Google is in a category of one.
+[SPEAKER_04] (17:27.1 - 17:38.2): So just know that when you use this reasoning intelligence, you're using and creating, you're leveraging the entire power of the stack all the way from the infrastructure
+[SPEAKER_04] (17:38.5 - 17:41.4):  to the Dada Foundation, to cutting-edge AI models.
+[SPEAKER_04] (17:42.3 - 17:44.8):  And so we will bring this capability to you.
+[SPEAKER_04] (17:45.2 - 17:54.4): You can count on Google for bringing you the best MLMs, the best infrastructure, and at a price point that puts us really in the category of one.
+[SPEAKER_04] (17:55.0 - 17:58.3):  We will deliver the lowest cost per unit of intelligence.
+[SPEAKER_04] (17:58.8 - 18:00.2): But once we do that, I think
+[SPEAKER_04] (18:00.9 - 18:06.9):  The call to action for industry and for all of you is leverage your proprietary data.
+[SPEAKER_04] (18:07.3 - 18:13.6): What brings, makes, gives you your competitive mode is going to be your ability to create your own agents.
+[SPEAKER_04] (18:15.0 - 18:20.0):  apply it to your own workforce and apply it to your proprietary and your institutional too.
+[SPEAKER_04] (18:20.7 - 18:22.6): That's where competitive difference lies.
+[SPEAKER_04] (18:23.1 - 18:27.2):  And the organizations that embrace that ethos sooner are going to win big.
+[SPEAKER_04] (18:27.3 - 18:29.1): And we look forward to partnering with you on that.
+[SPEAKER_04] (18:29.1 - 18:31.8): And so with that, I'd invite Anna to come and chat to us.
+[SPEAKER_04] (18:32.1 - 18:32.4): Thank you.
+[SPEAKER_04] (18:39.6 - 18:42.1):  Harry, with your surname, does not know the flow of this.
+[SPEAKER_04] (18:44.2 - 18:44.9): Thank you, Harry.
+[SPEAKER_04] (18:46.0 - 18:50.6): Pretty fascinating to hear how DeepMind has essentially given Gemini 3
+[SPEAKER_04] (18:52.2 - 18:55.6):  brain like yours, a PhD level brain, there you go.
+[SPEAKER_04] (18:55.9 - 18:57.0): But no matter how brilliant
+[SPEAKER_04] (18:58.4 - 19:02.0):  AI is you don't want your AI ever making guesses.
+[SPEAKER_04] (19:02.0 - 19:02.9): You want it knowing.
+[SPEAKER_04] (19:03.0 - 19:09.3): So to show you how we anchor that intelligence directly to the truth of your business, please welcome Anna to the stage.
+[SPEAKER_04] (19:14.7 - 19:16.3):  Let me just move to my slides.
+[SPEAKER_04] (19:16.3 - 19:17.9): So, hi everybody.
+[SPEAKER_04] (19:18.1 - 19:19.5): A few new faces for me today.
+[SPEAKER_04] (19:19.5 - 19:26.6): My name is Anna Camilio and I lead the Data Analytics Customer Engineering team here at Google for Asia Pacific.
+[SPEAKER_04] (19:27.6 - 19:29.9):  I am a massive data enthusiast.
+[SPEAKER_04] (19:29.9 - 19:34.4): I have been my whole career and to be honest with you, I have been a data enthusiast my whole life.
+[SPEAKER_04] (19:36.0 - 19:40.1):  I don't think there's ever been a more exciting time to be in technology.
+[SPEAKER_04] (19:40.1 - 19:44.8): I think, you know, what Hari presented before, that just completely blew my mind.
+[SPEAKER_04] (19:47.0 - 19:50.4):  You know what we've found is that conversations are moving very fast.
+[SPEAKER_04] (19:50.4 - 19:55.8): The conversations I was having two years ago are very different from the conversations that we are having today.
+[SPEAKER_04] (19:56.4 - 20:10.9):  Now irrespective of where you are on your journey, so whether you're building a chatbot, whether you're looking at agentic commerce, whether you're looking to enable your developers with code assistance, one thing has become absolutely clear.
+[SPEAKER_04] (20:11.8 - 20:15.1):  You cannot have AI without data.
+[SPEAKER_04] (20:15.9 - 20:19.5): Data is what gives your LLM its business context.
+[SPEAKER_04] (20:20.3 - 20:21.6): Why is this important?
+[SPEAKER_04] (20:21.8 - 20:22.9): Well, I'm going to show you.
+[SPEAKER_04] (20:24.8 - 20:29.4):  Imagine trying to communicate with zero context and zero memory.
+[SPEAKER_04] (20:29.4 - 20:35.8): Let's have a look at a text exchange of zero context.
+[SPEAKER_04] (20:36.8 - 20:39.2): You might text your friend, what are you doing?
+[SPEAKER_04] (20:40.7 - 20:42.3):  And they might say, I'm locked in.
+[SPEAKER_04] (20:43.3 - 20:48.1): Now, depending on the contest, this could mean wildly different things.
+[SPEAKER_04] (20:48.7 - 20:51.3): So say that you're out to dinner with your friend.
+[SPEAKER_04] (20:51.9 - 20:60.0):  and they go to the bathroom and they say I'm locked in, it might mean they're physically locked in the bathroom and so you might need to go in and save them.
+[SPEAKER_04] (21:00.6 - 21:04.1): But if you have a teenager in the house, anyone have a teenager in the house?
+[SPEAKER_04] (21:06.0 - 21:09.3):  So I'm going to give you a couple of minutes to think about that.
+[SPEAKER_04] (21:18.2 - 21:26.2):  mind a miracle if someone was focused on actually studying and doing something in their bedroom that was good for their brain.
+[SPEAKER_04] (21:27.5 - 21:28.6): No short-term memory.
+[SPEAKER_04] (21:28.9 - 21:31.4): Imagine what that communication would look like.
+[SPEAKER_04] (21:32.9 - 21:34.5):  Want to go for a coffee after work?
+[SPEAKER_04] (21:35.7 - 21:38.9): Sure, it has to be a quick one because I want an early night.
+[SPEAKER_04] (21:39.6 - 21:41.2): Okay, bridge cafe?
+[SPEAKER_04] (21:41.2 - 21:42.6): Perfect.
+[SPEAKER_04] (21:43.6 - 21:45.5): I've booked dinner for 9pm.
+[SPEAKER_04] (21:47.1 - 21:47.5): Oh dear.
+[SPEAKER_04] (21:48.7 - 21:51.1):  We've all conversed with people who don't listen.
+[SPEAKER_04] (21:52.4 - 21:56.0): AIs that don't listen are even more frustrating to deal with.
+[SPEAKER_04] (21:57.7 - 21:59.6): And so what about specific knowledge?
+[SPEAKER_04] (22:00.7 - 22:05.3):  want to go to the pub after soccer, then you get this.
+[SPEAKER_04] (22:06.2 - 22:07.9): Very much, this should say mum.
+[SPEAKER_04] (22:09.3 - 22:14.1): But this is also a very frustrating piece of communication.
+[SPEAKER_04] (22:14.8 - 22:23.3):  So the reality is that agents and all the agents that we are building and organizations are building today face the exact same challenges.
+[SPEAKER_04] (22:24.0 - 22:30.1):  If you just plug a generic LLM into your website, it doesn't matter how smart it is, you're using Gemini 3.
+[SPEAKER_04] (22:31.6 - 22:38.6):  You are deploying a worker with no context, a terrible memory, and no specific knowledge of the business.
+[SPEAKER_04] (22:39.3 - 22:45.4): The moral of the story is without data, you just have a very confused, very forgetful,
+[SPEAKER_04] (22:46.1 - 22:47.7):  very smart agent.
+[SPEAKER_04] (22:50.1 - 22:51.2): So how do we fix this?
+[SPEAKER_04] (22:51.3 - 22:56.6): Well, we ground the agent in reality using three pillars of data.
+[SPEAKER_04] (23:01.3 - 23:09.8):  Number one is we add business context by giving the agent access to specific information that you might have in your organization.
+[SPEAKER_04] (23:10.2 - 23:13.9): So this could be a policy document, frequently asked questions, manuals.
+[SPEAKER_04] (23:14.4 - 23:23.0):  Using patterns like RAG, retrieval, or metageneration, the agent stops giving generic answers and it can start grounding the answers.
+[SPEAKER_04] (23:24.8 - 23:31.6):  in information that is actually from your organisation and specific to your business and also to the question.
+[SPEAKER_04] (23:33.2 - 23:36.2):  Second, the agent needs specific knowledge.
+[SPEAKER_04] (23:36.7 - 23:41.2): This can be in the form of live groundings, giving those agents access to
+[SPEAKER_04] (23:41.7 - 23:43.4):  life systems, life source systems.
+[SPEAKER_04] (23:43.5 - 23:46.5): So this could be, for example, an order system.
+[SPEAKER_04] (23:46.6 - 23:51.2): So say, for example, you want your agent to look up the status of an order.
+[SPEAKER_04] (23:51.5 - 24:01.1):  You need to give it access to that order system so that it can have that live information around the up-to-date status of a person's order.
+[SPEAKER_04] (24:01.6 - 24:07.7):  or indeed if it was an inventory system to check on stock on hand for a particular product.
+[SPEAKER_04] (24:10.3 - 24:13.7): The third type of data is memory.
+[SPEAKER_04] (24:14.6 - 24:19.6):  And this has given the agent the ability to recall information from either the interaction
+[SPEAKER_04] (24:20.4 - 24:32.8):  the existing interaction or prior interactions that you might have had with the agent, and that reduces some of the frustrations that we've all had chatting to chatbots or agents in the past, or indeed people.
+[SPEAKER_04] (24:34.7 - 24:35.9):  So I'm going to show you
+[SPEAKER_04] (24:36.8 - 24:38.2):  how we bring this to life.
+[SPEAKER_04] (24:38.7 - 24:40.1): I've got a live demo to show you.
+[SPEAKER_04] (24:40.2 - 24:41.0): I hope it works.
+[SPEAKER_04] (24:41.1 - 24:43.1): It's always a challenge with some live demos.
+[SPEAKER_04] (24:43.1 - 24:51.4): But the scenario today is, and this is actually a real-life scenario, I bought a present for my eight-year-old son for his birthday.
+[SPEAKER_04] (24:52.2 - 24:52.8):  last year.
+[SPEAKER_04] (24:53.3 - 24:54.2): I'm working with Lego.
+[SPEAKER_04] (24:54.2 - 24:55.5): Anyone have an eight-year-old?
+[SPEAKER_04] (24:55.9 - 24:58.0): Lego is the gift to buy.
+[SPEAKER_04] (24:58.4 - 25:00.7):  But I have questions about my order.
+[SPEAKER_04] (25:00.8 - 25:02.6): So let me see if this works.
+[SPEAKER_04] (25:02.7 - 25:03.3): Oh, that worked.
+[SPEAKER_04] (25:03.3 - 25:03.8): Excellent.
+[SPEAKER_04] (25:04.3 - 25:04.8): All right.
+[SPEAKER_04] (25:04.9 - 25:10.7): So I'm going to go to the chatbot that has been created by the retailer that I purchased.
+[SPEAKER_04] (25:11.3 - 25:13.8):  And I'm going to start asking you some questions.
+[SPEAKER_04] (25:13.8 - 25:17.1): I hope everyone even at the back can see, but I will talk you through this demo.
+[SPEAKER_04] (25:17.8 - 25:20.0): Let's have a look at this interaction.
+[SPEAKER_04] (25:20.6 - 25:24.4):  Now bear in mind, I have given this agent zero context.
+[SPEAKER_04] (25:24.4 - 25:29.7): So this is using the smarts of the LLM, but it has no context about the business.
+[SPEAKER_04] (25:30.1 - 25:35.4): So the first thing I'm going to do is I'm going to ask it, and I apologize if this is very small back there,
+[SPEAKER_04] (25:35.8 - 25:37.7):  What is your returns policy?
+[SPEAKER_04] (25:38.1 - 25:43.4): It has come back and it said, I don't have access to return policies, but I can write you a column.
+[SPEAKER_04] (25:43.9 - 25:47.4):  I love LLM columns but not in this context.
+[SPEAKER_04] (25:47.4 - 25:51.7): So what we're going to do is we are going to add some business context.
+[SPEAKER_04] (25:51.7 - 25:52.3): We're going to
+[SPEAKER_04] (25:52.9 - 25:55.9):  I've just activated that, and I'm going to go ahead and click on that.
+[SPEAKER_04] (26:02.0 - 26:07.6):  You see, when I re-ask that question, it says that I have 30 days to exchange.
+[SPEAKER_04] (26:07.9 - 26:13.0): If you're anything like me, I'm a last-minute present shopper, and so this is really important to me.
+[SPEAKER_04] (26:13.3 - 26:16.7): The fact that I can exchange it is a very good thing.
+[SPEAKER_04] (26:17.6 - 26:24.2):  The next thing I want to do, because my son's birthday is on Saturday, I want to see when my order will arrive.
+[SPEAKER_04] (26:24.3 - 26:26.3): So again, I'm going to go in and ask...
+[SPEAKER_04] (26:27.1 - 26:30.3):  this particular agent what the status of my order is.
+[SPEAKER_04] (26:30.7 - 26:34.0): Now, because I haven't given it access to the order information,
+[SPEAKER_04] (26:34.5 - 26:38.8):  It has no context, so it says it can't track specific orders.
+[SPEAKER_04] (26:39.1 - 26:42.6): What I'm going to do now is I'm going to start activating
+[SPEAKER_04] (26:43.5 - 26:48.7):  some of that connectivity to the orders system.
+[SPEAKER_04] (26:48.8 - 26:56.4): So once I've done that, I can then ask the question again, and it comes back and it says that the Lego Space Explorer set
+[SPEAKER_04] (26:56.8 - 27:04.4):  that I had purchased is due to arrive on Friday, which is fantastic because my son's birthday is on Saturday.
+[SPEAKER_04] (27:04.4 - 27:09.0): The next thing that we're going to have a look at is session memory.
+[SPEAKER_04] (27:09.9 - 27:21.3):  If this LLM didn't have access to any of the previous memory or the previous chat, it is going to create a pretty frustrating experience.
+[SPEAKER_04] (27:22.6 - 27:25.4):  What is the chances it misses the Friday slot?
+[SPEAKER_04] (27:25.8 - 27:29.4): It's going to re-ask me for the order ID.
+[SPEAKER_04] (27:29.5 - 27:32.7): That's frustrating because I've already given it the order ID.
+[SPEAKER_04] (27:33.3 - 27:36.5):  So what we're going to do here is we're going to add the session memory.
+[SPEAKER_04] (27:36.9 - 27:40.3): I'm going to ask it, it's for my son's birthday on Saturday.
+[SPEAKER_04] (27:40.3 - 27:46.4): It has to arrive by then and actually now that I've added that session memory and activated another
+[SPEAKER_04] (27:48.3 - 27:50.1):  capability in the back end.
+[SPEAKER_04] (27:50.3 - 27:59.6): It's actually run a predictive model in the back end and it is 70% sure that it's going to miss that Friday window and it suggests that I move to click and collect.
+[SPEAKER_04] (27:59.9 - 28:05.5):  If I have the agent working correctly, then I can go and change that order to a click and collect order.
+[SPEAKER_04] (28:06.1 - 28:13.5):  So that is the experience of the agent, both with and without that business contact, with and without data.
+[SPEAKER_04] (28:14.0 - 28:15.5): And I hope you can, oh gosh.
+[SPEAKER_04] (28:18.1 - 28:21.6):  I hope you can see from that interaction, sorry I was having trouble with that earlier on today.
+[SPEAKER_04] (28:25.1 - 28:38.9):  Part of the magic comes when you actually bring your data sources, when you actually bring that business context, that knowledge and information about the particular use case or the particular agent and what it means.
+[SPEAKER_04] (28:40.3 - 28:50.2):  But now what I want to do is actually pull back the curtain and have a look at some of the capabilities that drive these AI outcomes.
+[SPEAKER_04] (28:50.8 - 28:55.1):  And the key thing here is that it's not a single modality database.
+[SPEAKER_04] (28:55.4 - 28:59.7): What we're looking at is multiple modalities that come to life.
+[SPEAKER_04] (29:00.2 - 29:03.4):  And let me just be clear, these modalities are modular.
+[SPEAKER_04] (29:03.6 - 29:08.1): So you can activate them, you can light them up according to your use case.
+[SPEAKER_04] (29:08.6 - 29:10.0): What we're going to talk about today...
+[SPEAKER_04] (29:11.8 - 29:21.1):  We're going to be diving a little bit deeper into vector databases, graph databases, MCP, and in-memory databases.
+[SPEAKER_04] (29:22.7 - 29:30.6):  and can become your control engine for your agent, giving it the access that it needs to the information it needs at the right time.
+[SPEAKER_04] (29:31.8 - 29:34.4):  So, let's dive into vector databases.
+[SPEAKER_04] (29:34.7 - 29:41.9): Probably everyone in this room has heard of the term vector databases before, but let's have a look at it in a little bit more detail.
+[SPEAKER_04] (29:43.6 - 29:49.2):  This is what helps the agent to read and understand role information.
+[SPEAKER_04] (29:49.6 - 29:52.7): But how does a database understand what's in a role?
+[SPEAKER_04] (29:52.8 - 29:55.3): How does it understand what's in a policy document?
+[SPEAKER_04] (29:55.9 - 30:02.1):  And as another example, what might be in any type of document such as a menu?
+[SPEAKER_04] (30:03.5 - 30:05.0):  Anyone remember year 10 maths?
+[SPEAKER_04] (30:05.1 - 30:07.4): It was a very long time ago for me.
+[SPEAKER_04] (30:07.4 - 30:12.0): But a vector is simply just a point in space, right?
+[SPEAKER_04] (30:12.0 - 30:15.0): So you can think about it as sort of that point in space.
+[SPEAKER_04] (30:15.6 - 30:24.2):  Vector invertings help us plot different objects across thousands, millions, billions of different dimensions.
+[SPEAKER_04] (30:24.7 - 30:28.7): So I want to show you a real-world example of bringing this to life.
+[SPEAKER_04] (30:29.2 - 30:30.0): I'm going to map
+[SPEAKER_04] (30:30.7 - 30:38.2):  some food, food items from a menu across three very
+[SPEAKER_04] (30:38.8 - 30:40.9):  I'm going to call them scientific.
+[SPEAKER_04] (30:41.0 - 30:42.1): You'll see this in a moment.
+[SPEAKER_04] (30:42.4 - 30:43.1): Dimensions.
+[SPEAKER_04] (30:44.0 - 30:46.2): Those dimensions, and this is a bit of a mouthful.
+[SPEAKER_04] (30:47.6 - 30:53.5):  These are not my dimensions, but we're assessing them across liquidness, desertness, and sandwichness.
+[SPEAKER_04] (30:55.8 - 30:59.3):  And they are not words, so let me just be clear.
+[SPEAKER_04] (30:59.4 - 31:04.4): But when we plotted all of our menu items across these three dimensions,
+[SPEAKER_04] (31:04.8 - 31:08.7):  This is sort of how it would look across those three dimensions.
+[SPEAKER_04] (31:08.7 - 31:13.9): Bear in mind there would be many more dimensions in an event that he would be creating.
+[SPEAKER_04] (31:15.1 - 31:26.0):  But what this enables the database or the LLM to do is to understand that something like a lamington is semantically closer to the absolute.
+[SPEAKER_04] (31:26.6 - 31:29.4):  apple strudel than it is to the bowl of soup.
+[SPEAKER_04] (31:29.9 - 31:36.3): And that way we can understand semantic meaning and things that are similar or belong together.
+[SPEAKER_04] (31:37.4 - 31:40.6):  How does this help us with something like a policy document?
+[SPEAKER_04] (31:40.8 - 31:48.5): Well, when you ask a question, that question gets represented as a vector and that vector is a vector.
+[SPEAKER_04] (31:49.3 - 31:58.7):  then allows us to understand the semantic meaning and to understand from a vector database that might have hundreds, thousands, millions of embeddings.
+[SPEAKER_04] (31:59.5 - 32:03.1):  where actually the information that you're looking for lives.
+[SPEAKER_04] (32:03.1 - 32:08.4): So in the case of looking up a policy document, that might live in this little orange area here.
+[SPEAKER_04] (32:08.4 - 32:09.4): So instead of looking...
+[SPEAKER_04] (32:09.8 - 32:22.1):  at this whole vector space here, we can go precisely into the documentation or the document or even the paragraph that holds the information that we need to answer the question.
+[SPEAKER_04] (32:24.0 - 32:26.8):  Alright, let's move on to graph databases.
+[SPEAKER_04] (32:27.0 - 32:34.8): Graph actually is one of my favourite technologies of today and something that I think is very underrepresented.
+[SPEAKER_04] (32:35.3 - 32:36.5):  It's not new technology.
+[SPEAKER_04] (32:36.5 - 32:38.8): Graph models have been around for quite some time.
+[SPEAKER_04] (32:39.2 - 32:43.7): But the beauty about graphs is that they allow us to represent relationships, right?
+[SPEAKER_04] (32:44.7 - 32:50.2):  Not all of our business data, particularly where we're looking at things like digital twins and very complex data,
+[SPEAKER_04] (32:51.0 - 32:56.4):  It's very difficult to represent this in rows and columns and in tables that have relationships with each other.
+[SPEAKER_04] (32:56.4 - 33:04.4): They're much better represented in a graph model that has entities and nodes between those entities, so it looks a little bit more like a web.
+[SPEAKER_04] (33:04.8 - 33:17.8):  So if you think about a complex supply chain, if you think about the bill of materials that make up a product and where all those different components are manufactured,
+[SPEAKER_04] (33:18.3 - 33:24.2):  That is much better modeled in a graph model rather than tables and rows.
+[SPEAKER_04] (33:24.2 - 33:28.2): And what you can actually do is very sophisticated analysis on that data.
+[SPEAKER_04] (33:29.5 - 33:34.1):  Vectors and graph databases, they work very well together.
+[SPEAKER_04] (33:34.2 - 33:42.7): What we find with a lot of our use cases is it will often incorporate, or the agent will often need to incorporate those two types of technologies.
+[SPEAKER_04] (33:43.4 - 33:57.3):  So let me show you here how a graph database might work and how this essentially web or graph model may be different from how you might interact with the traditional database.
+[SPEAKER_04] (33:57.9 - 34:01.6):  So, if a customer asks a question, can I return my pixel 9?
+[SPEAKER_04] (34:02.8 - 34:07.2): The graph database knows that a pixel 9 is the number of bones.
+[SPEAKER_04] (34:09.8 - 34:19.6):  Phones is a member of the category Electronics, and Electronics is covered by a returns policy and a specific returns policy of D9.
+[SPEAKER_04] (34:20.8 - 34:32.8):  So combine that with the vector embedding that can really understand the semantic meaning of our question, combined with the knowledge graph, you can be very specific and very accurate.
+[SPEAKER_04] (34:33.4 - 34:36.1):  with how you respond to your user queries.
+[SPEAKER_04] (34:37.1 - 34:38.5): Really cool technology.
+[SPEAKER_04] (34:39.3 - 34:46.0): Alright, the third technology I'm going to talk about is MZQ, probably not new to anyone in this room.
+[SPEAKER_04] (34:47.0 - 34:48.1):  context protocol.
+[SPEAKER_04] (34:48.4 - 34:54.2): What this does is it gives us a very easy way to connect to our life systems or soul systems.
+[SPEAKER_04] (34:54.5 - 34:57.0):  It also gives agents arms and legs.
+[SPEAKER_04] (34:57.1 - 35:02.0): Not only can you look up the status, but in some cases you'll be able to action that.
+[SPEAKER_04] (35:02.0 - 35:02.9): So for example...
+[SPEAKER_04] (35:03.4 - 35:15.1):  In the demo that I showed you before, if I wanted to switch to click and collect, if I had my settings drive, I would be able to go in using NTP and the connection that that would have with the database.
+[SPEAKER_04] (35:15.8 - 35:21.5):  and actually go in and change that to a click and collect and trigger the workflow.
+[SPEAKER_04] (35:21.7 - 35:25.2): Now the way I like to think about MCP, because it's actually pretty cool,
+[SPEAKER_04] (35:26.1 - 35:40.2):  It's a little bit like that cable drawer, and I don't know if any of you had this cable drawer I did probably about two years ago, actually I still got it, I probably need to throw out the cables, but essentially in the old times, well old times, two years back
+[SPEAKER_04] (35:41.9 - 35:51.6):  But we used to have a cable for every electronic device and the little connector was different for every different device that you had.
+[SPEAKER_04] (35:51.6 - 35:53.8): So your camera would have a different connector to your
+[SPEAKER_04] (35:54.2 - 36:01.1):  you know, your video camera would have a different connector to your phone, would have a different connector to, you know, your headphones.
+[SPEAKER_04] (36:01.5 - 36:04.7): And every time you wanted to charge something, you'd have to look through this.
+[SPEAKER_04] (36:05.1 - 36:12.4):  drawer of hell and find the connector and to be honest with you I have thrown out electronic devices because I've lost that connector.
+[SPEAKER_04] (36:12.9 - 36:14.8): Anyway, this was not a good situation.
+[SPEAKER_04] (36:16.1 - 36:19.5):  insert the USB-C, and our lives have changed.
+[SPEAKER_04] (36:19.6 - 36:24.6): Most of the new electronics that we buy today all connect via USB-C, and that
+[SPEAKER_04] (36:25.1 - 36:26.8):  definitely makes my life easier.
+[SPEAKER_04] (36:26.8 - 36:33.8): It means that my drawer is now full of USB-C cables and not bespoke cables that I have no idea what they belong to.
+[SPEAKER_04] (36:34.3 - 36:37.2):  This is a little bit like the situation with MCP.
+[SPEAKER_04] (36:37.5 - 36:45.4): Before MCP, we used to have to handcraft all the connectors to our databases from the agent to our source systems.
+[SPEAKER_04] (36:45.8 - 36:55.1):  Now what we've got is an industry standard universal way of connecting, which makes the connections to those source systems and the databases really easy.
+[SPEAKER_04] (36:56.6 - 37:01.6):  Finally, what we have in our architecture here is also in memory databases.
+[SPEAKER_04] (37:01.9 - 37:11.1): And so they're really important to provide the context of either the conversation that the agent has had or conversations that the agent has had in the past.
+[SPEAKER_04] (37:11.5 - 37:17.6):  And this is what creates a frictionless experience for an end consumer.
+[SPEAKER_04] (37:19.6 - 37:25.8):  All right, so this is just a brief recap of the architecture that we spoke to through today.
+[SPEAKER_04] (37:25.8 - 37:31.9): Apologies, we weren't able to go into any more detail about this particular architecture.
+[SPEAKER_04] (37:34.0 - 37:35.7):  Vector databases are really important.
+[SPEAKER_04] (37:35.7 - 37:40.5): Graph databases are becoming more and more important to this age of architecture.
+[SPEAKER_04] (37:40.7 - 37:44.2): We've got our MCP tools and our living memory databases.
+[SPEAKER_04] (37:44.9 - 37:58.9):  Now, the really great news for anyone in this room who's running on Google Cloud already is that all of our databases, whether it's a transactional database or whether it lives in the analytics stack if you're using BigQuery,
+[SPEAKER_04] (37:59.4 - 38:03.2):  All of them are enabled out of the box with vector embeddings.
+[SPEAKER_04] (38:04.1 - 38:12.2): What this means is you can hold and host your vector embeddings nice and close to either where the analytical data is or your transaction data is.
+[SPEAKER_04] (38:12.9 - 38:17.8):  What this means is that you're able to create these amazing globe latency experiences.
+[SPEAKER_04] (38:18.6 - 38:19.8): Really, really valuable.
+[SPEAKER_04] (38:19.8 - 38:23.7): So if you're using Google Cloud Tech, you've already got this stuff out of the box.
+[SPEAKER_04] (38:24.1 - 38:26.0): The same with MCP, everything is
+[SPEAKER_04] (38:26.3 - 38:31.8):  In all of our databases, everything we do at Google is automatically enabled with MCP.
+[SPEAKER_04] (38:32.6 - 38:40.9): The good news on graph databases, and I told you this was one of my favourite technologies, is that this has also been enabled on some of our core databases.
+[SPEAKER_04] (38:41.9 - 38:47.9):  In the past, if you've ever used a graph database before, you might have had to use something that was very bespoke.
+[SPEAKER_04] (38:47.9 - 38:54.4): So a completely different single modality type of database to host your graph models.
+[SPEAKER_04] (38:54.8 - 38:55.6): What we've done is
+[SPEAKER_04] (38:56.3 - 39:08.0):  at Google Cloud is in some of our core database technologies, so Spanner on the transactional side and BigQuery on the analytical side, we have actually embedded graph models within
+[SPEAKER_04] (39:09.2 - 39:14.3):  So it's databases, which means if you use them today, you can start using graphs today.
+[SPEAKER_04] (39:15.4 - 39:18.3): The difference here is that we're using the same storage layout.
+[SPEAKER_04] (39:18.7 - 39:27.4):  and literally building the model with those graph models that do those very complex relationship queries right over the top as if it was a view.
+[SPEAKER_04] (39:27.4 - 39:29.8): So you don't even need to move your data around.
+[SPEAKER_04] (39:30.3 - 39:38.4):  This is a very different approach to what you might have seen in the past, and it's going to be very valuable as you start building out to these architectures.
+[SPEAKER_04] (39:41.9 - 39:46.0):  How does this architecture of an engine show up in the real world?
+[SPEAKER_04] (39:46.1 - 39:48.4): I wanted to tell you a story about one of...
+[SPEAKER_04] (39:48.9 - 39:50.5):  customers I worked with last year.
+[SPEAKER_04] (39:50.6 - 39:54.6): It's actually a customer based in India, I told you about, in an APAC role.
+[SPEAKER_04] (39:55.1 - 39:58.5): And it is an organization called Make My Trip.
+[SPEAKER_04] (39:58.5 - 40:02.6): So Make My Trip is one of India's largest travel companies.
+[SPEAKER_04] (40:03.0 - 40:09.6):  And what they were doing is they were creating a brand new application, a brand new AI experience for their customers.
+[SPEAKER_04] (40:11.5 - 40:19.5):  In a prior time, how they had built this application and this agent experience was using four different databases.
+[SPEAKER_04] (40:19.8 - 40:25.2): They were using a document database, they were using a graph database, they were using a search database like a...
+[SPEAKER_04] (40:26.0 - 40:29.7):  like an open search database, and a vector database.
+[SPEAKER_04] (40:29.7 - 40:37.5): So they had four databases that that application and that AI agent needed to interact with.
+[SPEAKER_04] (40:38.0 - 40:40.2):  Obviously, you can see the problems with this, right?
+[SPEAKER_04] (40:40.2 - 40:42.1): So they had to deal with four different vendors.
+[SPEAKER_04] (40:43.1 - 40:48.2): They had to build the infrastructure and all the scaling for all of these.
+[SPEAKER_04] (40:48.6 - 40:53.0):  different bespoke databases that was powering their application.
+[SPEAKER_04] (40:53.5 - 41:00.3): But the biggest pain point they had was actually keeping it all in sync, making sure that that experience was seamless.
+[SPEAKER_04] (41:01.5 - 41:07.8):  Rest assured, this was a nightmare for their team and it created friction in the customer experience.
+[SPEAKER_04] (41:08.6 - 41:21.2):  What they were able to do with Google Cloud and Spanner, in particular with the graph capability that we introduced with Spanner 18 months ago, is they were able to consolidate each of these four databases.
+[SPEAKER_04] (41:21.7 - 41:23.4):  into a single database.
+[SPEAKER_04] (41:23.9 - 41:27.5): Obviously for them, this meant that they were securing the database once,
+[SPEAKER_04] (41:28.0 - 41:37.0):  They were dealing with one vendor, and they didn't have to deal with latency or keeping the data fresh across the different database technologies.
+[SPEAKER_04] (41:41.1 - 41:44.1):  both amazing for their internal technical team.
+[SPEAKER_04] (41:44.2 - 41:46.3): So it simplified the architecture by 75%.
+[SPEAKER_04] (41:48.3 - 41:57.0):  But more importantly, it gave a much better experience to the end consumers because they weren't moving data around, because they didn't have to wait for
+[SPEAKER_04] (41:57.7 - 42:01.6):  You know, the lowest common denominator across those four different databases.
+[SPEAKER_04] (42:01.9 - 42:08.8): They were able to create an experience for their customers that was 2.3 times faster, which was awesome.
+[SPEAKER_04] (42:10.1 - 42:14.1):  So I think I've gone a little bit over time, so thank you for bearing with me today.
+[SPEAKER_04] (42:22.9 - 42:27.6):  nothing out of it other than this is that you cannot have a I without a W.
+[SPEAKER_04] (42:38.2 - 42:43.9):  So now we have the brain, we've got the memory, we're going to give it some hands with the help of Pedro coming on.
+[SPEAKER_04] (42:44.2 - 42:48.8): Moving away from the creative sidekick to the autonomous project manager, please welcome Pedro to the stage.
+[SPEAKER_02] (42:55.3 - 42:57.1):  I hope all of you can listen to me or can hear me.
+[SPEAKER_02] (42:57.2 - 42:58.8): Hello everybody, my name is Pedro.
+[SPEAKER_04] (42:58.8 - 43:00.7): I'm an AI customer engineer.
+[SPEAKER_02] (43:10.4 - 43:14.6):  I'm technical enough to get dangerous, but not technical enough to build the things.
+[SPEAKER_02] (43:14.6 - 43:23.5): I work with customers of all shapes and sizes on AI adoption and helping them play around with some of our tech.
+[SPEAKER_02] (43:27.6 - 43:27.9):  is this?
+[SPEAKER_02] (43:30.6 - 43:34.2): Well, none of us were alive, but it's the Industrial Revolution.
+[SPEAKER_02] (43:34.9 - 43:39.3): So factories were everywhere, the steam engines were
+[SPEAKER_02] (43:45.8 - 43:46.7):  change things up.
+[SPEAKER_02] (43:46.7 - 43:49.3): So this is the steam machine and they're very clunky.
+[SPEAKER_02] (43:50.4 - 43:53.6): They couldn't really change the power outage.
+[SPEAKER_02] (43:53.6 - 43:59.5): So when you had it run, you had it run for the entire sort of assembly line.
+[SPEAKER_02] (44:00.2 - 44:05.0):  If you needed to do a minute task, you still had to carry it up, so there's a lot of wastage.
+[SPEAKER_02] (44:05.6 - 44:10.8): And also the floor space design was bound to that central component.
+[SPEAKER_02] (44:15.1 - 44:19.0):  Electric motor was created, and this was a game changer.
+[SPEAKER_02] (44:19.8 - 44:26.2): It allowed the distribution of power to be more localized, and this changed the factory spaces.
+[SPEAKER_02] (44:27.4 - 44:35.1):  It didn't have to be bound to that one central thing, that big clunky machine that could power different parts of the assembly line based on what they needed to do.
+[SPEAKER_02] (44:35.1 - 44:38.7): And it was really a transformation for manufacturing.
+[SPEAKER_02] (44:39.5 - 44:44.5):  The assembly line, that forfeit, couldn't be possible without this sort of machine.
+[SPEAKER_02] (44:45.9 - 44:47.9): And we're drawing parallels between this knowledge.
+[SPEAKER_02] (44:48.4 - 44:59.8):  and a lot of the changes in IT, but for us, agents are sort of this shift from this big central machine that powers an enterprise to autonomous components.
+[SPEAKER_02] (45:03.7 - 45:13.6):  And I just realized when we were going through some of the examples of our innovation that in 2016, when I joined Google,
+[SPEAKER_02] (45:15.8 - 45:24.4):  There was something that was out of this world, which was a legally blind man was in a car that was driving by itself somewhere in the U.S.
+[SPEAKER_02] (45:25.1 - 45:28.0): And it was pretty cool to join at that time.
+[SPEAKER_02] (45:33.7 - 45:36.3):  see how much Waymo has progressed.
+[SPEAKER_02] (45:36.8 - 45:44.3): So when we talk about separate components working together, fast forward 10 years and Waymo is this amazing technology.
+[SPEAKER_02] (45:46.9 - 45:48.9):  to drive in.
+[SPEAKER_02] (45:48.9 - 45:52.6): Some of my colleagues have been there and maybe you have as well.
+[SPEAKER_02] (45:53.3 - 45:55.0): And from the app that you have.
+[SPEAKER_02] (45:55.7 - 46:02.7):  that is sort of trying to gather information of where you want to go, what's your destination, what's your preferred method of payment.
+[SPEAKER_02] (46:04.2 - 46:12.2):  to the electronics and the amount of autonomous systems that it has, from understanding the road, understanding incoming traffic.
+[SPEAKER_02] (46:13.3 - 46:15.0):  Understanding that you don't have a seatbelt.
+[SPEAKER_02] (46:15.1 - 46:22.8): I'm not sure if you've seen this, but somebody decided to take off the seatbelt, they were singing, and then essentially the car stopped and said to put on the seatbelt.
+[SPEAKER_02] (46:22.9 - 46:27.4): So, multiple agents working in tandem.
+[SPEAKER_02] (46:28.1 - 46:34.6):  And the challenge here is really not only proving them separately, but making sure that they're working smoothly.
+[SPEAKER_02] (46:35.7 - 46:39.2): And they just closed off the $16 billion round of investments.
+[SPEAKER_02] (46:39.7 - 46:44.2):  They're running 450K weekly rides in the US.
+[SPEAKER_02] (46:44.3 - 46:52.2): And that's quite amazing, from 10 years ago, where they had a very controlled environment with one person doing a small trajectory.
+[SPEAKER_02] (46:58.7 - 47:05.5):  So we're moving, the ground beneath us is changing and there's a couple of things that are making this change.
+[SPEAKER_02] (47:08.5 - 47:12.0):  No more just one single data source, as Anna alluded.
+[SPEAKER_02] (47:12.2 - 47:15.6): There's multiple things that need to go into AI.
+[SPEAKER_02] (47:17.1 - 47:23.0): And if it was hard and it's a challenge to make sure that you have the right access controls to the data source,
+[SPEAKER_02] (47:23.5 - 47:32.5):  that the SQL was being done correctly, and I'll try to do that with document understanding, SQL creation, and then video understanding as well.
+[SPEAKER_02] (47:33.8 - 47:39.3):  It is a change in the way you manage access and you manage the quality of your data.
+[SPEAKER_02] (47:45.5 - 47:50.3):  simpler thing, which is going prototypes were cool in 2024.
+[SPEAKER_02] (47:50.9 - 47:56.4): You know, if you were in the ground, somebody was like, Oh, I have this gen media, this gen AI thing that can write a poem.
+[SPEAKER_02] (47:57.5 - 47:59.1):  or it can summarize an article.
+[SPEAKER_02] (47:59.6 - 48:01.3): And that was okay in 2024.
+[SPEAKER_02] (48:02.0 - 48:04.2): And it was okay to make mistakes.
+[SPEAKER_02] (48:07.1 - 48:10.1):  to see from afar, but really dangerous for an enterprise.
+[SPEAKER_02] (48:10.6 - 48:15.8): So for example, if you were buying a car in the U.S., you could convince the agent that that car was for free.
+[SPEAKER_02] (48:17.6 - 48:29.7):  While that was okay in 2024, organizations now need to shift into a mode where they're making sure that everything works as it's meant to be, with the right enterprise data, with the right controls.
+[SPEAKER_02] (48:33.3 - 48:38.2):  And it's a different sort of set of skills that an organisation needs to produce things in that way.
+[SPEAKER_02] (48:38.3 - 48:41.3): The other is going from chat to action.
+[SPEAKER_02] (48:41.9 - 48:45.0): Again, in 2025 it was okay to have a chatbot that would say,
+[SPEAKER_02] (48:45.5 - 48:49.5):  Here are the things that I think you should do, and here are the links for you to go and do it.
+[SPEAKER_02] (48:50.7 - 48:54.2): And that's still the norm when you have customer experiences.
+[SPEAKER_02] (48:54.2 - 48:56.4): I had to change my name in the loyalty program.
+[SPEAKER_02] (48:57.1 - 49:07.3):  I had to go through a bot, they gave me a few links, those links then started an offline process where I have to upload my driver's license and then after a few hours it gets updated.
+[SPEAKER_02] (49:10.1 - 49:15.3):  to what's required now, which is autonomous quicker response from
+[SPEAKER_02] (49:20.0 - 49:22.7):  I think we can all see the summit, right?
+[SPEAKER_02] (49:22.8 - 49:29.7): We can all see the nirvana of agents helping organizations do more things.
+[SPEAKER_02] (49:30.5 - 49:40.9):  But a recent study by PwC found that out of the stuff that makes it to production, only 12% meets the criteria that they were bound to.
+[SPEAKER_02] (49:42.2 - 49:47.1):  And I think from my experience, some of this is because the success rate here wasn't defined.
+[SPEAKER_02] (49:47.4 - 49:49.8): We were trying to put some cool products out in production.
+[SPEAKER_02] (49:50.6 - 49:54.6):  And then a CEO can go and say, we've adopted agents.
+[SPEAKER_02] (49:54.9 - 49:57.6): We have an agent working in our organization.
+[SPEAKER_02] (49:59.4 - 50:02.5):  And some of that was because the technology wasn't there.
+[SPEAKER_02] (50:03.4 - 50:07.2): So that number is sort of quite staggering.
+[SPEAKER_02] (50:07.3 - 50:10.3): When I saw that, I didn't think it was going to be that high.
+[SPEAKER_02] (50:12.9 - 50:17.3):  But we have examples of customers throughout Google Cloud that are doing this.
+[SPEAKER_02] (50:17.4 - 50:26.7): Virgin Voyages, the adult cruise ship, they've adopted AI marketing campaigns, and they're seeing double-digit sales growth with those campaigns.
+[SPEAKER_02] (50:29.1 - 50:33.3):  Best Buy has increased their self-service rescheduling by 200%.
+[SPEAKER_02] (50:33.4 - 50:37.5): We've seen multiple other customers adopting
+[SPEAKER_02] (50:46.3 - 50:53.4):  So the question is, how do you navigate those three things that we were talking about and start reaping some success?
+[SPEAKER_02] (50:54.3 - 50:56.5): Well, for us, there's three key non-negotiables.
+[SPEAKER_02] (50:58.9 - 51:03.3):  It's a very consultant slide, so I'll just try to simplify the slides there.
+[SPEAKER_02] (51:05.3 - 51:12.2): If you would have people in the hallways talking about agents, marginalized models, and use cases that can benefit from these things,
+[SPEAKER_02] (51:13.1 - 51:22.1):  If you have engineers that know how to build the agents, stop having hallway conversations about how the business could benefit from this.
+[SPEAKER_02] (51:23.3 - 51:27.0): That is not achieved just by hypnosis, just by standing and watching.
+[SPEAKER_02] (51:27.5 - 51:30.7):  You need AI literacy across the organization.
+[SPEAKER_02] (51:30.8 - 51:33.9): You need business people to understand what grounding means.
+[SPEAKER_02] (51:35.2 - 51:36.7): Is hallucination still a thing?
+[SPEAKER_02] (51:37.2 - 51:38.6): What are the tools to hallucinate?
+[SPEAKER_02] (51:38.6 - 51:41.7): And you need people to be comfortable talking to that, because they're going to be
+[SPEAKER_02] (51:46.1 - 51:48.5):  you have the necessary knowledge.
+[SPEAKER_02] (51:49.6 - 51:54.1): So fluency and talking about AI for me it's sort of like that's when you feel
+[SPEAKER_02] (51:55.4 - 52:02.2):  When you're walking around in these meetings, people are openly talking about it, they're talking about the problems as well as the solutions.
+[SPEAKER_02] (52:03.2 - 52:08.4): And there's multiple ways to get there, but definitely having a structure around AI fluency is crucial.
+[SPEAKER_02] (52:09.8 - 52:10.7):  And then it's a journey.
+[SPEAKER_02] (52:10.7 - 52:14.9): You might do the yellow bit, the red bit, or the blue bit at different times.
+[SPEAKER_02] (52:15.5 - 52:21.1): But you can start off by creating a partially automated agent workflow.
+[SPEAKER_02] (52:22.1 - 52:24.3): And then you have two agents that can talk to each other.
+[SPEAKER_02] (52:24.9 - 52:25.8):  might be the next step.
+[SPEAKER_02] (52:26.8 - 52:31.5): And then you're changing the way your customer experiences or your products are delivered.
+[SPEAKER_02] (52:32.6 - 52:36.5): So some companies go on the far end, some companies start
+[SPEAKER_02] (52:37.2 - 52:42.1):  Incrementally, the path is there, but the air and electricity is a cornerstone.
+[SPEAKER_02] (52:43.7 - 52:55.3):  And this is what's going to make the difference between somebody who's probably going to be out of business if they don't do anything, somebody who's going to survive this coming winter, or somebody that's going to thrive in it.
+[SPEAKER_02] (52:58.2 - 53:00.1):  The other bit is collaboration.
+[SPEAKER_02] (53:00.5 - 53:02.1): Collaboration is table stacks.
+[SPEAKER_02] (53:04.4 - 53:13.6):  Quite often I've seen where you have the technology skills, people know how to build engines, they know how to monitor them, they know how to do an architecture that's not going to do tech depth.
+[SPEAKER_02] (53:14.8 - 53:19.1):  But they often do not know how to deliver the value.
+[SPEAKER_02] (53:19.4 - 53:21.8): And the value is being held by the business stakeholders.
+[SPEAKER_02] (53:22.8 - 53:26.7): If they understand how AI can change the processes, they can tell you that
+[SPEAKER_02] (53:27.7 - 53:31.9):  this bit is going to be much more valuable to automate than the bit that you thought.
+[SPEAKER_02] (53:32.4 - 53:35.6): So as an engineer, my thought is like, I'm going to automate this end to end.
+[SPEAKER_02] (53:36.2 - 53:39.5): And actually, the people in the business are like, my problem is not in that workflow.
+[SPEAKER_02] (53:39.6 - 53:42.1): It's on this one that I spend eight hours a day.
+[SPEAKER_02] (53:43.4 - 53:56.2):  And even if you have those two sort of parts of your organization working together in tandem, creating real cool projects, and you have an ambitious AI roadmap for next year, the users are changing as well.
+[SPEAKER_02] (53:57.9 - 53:60.0):  All of us are also users of AI.
+[SPEAKER_02] (53:60.0 - 54:04.9): The way we experience AI is changing our expectations.
+[SPEAKER_02] (54:05.6 - 54:14.8):  the way we buy stuff, the way we search for stuff, our patience for processes that require you to upload driver's licenses, and they're changing.
+[SPEAKER_02] (54:15.6 - 54:21.6):  So it is expected that the product and the services that you have need to adapt.
+[SPEAKER_02] (54:24.4 - 54:32.0):  There's going to be requirements coming down from that part of the equation that needs to be taken into consideration.
+[SPEAKER_02] (54:33.5 - 54:37.7): And in general, you need all of them to work together to have a successful plan.
+[SPEAKER_02] (54:38.9 - 54:40.6):  The other bit is fragmentation.
+[SPEAKER_02] (54:41.8 - 54:44.8): Fragmentation is the enemy of scale.
+[SPEAKER_02] (54:45.0 - 54:47.1): Not only in the people side, but also on tech.
+[SPEAKER_02] (54:51.8 - 55:01.1):  you might start with something, and then you adopt the next shiny toy, and then there's something else that somebody saw, a model that outperforms what you have, and then you go and chase that if you're in the IT department.
+[SPEAKER_02] (55:02.3 - 55:05.8):  And you're constantly moving and adopting things.
+[SPEAKER_02] (55:06.5 - 55:08.5): One, because it is fast changing.
+[SPEAKER_02] (55:08.8 - 55:10.5): Two, because the demand is great.
+[SPEAKER_02] (55:11.2 - 55:15.1): But more often than not, you might start to have fragmentation around you.
+[SPEAKER_02] (55:19.3 - 55:20.6):  rather than built from scratch.
+[SPEAKER_02] (55:22.8 - 55:25.3): So this is another thing that needs to be tackled.
+[SPEAKER_02] (55:25.6 - 55:33.5): It's how do you go and set up a foundation that is scalable, that allows you to adopt agents at scale?
+[SPEAKER_02] (55:35.6 - 55:43.3):  So because we believe in AI being built into the platform, I'm going to give you the five-letter stack again.
+[SPEAKER_02] (55:43.3 - 55:45.0): We keep talking about this.
+[SPEAKER_02] (55:45.1 - 55:46.7): Repetition is important, they say.
+[SPEAKER_02] (55:48.5 - 55:49.9):  I'm going to give you my lens on it.
+[SPEAKER_02] (55:49.9 - 55:51.8): So it starts all with being secure.
+[SPEAKER_02] (55:51.8 - 55:59.4): There's no point in telling me to come in here or go close to us if you don't have the trust.
+[SPEAKER_02] (56:00.3 - 56:05.4):  The bottom bit is actually quite important because we built AI infrastructure in China.
+[SPEAKER_02] (56:09.7 - 56:16.9):  Summarizing an email in Gmail requires a type of chip, Gemini 3 and 3.1 requires a business type of chip.
+[SPEAKER_02] (56:17.8 - 56:23.4):  And that's just sort of us playing around with the economies of scale so that you don't have to.
+[SPEAKER_02] (56:23.4 - 56:26.5): So purposely built chips and infrastructure is quite important.
+[SPEAKER_02] (56:27.1 - 56:34.0):  And I was talking about how we've evolved existing data products to fit this new world.
+[SPEAKER_02] (56:34.5 - 56:36.3): So Spam is a great example.
+[SPEAKER_02] (56:36.3 - 56:40.5): My favorite one, BigQuery, has a graph database.
+[SPEAKER_02] (56:41.1 - 56:42.9):  And we've been in dispatch for a really long time.
+[SPEAKER_02] (56:43.1 - 56:48.0): But before they add both cloud, we would, at least we like to remember ourselves as Data Cloud.
+[SPEAKER_02] (56:48.4 - 56:50.2): I think we still are pretty good there.
+[SPEAKER_02] (56:51.2 - 57:02.2):  And then the research in models, I already talked about DeepMind, the work that we're doing there, that's powering all of the smarts in terms of the Google-owned models.
+[SPEAKER_02] (57:03.0 - 57:05.3): But we also have a platform in terms of
+[SPEAKER_02] (57:05.9 - 57:08.1):  having a place where you can choose from different models.
+[SPEAKER_02] (57:09.0 - 57:15.0): You know, you might want to run evaluations, Gemini better for this test, or this open source model, or this parking model that we have.
+[SPEAKER_02] (57:15.6 - 57:18.7): So the power of choice is given to you by on that platform.
+[SPEAKER_02] (57:19.5 - 57:21.3):  The other one is evaluation.
+[SPEAKER_02] (57:21.3 - 57:25.5): If you want to evaluate how large language models do, you want it to do that in the same stack.
+[SPEAKER_02] (57:26.9 - 57:32.3): The other is around protocols and the type of platforms that we have that help you integrate everything.
+[SPEAKER_02] (57:33.2 - 57:36.6):  And then finally, it's the tools to create those agents in applications.
+[SPEAKER_02] (57:39.2 - 57:44.5): So getting on to the agents, I think we just spoke about this enough in previous sessions.
+[SPEAKER_02] (57:53.7 - 57:55.2):  It uses memory.
+[SPEAKER_02] (57:57.1 - 57:59.0): It responds to interactions with the user.
+[SPEAKER_02] (58:05.2 - 58:07.3):  What type of agents do we have?
+[SPEAKER_02] (58:07.7 - 58:11.2): So I'm going to continue on the food analogy.
+[SPEAKER_02] (58:12.1 - 58:14.3): And I'm sure all of us have to cook.
+[SPEAKER_02] (58:14.6 - 58:15.9): Some of us are better than others.
+[SPEAKER_02] (58:15.9 - 58:17.9): Some of us have more of a taste to it.
+[SPEAKER_02] (58:18.9 - 58:28.7):  I do the pool dinners around the house, and my wife, gladly, she can make sure that we're all fed on those days that we're not doing some discussion.
+[SPEAKER_02] (58:29.6 - 58:33.5):  So that means that I'm semi-technical in the kitchen.
+[SPEAKER_02] (58:34.3 - 58:41.5): I am very limited by my knowledge, whether it's the mom's recipe or the stuff that I know how to buy.
+[SPEAKER_02] (58:44.6 - 58:47.0):  It's relying on the stuff that's available on the shop.
+[SPEAKER_02] (58:47.6 - 58:48.7): I don't go and make sauces.
+[SPEAKER_02] (58:49.3 - 58:50.3):  from scratch.
+[SPEAKER_02] (58:50.4 - 58:51.6): I just buy it.
+[SPEAKER_02] (58:52.2 - 58:54.4): But it doesn't mean that I can't do food.
+[SPEAKER_02] (58:54.5 - 58:55.5): I can cook good food.
+[SPEAKER_02] (58:55.6 - 59:00.2): I think everybody's pleasant when I do the dishes that I'm really good at.
+[SPEAKER_02] (59:00.7 - 59:01.4): But I'm not a pro.
+[SPEAKER_02] (59:02.4 - 59:07.3):  Now, if you go to a restaurant, that's your eye coat, if you haven't gotten that analogy.
+[SPEAKER_02] (59:07.7 - 59:09.5): You have people that know what they're doing.
+[SPEAKER_02] (59:09.6 - 59:10.8): They're doing stuff from scratch.
+[SPEAKER_02] (59:10.8 - 59:11.8): They have different tools.
+[SPEAKER_02] (59:12.7 - 59:15.7):  The world is their oyster when it comes to what they can do.
+[SPEAKER_02] (59:16.4 - 59:21.2): They don't know a recipe to learn, and they know the techniques to get them there.
+[SPEAKER_02] (59:22.0 - 59:24.9): So it's a different set of skills, but in the end, it's all fruit.
+[SPEAKER_02] (59:25.6 - 59:29.8):  I'm not sure if that analogy is lending, but that's what we have.
+[SPEAKER_02] (59:29.8 - 59:34.3): We have two type of engines, the low-code and the high-code, and you need to be comfortable with this.
+[SPEAKER_02] (59:34.8 - 59:37.5): Low-code actually gives business users a power to
+[SPEAKER_02] (59:38.3 - 59:44.9):  create something that's bespoke to them, and that IT doesn't have the time for them, just because it's not challenging enough.
+[SPEAKER_02] (59:45.5 - 59:49.0): And then high code is where you want to do stuff that is
+[SPEAKER_02] (60:03.0 - 60:10.9):  So before you go and say at the next barbecue that you're an expert at creating agents, make sure they don't know that you can get agents to help you.
+[SPEAKER_02] (60:11.7 - 60:12.5):  So we have
+[SPEAKER_02] (60:21.3 - 60:30.5):  If you have a specific brief that you want to do, you can get another agent to unpack that request and say, actually, what you want is process A, B, C, and D.
+[SPEAKER_02] (60:31.3 - 60:35.9):  We are going to be using tool X, Y, and Z. And here is the tool that I have for you.
+[SPEAKER_02] (60:36.0 - 60:39.6): And that's an example of our general enterprise agent design.
+[SPEAKER_02] (60:43.0 - 60:47.5):  But lastly, even for the high-code agents, we have help.
+[SPEAKER_02] (60:47.7 - 60:52.2): So if you're building ADK agents that will be deployed in the infrastructure,
+[SPEAKER_02] (60:53.4 - 61:06.6):  So, from the agent starter pack, which just creates everything, works as a great bootstrap, to Gemini CLI, which is probably the best invention from anyone that I've seen in my years.
+[SPEAKER_02] (61:08.3 - 61:16.2):  And then our agentic AI-first IDE, which is Antigravity, which is where I spend most of my day now.
+[SPEAKER_02] (61:16.4 - 61:20.4): So you can get agents to help you build both agents.
+[SPEAKER_02] (61:22.2 - 61:26.8):  So we've now talked about types of agents, things to help you build agents.
+[SPEAKER_02] (61:27.3 - 61:29.8): What are the different patterns that we have with agents?
+[SPEAKER_02] (61:30.5 - 61:33.7): So this, I would say, is part of the 2024 model.
+[SPEAKER_02] (61:35.6 - 61:38.5):  Somebody on the chat, that chat interacts with them.
+[SPEAKER_02] (61:45.8 - 61:49.0):  create a bar, whatever it was, it was restricted.
+[SPEAKER_02] (61:50.3 - 61:51.9): That's model one.
+[SPEAKER_02] (61:51.9 - 61:53.6): You can now have different functions obviously.
+[SPEAKER_02] (61:57.6 - 61:58.1):  This is the norm.
+[SPEAKER_02] (61:58.6 - 62:01.0): Now, is agent to data or to data?
+[SPEAKER_02] (62:02.9 - 62:09.6): How many of you have had somebody pitch to you or talk about their agent as being the next big thing?
+[SPEAKER_02] (62:09.8 - 62:10.6): Just show of hands.
+[SPEAKER_02] (62:12.4 - 62:22.0):  Okay, not a lot of people being pitched to, but somebody, a provider, supplier, a vendor comes and says, our AI agent is amazing, you should adopt it.
+[SPEAKER_02] (62:28.3 - 62:28.8):  Guess what?
+[SPEAKER_02] (62:28.8 - 62:29.6): You're going to have more.
+[SPEAKER_02] (62:30.0 - 62:31.5): And you're going to have to manage all of those.
+[SPEAKER_02] (62:34.0 - 62:39.0):  MCP servers and the tools and the way you integrate with agents are going to become the norm.
+[SPEAKER_02] (62:39.3 - 62:46.7): So you need an enterprise solution that allows you not only to integrate with those MCP servers, but also your APIs.
+[SPEAKER_02] (62:52.3 - 62:54.6):  Are you going to write an MCP survey and manage that?
+[SPEAKER_02] (62:54.6 - 62:57.1): Or are you going to have an industry solution that helps you with that?
+[SPEAKER_02] (62:58.2 - 63:01.7): So that blue blocks there, agent gateway, sort of allows you to do all of this.
+[SPEAKER_02] (63:02.7 - 63:05.8): Put in your REST API, it transforms it into an MCP.
+[SPEAKER_02] (63:06.5 - 63:12.7):  put in the Slack MCP that you've been pitched and you've told it's the future, your agents can now integrate with it.
+[SPEAKER_02] (63:17.7 - 63:19.3):  to do agent-to-agent.
+[SPEAKER_02] (63:19.8 - 63:23.7): Now that you've got multiple agents, you can start coordinating them all together.
+[SPEAKER_02] (63:23.9 - 63:29.4): Google has developed the A2A protocol, multiple industry people have been involved in it.
+[SPEAKER_02] (63:30.9 - 63:33.6):  So those are the patterns that we have.
+[SPEAKER_02] (63:33.8 - 63:35.4): And just our message is very simple.
+[SPEAKER_02] (63:44.1 - 63:58.3):  We've built the stack, those five-layer diagrams that you've seen, so that you don't have to pay the integration tax of understanding what chips work for what, how to do an evaluation, what's the framework that should be, how do I compare model A to model B.
+[SPEAKER_02] (63:59.1 - 64:02.5):  What's the runtime for an agent and what sort of telemetry do I need?
+[SPEAKER_02] (64:03.4 - 64:08.4): We create all of that so that you can leverage it and then you can bring your data.
+[SPEAKER_02] (64:09.2 - 64:15.2):  your expertise, your creativity, and you build your competitive advantage around that.
+[SPEAKER_02] (64:19.7 - 64:25.4):  And if we look at Google and how Google is doing it, we're also going through a transformation.
+[SPEAKER_02] (64:26.6 - 64:29.8): So not only do we talk the talk, but we also want Google.
+[SPEAKER_02] (64:30.6 - 64:33.2): And we believe that AI is the ultimate force multiplier.
+[SPEAKER_02] (64:33.7 - 64:34.7):  for creators of the world.
+[SPEAKER_02] (64:35.5 - 64:42.9): Our creators, the most important ones, they spend around 50% of their time now creating content.
+[SPEAKER_02] (64:43.2 - 64:47.0): The other 50% is automated and is driven by agents.
+[SPEAKER_02] (64:47.8 - 64:51.4):  So that's how we're drinking our own Kool-Aid.
+[SPEAKER_02] (64:52.1 - 65:01.8): And then if you're somebody like me who is more interested in doing demos that prove a point rather than working production and performance,
+[SPEAKER_02] (65:02.3 - 65:05.1):  you're probably at the 90% mark of your code generation.
+[SPEAKER_02] (65:05.3 - 65:11.9): But yeah, we have more examples across the organization outside of our code generation.
+[SPEAKER_02] (65:13.2 - 65:14.1): Three data points.
+[SPEAKER_02] (65:17.7 - 65:26.0):  in identifying, categorizing, and mitigating some vulnerabilities that we have.
+[SPEAKER_02] (65:26.8 - 65:28.8): That's the same conversation that we still have.
+[SPEAKER_02] (65:32.2 - 65:37.7):  Our marketing team is using our video generation, audio generation, and image generation models
+[SPEAKER_02] (65:39.5 - 65:43.3):  to automate some of the campaigns that we put on the market.
+[SPEAKER_02] (65:43.8 - 65:44.4): In 2025, that saved them $18,000.
+[SPEAKER_02] (65:49.2 - 65:58.1):  In our supply chain management, we've created an end-to-end automated process that breaks the risk with our suppliers.
+[SPEAKER_02] (65:59.2 - 66:02.7): And it's 14 times faster than the traditional model that we have.
+[SPEAKER_02] (66:06.7 - 66:11.1):  So I'm going to do an Oprah Winfrey sort of moment.
+[SPEAKER_02] (66:11.4 - 66:13.9): Everybody's going to get Gemini.
+[SPEAKER_02] (66:15.7 - 66:16.9):  Who's heard of Gemini Chat?
+[SPEAKER_02] (66:17.1 - 66:17.6): Raise your hands.
+[SPEAKER_02] (66:18.8 - 66:21.2): Okay, so you can get that, that's easy to get.
+[SPEAKER_02] (66:22.2 - 66:23.9): Who's heard of Gemini Video?
+[SPEAKER_02] (66:24.0 - 66:24.1): Okay.
+[SPEAKER_02] (66:29.7 - 66:32.0):  Who's heard about Gemini Enterprise?
+[SPEAKER_02] (66:32.9 - 66:39.4): Who's heard about Gemini Enterprise for customer experience?
+[SPEAKER_02] (66:45.6 - 66:46.8):  That is a real thing.
+[SPEAKER_02] (66:47.5 - 66:49.0): We did name everything Gemini.
+[SPEAKER_02] (66:49.6 - 66:54.0): Gemini Enterprise for users is the front door for your agents.
+[SPEAKER_02] (66:59.4 - 67:00.4):  from an internal perspective.
+[SPEAKER_02] (67:01.0 - 67:11.5): So if you have multiple agents that are supporting business critical processes, this is the platform to surface them, to manage them, and to enable collaboration between the people using the platform.
+[SPEAKER_02] (67:12.8 - 67:16.6):  So Gemini Enterprise is mostly for internal users.
+[SPEAKER_02] (67:16.7 - 67:23.5): It can ground to your enterprise connectors, your systems that you have there, your custom APIs that we were talking about.
+[SPEAKER_02] (67:24.4 - 67:31.2):  And then we have GCX, which is more for the customer-facing experiences.
+[SPEAKER_02] (67:31.7 - 67:33.4): Anybody know of that workflow?
+[SPEAKER_02] (67:34.0 - 67:35.4):  and the agents there.
+[SPEAKER_02] (67:35.8 - 67:42.0): So those were deterministic bots that sort of powered something like Olive in war words.
+[SPEAKER_02] (67:43.3 - 67:49.4):  Now, that's shifting to leverage all of these large-angle models, and that's with the GDCX.
+[SPEAKER_02] (67:50.5 - 67:53.8): So, now I'm just going to go into a demo.
+[SPEAKER_02] (67:54.2 - 67:55.5):  to sort of show these two tools.
+[SPEAKER_02] (67:55.9 - 67:58.7): How can you change both internally and externally?
+[SPEAKER_02] (67:59.7 - 68:07.8): So I've created a fake car listing company called Listicards, and I'm going to take the role of somebody that's on their editorial team.
+[SPEAKER_02] (68:09.2 - 68:16.7):  A video was launched by the content production team and now I'm tasked with creating content for the website and for my socials.
+[SPEAKER_02] (68:18.0 - 68:25.3):  So what I'll do is I'll go from that YouTube video that the team has created, and I'll create an article or a draft.
+[SPEAKER_02] (68:26.4 - 68:28.0): I'll then check with my
+[SPEAKER_02] (68:29.0 - 68:37.8):  Compliance agent that has a PDF set of instructions on how we do compliance at this because I
+[SPEAKER_02] (68:38.6 - 68:44.5):  And then I'm going to book in some time with my manager to discuss the changes that I might have to make.
+[SPEAKER_02] (68:44.7 - 68:47.8): And that's the agenda of the class.
+[SPEAKER_02] (68:47.8 - 68:48.0): OK.
+[SPEAKER_02] (68:48.8 - 68:49.2): All right.
+[SPEAKER_02] (68:53.2 - 68:57.4):  There's a couple of tools here that are familiar, deep research that Ari was shown.
+[SPEAKER_02] (69:08.3 - 69:08.8):  is here.
+[SPEAKER_02] (69:09.3 - 69:11.4): The cool thing about this is, let's say you have
+[SPEAKER_02] (69:12.2 - 69:20.0):  You can generate deep research that is grounded only on your data.
+[SPEAKER_02] (69:20.7 - 69:25.3): So no more this question of like, oh, is this reliable link that I got from Google search?
+[SPEAKER_02] (69:26.1 - 69:26.9):  It's your data.
+[SPEAKER_02] (69:26.9 - 69:28.0): You trust your data.
+[SPEAKER_02] (69:29.1 - 69:30.4): Sometimes that's it.
+[SPEAKER_02] (69:35.1 - 69:36.8):  So I'll give you an example.
+[SPEAKER_02] (69:37.1 - 69:41.5): In the newsrooms of this world, fact-checking is quite important.
+[SPEAKER_02] (69:42.3 - 69:45.4): It is harder to do that with Google search because there's multiple sources.
+[SPEAKER_02] (69:46.4 - 69:50.0):  What better way to fact-check what something was said with your own eyes?
+[SPEAKER_02] (69:50.3 - 69:55.1): So, you know, doing deep research online, all the easy positions have been formed.
+[SPEAKER_02] (69:55.2 - 69:56.6): All the text is super easy.
+[SPEAKER_02] (69:56.6 - 70:00.1): But you can generate videos, images.
+[SPEAKER_02] (70:01.6 - 70:04.8):  And then, you know, I have a couple of examples here.
+[SPEAKER_02] (70:04.9 - 70:06.6): I have a database with R12s.
+[SPEAKER_02] (70:06.8 - 70:07.9): I have my Gmail.
+[SPEAKER_02] (70:08.5 - 70:09.7): Google Search you can have here.
+[SPEAKER_02] (70:10.4 - 70:10.8): Slack.
+[SPEAKER_02] (70:11.4 - 70:12.6): Just a couple of third-party...
+[SPEAKER_02] (70:23.0 - 70:28.4):  Deep research, which you probably know from general chat idea generation, which is also something
+[SPEAKER_02] (70:35.5 - 70:42.0):  I have, in this example, my article brainstorm, which is an ADK agent that I have running on JetLine.
+[SPEAKER_02] (70:42.7 - 70:44.6): And then I have a transcription agent.
+[SPEAKER_02] (70:45.2 - 70:47.6): And then these are all agents that were created.
+[SPEAKER_02] (70:48.7 - 70:51.4):  with the web coach experience.
+[SPEAKER_02] (70:51.9 - 70:55.1): My editorial compliance agent is just a set of written
+[SPEAKER_02] (71:03.9 - 71:09.7):  after you're going to provide some content and some changes.
+[SPEAKER_02] (71:10.5 - 71:11.2): And you're going to use
+[SPEAKER_02] (71:14.3 - 71:17.9):  That was the simple sort of thing.
+[SPEAKER_02] (71:17.9 - 71:25.9): So if I want to start an interaction with an agent, I can start from the agent window, as you were seeing before, or I can just do the app operator.
+[SPEAKER_02] (71:25.9 - 71:27.8): I call my particle brainstorm.
+[SPEAKER_02] (71:29.3 - 71:34.3):  I have that YouTube video that we just put up, which is about the new BYD shark.
+[SPEAKER_02] (71:35.3 - 71:37.1): And then essentially this agent is
+[SPEAKER_02] (71:40.1 - 71:43.8):  It can be better than you have in the Google Cloud Search bucket.
+[SPEAKER_02] (71:46.9 - 71:47.8): Oh, that's correct.
+[SPEAKER_02] (71:47.9 - 71:49.1): That's correct.
+[SPEAKER_02] (71:49.1 - 71:51.1): The transcription engine does not do this.
+[SPEAKER_02] (72:00.9 - 72:07.0):  So it's not going to, have a look at that video, extract information that is required to build an R goal.
+[SPEAKER_02] (72:07.3 - 72:08.1): That's step one.
+[SPEAKER_02] (72:08.6 - 72:11.3): It's actually a multi-agent structure in ADK.
+[SPEAKER_02] (72:12.0 - 72:16.4):  And then it's going to pass on to another agent, who's going to create an article draft.
+[SPEAKER_02] (72:17.4 - 72:22.9): So here's the first output, the B by D sharp, the information that it got.
+[SPEAKER_02] (72:23.8 - 72:26.0): And then it's just sharing that with each other.
+[SPEAKER_02] (72:33.8 - 72:39.6):  it has tried to follow whatever guidelines we've put into the agency.
+[SPEAKER_02] (72:46.0 - 72:52.2):  I now want to check that it goes through our editorial compliance, so I'm going to call
+[SPEAKER_02] (73:01.5 - 73:08.1):  So you've seen that agent, it's just going to have a look at the article and it's going to provide some feedback on what you should change.
+[SPEAKER_02] (73:08.1 - 73:14.4): That might be tone of voice, that might be some regulation that you have, it really depends on
+[SPEAKER_02] (73:17.0 - 73:18.8):  a few changes here.
+[SPEAKER_02] (73:19.7 - 73:26.7): So next thing that I'm going to do is I'm going to ask Gemma to create a meeting with my manager.
+[SPEAKER_02] (73:42.7 - 73:45.6):  So now it's going to use one of the native connectors, which is Gmail.
+[SPEAKER_02] (73:45.9 - 73:54.8): It's going to have a look at the past interaction and say, OK, what the user wants is for me to copy and paste the feedback in the article and schedule a meeting with this guy, Abhish.
+[SPEAKER_02] (73:57.0 - 73:58.0):  So while it's doing that, okay?
+[SPEAKER_02] (74:14.7 - 74:19.0):  Let's leave that as it is.
+[SPEAKER_02] (74:19.0 - 74:25.3): You can create meetings and do the other things.
+[SPEAKER_02] (74:25.8 - 74:27.1): Again, we're just showing how
+[SPEAKER_02] (74:27.8 - 74:32.6):  two separate agents that have different purposes can be working in tandem.
+[SPEAKER_02] (74:33.0 - 74:39.3): You can have agents that do a full end-to-end, but this just speaks to that sort of
+[SPEAKER_02] (74:40.7 - 74:51.6):  initial slide that we were talking about, you might start with low-code agents, have thousands of them that do small things at a certain time, and then have an agent that does something more complex, and then you go to the future.
+[SPEAKER_02] (74:53.3 - 75:00.0):  What I mean is they both do the same thing, they just brand it different.
+[SPEAKER_02] (75:08.1 - 75:11.2):  A gem is probably restricted to the things in the pattern workspace.
+[SPEAKER_02] (75:19.2 - 75:26.1):  But you can also check your Salesforce CRM and sort of check if the next opportunity is there.
+[SPEAKER_02] (75:26.5 - 75:29.1): Or you can check if there's been any bugs on the product you support.
+[SPEAKER_02] (75:32.8 - 75:34.0):  That's the reason why I have it in there.
+[SPEAKER_02] (75:34.9 - 75:39.4): The underlying thing is that it's both digits.
+[SPEAKER_02] (75:43.8 - 75:53.1):  We've now published an article, let's say I went through that meeting, we've published an article in the website, and I'm now going to take the role of somebody else.
+[SPEAKER_02] (75:56.0 - 75:56.9):  This is me projecting.
+[SPEAKER_02] (75:56.9 - 75:58.4): I would love to have a Hilux.
+[SPEAKER_02] (75:58.8 - 76:03.2): I've been doing this for seven years and I've found that's the most positive thing you can do.
+[SPEAKER_02] (76:03.2 - 76:07.0): So even though I might still have it, I'm not really convinced on the new models.
+[SPEAKER_02] (76:08.1 - 76:09.1):  This is me projecting.
+[SPEAKER_02] (76:09.3 - 76:18.0): I have 2011 to Alex because they lasted a really long time and I'm going to go into these two cars and I'm going to go on a journey of Checking
+[SPEAKER_02] (76:21.8 - 76:32.5):  But because we're here to talk about agents and how they can change the way users consume your products and interact with your user experiences, we've done this a little bit differently.
+[SPEAKER_02] (76:33.0 - 76:34.4): So what I have here...
+[SPEAKER_02] (76:35.6 - 76:43.8):  is a website that has an inventory, very restricted, it's mostly hard access into other countries.
+[SPEAKER_02] (76:46.9 - 76:50.3):  I have an agent that's sort of going to talk to me.
+[SPEAKER_02] (76:51.0 - 76:52.5): So there's a couple of things here happening.
+[SPEAKER_02] (76:52.5 - 77:00.9): There's a text-to-speech with Gemini Live happening, and then there's a navigation, an assisted navigation across the website.
+[SPEAKER_02] (77:02.1 - 77:02.4):  Let's see.
+[SPEAKER_02] (77:02.4 - 77:03.6): Here we go.
+[SPEAKER_02] (77:07.7 - 77:07.9): Hey.
+[SPEAKER_04] (77:10.2 - 77:10.9): Kia ora, mate.
+[SPEAKER_04] (77:11.3 - 77:13.6): My name is Bee and I'm with Vista Cars.
+[SPEAKER_04] (77:14.1 - 77:15.0): How can I help you today?
+[SPEAKER_02] (77:15.9 - 77:19.5):  Hey V, I have a really old Toyota.
+[SPEAKER_02] (77:19.8 - 77:20.9): I think I need to sell it.
+[SPEAKER_02] (77:21.8 - 77:24.9): Can we get a free valuation?
+[SPEAKER_02] (77:26.7 - 77:27.3): Sure thing.
+[SPEAKER_02] (77:27.8 - 77:29.4): To get you an accurate valuation.
+[SPEAKER_04] (77:29.8 - 77:33.0):  Could you please tell me the make, model and year of your Toyota?
+[SPEAKER_02] (77:33.5 - 77:35.0): Yes, it's a Toyota Rolex.
+[SPEAKER_02] (77:35.5 - 77:35.7): It's 2011.
+[SPEAKER_04] (77:39.2 - 77:47.0):  Right, so for a 2011 Toyota Hilux, the Red Book estimate for a private sale is generally between $14,000 and $19,500 Aussie D.
+[SPEAKER_04] (77:50.6 - 77:55.3):  If you were looking to trade it in, it's more likely to be in the $10,000 to $14,000 range.
+[SPEAKER_04] (77:55.4 - 77:58.2): Are you considering listing it for sale?
+[SPEAKER_04] (78:04.9 - 78:06.6):  Oh, I understand, Pedro.
+[SPEAKER_02] (78:06.7 - 78:08.6): I know that you...
+[SPEAKER_04] (78:12.5 - 78:14.6):  All right, so that didn't go as planned.
+[SPEAKER_04] (78:14.7 - 78:17.1): Can we get an evaluation from Tyler and Alex?
+[SPEAKER_02] (78:17.1 - 78:18.5): I can certainly help with that.
+[SPEAKER_00] (78:27.6 - 78:30.7):  Could you please tell me the make, model and year of the Toyota?
+[SPEAKER_02] (78:31.1 - 78:32.6): Yes, it's a Toyota Hilux 2011.
+[SPEAKER_04] (78:32.7 - 78:36.6): Okay, for a 2011 Toyota Hilux.
+[SPEAKER_04] (78:38.7 - 78:41.9):  The estimated private sale value is generally between $14,000 and $19,500 ED.
+[SPEAKER_04] (78:41.9 - 78:42.5): That makes sense.
+[SPEAKER_04] (78:42.5 - 78:43.6): Can we list it at $19,000?
+[SPEAKER_04] (78:51.1 - 78:51.6):  Great!
+[SPEAKER_04] (78:51.9 - 78:55.3): I've successfully created an ad draft for your 2011 Toyota Hilux at $19,000 for you.
+[SPEAKER_04] (78:55.4 - 78:57.3): Is there anything else I can help you with?
+[SPEAKER_04] (78:57.8 - 78:59.2): Yes, let's go back to the homepage.
+[SPEAKER_00] (79:13.1 - 79:16.7):  No problem, I've navigated back to the homepage for you.
+[SPEAKER_02] (79:16.7 - 79:20.0): A lot of my mates are telling me that BYD has a really cool use.
+[SPEAKER_02] (79:20.0 - 79:21.3): Do you have any information on that?
+[SPEAKER_04] (79:23.9 - 79:26.1):  Ah yes, the new BYD Sharkube.
+[SPEAKER_04] (79:26.5 - 79:27.9): The product page is on screen now.
+[SPEAKER_04] (79:28.4 - 79:33.1): Were you interested in looking at the specs or perhaps booking a test drive?
+[SPEAKER_02] (79:33.1 - 79:36.0): Sorry, can you explain to me how the BYD Sharkube works?
+[SPEAKER_02] (79:40.0 - 79:40.5):  ¡Claro!
+[SPEAKER_02] (79:40.9 - 79:44.4): El BYD Shark es una nueva camioneta híbrida enchufable.
+[SPEAKER_02] (79:44.4 - 79:48.7): ¿Te gustaría saber más sobre sus características o perfecto probarla en una conducción?
+[SPEAKER_02] (79:49.9 - 79:54.7):  Sorry, I just defaulted to Spanish there for a moment, but thank you for answering in Spanish.
+[SPEAKER_02] (79:54.8 - 79:56.8): Is there a test stroke for this BYD chart?
+[SPEAKER_04] (79:58.9 - 79:59.6): No problem at all.
+[SPEAKER_04] (80:00.2 - 80:04.7):  Yes, there is a dealership in Sydney where you can take the BYD Shark for a test drive.
+[SPEAKER_04] (80:05.2 - 80:06.8): Would you like me to check it out at all times?
+[SPEAKER_02] (80:07.5 - 80:07.7): Yes.
+[SPEAKER_00] (80:10.5 - 80:12.6):  Great, there are a few options available.
+[SPEAKER_04] (80:13.1 - 80:17.2): Tomorrow at 10am, tomorrow at 2pm or Saturday at 11am.
+[SPEAKER_04] (80:17.7 - 80:18.5): Which one works for you?
+[SPEAKER_02] (80:19.1 - 80:21.6): Well, Saturday because I still need to fly to Sydney.
+[SPEAKER_02] (80:22.1 - 80:22.6): I am in Melbourne.
+[SPEAKER_04] (80:25.3 - 80:25.8):  Perfect.
+[SPEAKER_04] (80:26.1 - 80:29.9): I've booked you in for the test drive at the Sydney dealership on Saturday at 11am.
+[SPEAKER_04] (80:30.4 - 80:31.9): A confirmation email has been sent.
+[SPEAKER_04] (80:32.4 - 80:34.1): Is there anything else I can help you with today?
+[SPEAKER_02] (80:34.1 - 80:34.3): Yes.
+[SPEAKER_02] (80:34.6 - 80:35.8): Let's go back to the home page.
+[SPEAKER_04] (80:38.8 - 80:40.7):  No worries, I've taken you back to the home page.
+[SPEAKER_04] (80:41.3 - 80:41.8): Anything else?
+[SPEAKER_02] (80:41.9 - 80:45.6): Yeah, I'm really excited about this BYD shark, but I doubt that I have the money.
+[SPEAKER_02] (80:45.7 - 80:47.8): So why don't we look for another Hilux?
+[SPEAKER_02] (80:48.5 - 80:49.5): It's a bit more recent.
+[SPEAKER_02] (80:50.7 - 80:51.5): I used one, it's fine.
+[SPEAKER_04] (80:54.5 - 80:55.0):  No worries.
+[SPEAKER_04] (80:55.3 - 80:57.4): I've found 46 used Toyota Hiluxes for you.
+[SPEAKER_04] (80:57.6 - 81:00.1): Are you keen to search with these settings?
+[SPEAKER_02] (81:00.5 - 81:01.2): Yeah, let's go.
+[SPEAKER_04] (81:03.4 - 81:03.9): Excellent.
+[SPEAKER_04] (81:04.1 - 81:05.3): The results are on screen now.
+[SPEAKER_04] (81:05.8 - 81:07.2): Is there anything else I can help you with?
+[SPEAKER_04] (81:13.0 - 81:14.5):  Yes, I can see you now, Pedro.
+[SPEAKER_04] (81:14.5 - 81:15.9): Is there something?
+[SPEAKER_02] (81:16.2 - 81:17.3): What is the color of my notebook?
+[SPEAKER_04] (81:19.6 - 81:21.4): Your notebook appears to be red.
+[SPEAKER_02] (81:22.4 - 81:23.2): That's right.
+[SPEAKER_02] (81:23.5 - 81:26.3): Can you filter the text out of my Lexus for that color, please?
+[SPEAKER_04] (81:29.3 - 81:29.7):  Sure thing.
+[SPEAKER_04] (81:29.7 - 81:33.5): I filtered the results to show only the red Toyota Hiluxes.
+[SPEAKER_04] (81:33.9 - 81:35.2): Is there anything else I can help you with?
+[SPEAKER_02] (81:35.9 - 81:36.4): That's all.
+[SPEAKER_02] (81:36.4 - 81:36.8): Thank you.
+[SPEAKER_02] (81:39.3 - 81:41.6): All right, so that's how it could work.
+[SPEAKER_02] (81:56.5 - 82:01.9):  The multi-language didn't work, but it does respond to you in your native language.
+[SPEAKER_02] (82:02.4 - 82:03.9): So I've tried a couple.
+[SPEAKER_02] (82:04.1 - 82:05.3): I went to Portuguese.
+[SPEAKER_02] (82:05.5 - 82:07.9): It did answer to me in Portuguese, but it didn't follow through.
+[SPEAKER_02] (82:08.9 - 82:13.9):  But yeah, so multilingual, multimodal, that's why I have the notebook, because I have the notes.
+[SPEAKER_02] (82:15.4 - 82:19.4):  So that's how a search experience could be powered by an agent.
+[SPEAKER_02] (82:20.3 - 82:23.0): And the question is now back to you.
+[SPEAKER_02] (82:23.1 - 82:24.8): What's your electric moment?
+[SPEAKER_02] (82:25.1 - 82:27.2): How are you going to change your organization?
+[SPEAKER_02] (82:27.9 - 82:34.3):  and help power the necessary change that you need to have for this coming wave.
+[SPEAKER_02] (82:39.5 - 82:43.0):  of you to sort of talk about how they're doing it, which I think is the best way to do it.
+[SPEAKER_02] (82:43.3 - 82:44.5): But thank you so much for your time.
+[SPEAKER_04] (82:53.1 - 82:54.3):  on the market, are you gone?
+[SPEAKER_04] (82:55.1 - 82:56.3): So you get to, is that me?
+[SPEAKER_02] (82:56.5 - 82:57.4): Yes, I'll let you go first.
+[SPEAKER_04] (83:03.7 - 83:04.5):  Thank you, Pedro.
+[SPEAKER_04] (83:04.5 - 83:07.6): Now it's time to hear from one of our customers.
+[SPEAKER_04] (83:08.0 - 83:12.0): We've done the internal Google components, giving you the foundation.
+[SPEAKER_04] (83:13.3 - 83:17.8):  The best part of my job is that I get to work with customers like who you're going to be seeing today.
+[SPEAKER_04] (83:17.8 - 83:23.2): And actually, they go back into the world and see them put that into action and go, oh, this is kind of helpful.
+[SPEAKER_04] (83:23.3 - 83:24.3): That's part of that.
+[SPEAKER_04] (83:25.0 - 83:26.2): So I'm really excited to welcome.
+[SPEAKER_04] (83:27.2 - 83:33.1):  Bernard Wilson, I said it wrong before, I do apologize, the Chief Customer Officer at Kmart.
+[SPEAKER_04] (83:33.6 - 83:40.3): He's going to show us how Kmart are leveraging Agente.KI to reimagine customer touchpoints and create personalized journeys.
+[SPEAKER_01] (83:47.1 - 83:48.8):  much today already.
+[SPEAKER_01] (83:48.9 - 83:53.6): You mentioned that your drinking levels aren't back to COVID.
+[SPEAKER_01] (83:53.6 - 83:53.8): I think
+[SPEAKER_01] (83:55.3 - 84:00.2):  and I don't think you need an agent to work out, it's because of how fast the world is moving.
+[SPEAKER_01] (84:01.4 - 84:03.9): So, where I wanted to start with was
+[SPEAKER_01] (84:04.8 - 84:10.1):  our mission, because everything we're going to talk about today really is grounded in that strategic context.
+[SPEAKER_01] (84:10.6 - 84:15.3): So we've got a really simple and powerful mission, it's to make everyday living brighter.
+[SPEAKER_01] (84:15.7 - 84:19.1): This has and will always be behind everything that we do.
+[SPEAKER_01] (84:19.9 - 84:30.3):  But in a world of rising costs and increasing complexity, how do we stay true to that purpose where there are fundamental shifts in how the world operates?
+[SPEAKER_01] (84:31.1 - 84:33.2): So on the screen here, you can see our $7.50 kettle.
+[SPEAKER_01] (84:34.8 - 84:36.5):  That kettle has been $7.50 for over a decade.
+[SPEAKER_01] (84:39.8 - 84:47.9):  So providing Australian and New Zealand families with this type of quality in a way that actually helps their budgeting, it requires extreme efficiency.
+[SPEAKER_01] (84:48.6 - 84:52.1): And for extreme efficiency, we see a Gentic as an unlock.
+[SPEAKER_01] (84:53.7 - 85:00.4):  Our mission is bigger than retail, but to keep focused, we've got a goal that we're anchoring to.
+[SPEAKER_01] (85:00.6 - 85:01.9): It's our 2020 goal.
+[SPEAKER_01] (85:02.9 - 85:07.5): $20 billion in sales, $2 billion in profit, and zero injuries.
+[SPEAKER_01] (85:08.1 - 85:11.1):  physical and mental for our team members and our customers.
+[SPEAKER_01] (85:11.6 - 85:18.2): To the audaciousness of that goal, the first two numbers are double where we are today, and obviously the third number is a zero.
+[SPEAKER_01] (85:18.9 - 85:25.2):  So to deliver something so ambitious with no compromises, we knew that incremental change wouldn't cut it.
+[SPEAKER_01] (85:25.7 - 85:26.9): We needed step change.
+[SPEAKER_01] (85:28.2 - 85:31.6): Now, as an example of one of our step changes, late last year,
+[SPEAKER_01] (85:32.0 - 85:38.6):  We integrated Target and other brands into our Kmart online ecosystem, so across our website and our app.
+[SPEAKER_01] (85:39.1 - 85:43.9): Now, we did this because we knew that if we could offer customers a broader range,
+[SPEAKER_01] (85:44.3 - 85:47.8):  but also a relevant range, we could solve more customer missions.
+[SPEAKER_01] (85:48.3 - 85:51.2): It was 100% the right thing to do for our customers.
+[SPEAKER_01] (85:51.8 - 85:55.8): But solving more unique customer missions means more complexity.
+[SPEAKER_01] (85:56.3 - 85:58.8): So, for example, in the travel category at the moment,
+[SPEAKER_01] (85:59.3 - 86:09.2):  We can now serve the needs of more customers for more holidays, but that's resulting in a 400% increase in the number of products that are available to view on our site.
+[SPEAKER_01] (86:10.2 - 86:12.7): So we have more data, got more brands.
+[SPEAKER_01] (86:13.1 - 86:15.4):  We've got more moving parts than ever before.
+[SPEAKER_01] (86:15.4 - 86:21.4): But as you know, when you increase complexity, you usually increase cost.
+[SPEAKER_01] (86:22.0 - 86:27.3): And as a business that reduced prices year on year, we needed to break that link.
+[SPEAKER_01] (86:28.3 - 86:36.1):  So one of our first challenges, and I'm sure it's on everyone's mind, it's in every presentation I've ever heard at one of these conferences, buy versus build.
+[SPEAKER_01] (86:36.7 - 86:41.8): So looking to materially scale our online business, we paused for thought.
+[SPEAKER_01] (86:42.9 - 86:46.3):  If you buy generic tools, you pay the integration tax.
+[SPEAKER_01] (86:46.3 - 86:50.9): And so back to what Pedro was saying, fragmentation is the enemy of scale.
+[SPEAKER_01] (86:51.1 - 86:51.7): I wrote it down.
+[SPEAKER_01] (86:52.7 - 86:53.6): On the other side...
+[SPEAKER_01] (86:54.5 - 86:58.9):  If you build from scratch, how are you possibly going to move as fast as the market?
+[SPEAKER_01] (86:59.8 - 87:04.6): So to hit our ambition, it seemed like buy and build were both dead ends.
+[SPEAKER_01] (87:05.2 - 87:07.2): We couldn't afford the integration tax.
+[SPEAKER_01] (87:07.9 - 87:14.9):  And whilst we've got strong foundations, we didn't have the time to continue building whilst also keeping pace with the market.
+[SPEAKER_01] (87:15.6 - 87:21.5): So one of our solutions is building custom intelligence across a unified Google platform.
+[SPEAKER_01] (87:22.5 - 87:25.5):  So for us, it's not as stark as that.
+[SPEAKER_01] (87:26.0 - 87:29.6): But bill versus buy, the debate was effectively meaningless.
+[SPEAKER_01] (87:29.7 - 87:30.8): To lean on price
+[SPEAKER_01] (87:31.4 - 87:35.8):  you have to be relentlessly a continuous improvement business.
+[SPEAKER_01] (87:36.2 - 87:43.6): To do that, you have to be relentless on excellence and execution, and ultimately all of those things obviously lead to agentic.
+[SPEAKER_01] (87:44.7 - 87:55.7):  So earlier this year, hugely exciting for me and our business, WordSpot has moved to strengthen its AI capabilities, a deep collaboration with Google Cloud.
+[SPEAKER_01] (87:56.6 - 88:01.9):  Really, in terms of what I'll talk you through, it seeks to tackle two of the biggest challenges in modern retail.
+[SPEAKER_01] (88:01.9 - 88:06.7): So we've got growing customer expectations for fast, personalised service.
+[SPEAKER_01] (88:07.4 - 88:10.3): We've also got increasing operational complexity.
+[SPEAKER_01] (88:10.9 - 88:16.1):  So you've got the challenge of customers wanting more, more seamless and intuitive experiences.
+[SPEAKER_01] (88:16.8 - 88:27.7):  But you've got the need to enable team members to spend more time focusing on those, on innovation and on decision making versus traditional operational priorities.
+[SPEAKER_01] (88:28.6 - 88:33.8):  So instead of stitching things together, it really was more about architecture in our future.
+[SPEAKER_01] (88:34.5 - 88:40.8): And what we've seen and what you've heard a bit about today is how Google Cloud's agentic AI solutions
+[SPEAKER_01] (88:41.3 - 88:46.0):  including Gemini Enterprise and Gemini Enterprise for CX, which is a real thing.
+[SPEAKER_01] (88:47.2 - 88:50.3): They've been made available to thousands of team members to support.
+[SPEAKER_01] (88:51.1 - 88:56.8):  more responsible internal, but also more responsible internal decisions for customer interactions.
+[SPEAKER_01] (88:57.5 - 88:59.5): And it's really accelerated our progress.
+[SPEAKER_01] (88:59.5 - 89:03.1): So we've had over the past few years some really great initiatives.
+[SPEAKER_01] (89:03.6 - 89:11.0):  Now we see a really clear path from those through experimentation to high impact execution, which I'll talk to you shortly.
+[SPEAKER_01] (89:11.9 - 89:20.0):  But first to some of our early wins, and they actually, I think, bring together some of the commentary about the value of business context, specific context and memory.
+[SPEAKER_01] (89:20.5 - 89:22.2): So one of our early wins.
+[SPEAKER_01] (89:22.6 - 89:28.0):  We enabled an end-to-end customer experience where every word was built by an agent.
+[SPEAKER_01] (89:28.7 - 89:32.4): That seems easy, but to business context and specific context,
+[SPEAKER_01] (89:33.2 - 89:36.3):  We take our purpose and our brand really seriously.
+[SPEAKER_01] (89:36.8 - 89:43.3): So we had to train and retrain and retrain our agent on our exact tone of voice.
+[SPEAKER_01] (89:44.0 - 89:50.5):  It needed to learn not just thematically what it meant to be conversational, it needed to learn that in a way that
+[SPEAKER_01] (89:51.0 - 89:56.6):  was never compromising our brand and the way that we expect to interact with customers.
+[SPEAKER_01] (89:57.1 - 89:59.4): It also needed to avoid compliance risks.
+[SPEAKER_01] (90:00.1 - 90:03.3): So our little agent that could allowed us to be Kmart
+[SPEAKER_01] (90:03.6 - 90:08.0):  but to be on more channels more frequently and with more personalisation.
+[SPEAKER_01] (90:08.1 - 90:10.1): And you can see there the scale.
+[SPEAKER_01] (90:10.7 - 90:12.9): And that scale delivered more than 70% increase in sales.
+[SPEAKER_01] (90:15.2 - 90:16.9):  But it's not all about sales.
+[SPEAKER_01] (90:17.1 - 90:19.4): It's about our customers and their expectations.
+[SPEAKER_01] (90:19.9 - 90:20.6): What do we know?
+[SPEAKER_01] (90:21.1 - 90:22.5): Digital natives are growing up.
+[SPEAKER_01] (90:23.1 - 90:25.3): So we'll always stand for families.
+[SPEAKER_01] (90:26.1 - 90:27.7): Thank you, Beth, for all of your shopping.
+[SPEAKER_01] (90:28.1 - 90:36.0):  But families are becoming customers whose preference is mobile driven discovery on the experiences and social shopping.
+[SPEAKER_01] (90:36.6 - 90:42.5): They want us to showcase our products, not just as products, but in terms of the experiences they create.
+[SPEAKER_01] (90:43.0 - 90:43.6):  where they are.
+[SPEAKER_01] (90:44.3 - 90:45.9): So our little agent evolved.
+[SPEAKER_01] (90:46.5 - 90:54.8): It now writes articles, blogs, guides and generates other content to drive more personalised, more inspirational interactions.
+[SPEAKER_01] (90:55.2 - 91:02.4):  And you can see we've been able to scale content here in the time it took, relative to the time it took, less than 1%.
+[SPEAKER_01] (91:04.2 - 91:09.4): There are also the things that customers don't see that ultimately fuel the expectations that they want.
+[SPEAKER_01] (91:10.2 - 91:14.7):  So early on, we worked with Google to build an app agent.
+[SPEAKER_01] (91:17.5 - 91:31.0):  gathered and synthesized customer feedback across all touch points, not just ours, but the entire market to help us understand what customers did and didn't want in real time in relation to what we and our competitors were shipping.
+[SPEAKER_01] (91:32.0 - 91:40.9):  The agent trawls more than 400 million records and understands the nuance of language and understands emojis and understands abbreviations that only my children know.
+[SPEAKER_01] (91:41.6 - 91:47.3):  And automating this has enabled, ultimately, our product and technology teams to increase their velocity.
+[SPEAKER_01] (91:48.0 - 91:49.6): They're able to do more innovation.
+[SPEAKER_01] (91:49.7 - 91:51.6): They're able to deliver more experiences.
+[SPEAKER_01] (91:51.6 - 91:53.8): And the net result is we now have more than 1.6.
+[SPEAKER_01] (91:55.3 - 91:58.0):  customers using our mobile app each and every month.
+[SPEAKER_01] (91:59.6 - 92:06.3): All of this gave us confidence, and so when we think about the orchestration of agents, we've looked to an agent
+[SPEAKER_01] (92:06.6 - 92:11.1):  to actually take us beyond content generation to actual engagement orchestration.
+[SPEAKER_01] (92:11.9 - 92:17.2): And we now use an agent across our personalized marketing activity, the team that built it are in the room.
+[SPEAKER_01] (92:18.1 - 92:22.0):  It's able to create audiences based on unique customer preferences.
+[SPEAKER_01] (92:22.3 - 92:25.1): It creates emails, optimized for conversion.
+[SPEAKER_01] (92:25.1 - 92:31.1): Not just thinking about products, but also thinking about the content that we have in relation to those products.
+[SPEAKER_01] (92:32.1 - 92:36.3):  how visually appealing it is, how viral it's likely to be.
+[SPEAKER_01] (92:37.2 - 92:48.9):  It orchestrates with our customer engagement engine to send, and obviously it takes all of those learnings so that it's ready to go the next day, the next hour, or if I get upset, usually the next minute.
+[SPEAKER_01] (92:50.5 - 92:55.1):  More, more personalised content and more sales, more complexity, right?
+[SPEAKER_01] (92:55.9 - 92:56.1): Wrong.
+[SPEAKER_01] (92:56.5 - 93:00.9): So you can see that we did all of this without increasing any of our headcount.
+[SPEAKER_01] (93:01.6 - 93:07.5):  And keeping tight there means we can continue to invest in price to continue to give life to our purpose.
+[SPEAKER_01] (93:08.8 - 93:13.1): But back to our ambitious Kmart online ecosystem and some of what you've heard today.
+[SPEAKER_01] (93:13.7 - 93:21.6):  So with more than three times as much product that we have before, we can service more and increasingly complex customer journeys.
+[SPEAKER_01] (93:21.9 - 93:27.1): But we needed to think bigger about what brings the customer to the search bar.
+[SPEAKER_01] (93:28.4 - 93:34.0):  beyond what they enter when they get there, what's the intent and what are they actually trying to achieve?
+[SPEAKER_01] (93:35.1 - 93:41.3):  And here, Vertex, Google's cloud AI layer, has become a hero tool for us.
+[SPEAKER_01] (93:41.6 - 93:46.2): What we're seeing is that grounding it in our own retail data, including our response data,
+[SPEAKER_01] (93:46.6 - 93:57.3):  We're opening up the transformation from a simple keyword search like Blue Toaster to what I was going to say was getting a dorm room on a budget, but I'm Beth, help me with my house.
+[SPEAKER_01] (93:58.2 - 94:10.2):  Not only does that mean we can solve more customer missions more intuitively, it means that we can do it without creating internal overhead, which creates the opportunity for experiences at a whole other level.
+[SPEAKER_01] (94:10.8 - 94:19.9):  So thinking about how Vertex powers Gemini for customer experience, which you can all go away and Google, we're thinking about bringing those things together.
+[SPEAKER_01] (94:20.0 - 94:22.0): And here's what we're thinking it might look like.
+[SPEAKER_01] (94:22.7 - 94:24.6): So we know that Kmart
+[SPEAKER_01] (94:25.5 - 94:26.9):  Sorry, customers are evolving.
+[SPEAKER_01] (94:27.4 - 94:33.7): We know that we've always won on value, but we know that customers are moving beyond value.
+[SPEAKER_01] (94:34.1 - 94:36.0): They want things easy and they want it now.
+[SPEAKER_01] (94:36.6 - 94:38.6): So this customer wants an outfit.
+[SPEAKER_01] (94:39.4 - 94:40.3):  And we want to help.
+[SPEAKER_01] (94:41.5 - 94:47.5): So we're building an increasingly unique and relevant connection point with each and every customer.
+[SPEAKER_01] (94:48.4 - 94:51.4): Ultimately, you can see here a seamless journey where.
+[SPEAKER_01] (94:52.6 - 95:06.0):  The suggestion that's come back isn't on point, it's wildly off point, but we're able to provide an experience ultimately that delivers seamlessness in terms of the next best action for that customer.
+[SPEAKER_01] (95:07.3 - 95:11.9):  including not just the specific product, but the outfit and ultimately the solution.
+[SPEAKER_01] (95:13.0 - 95:15.6): At its core, we exist to make everyday living brighter.
+[SPEAKER_01] (95:16.0 - 95:17.7): Everyday is becoming more digital.
+[SPEAKER_01] (95:18.2 - 95:28.1):  and we see the conversion of this technology and the delivery of these experiences making sure that we stand in good stead to maintain our purpose into the future.
+[SPEAKER_01] (95:29.2 - 95:32.4): So what you can see here is the application of Vertex.
+[SPEAKER_01] (95:33.2 - 95:36.9):  And what we're seeing is a story of precision for purchase.
+[SPEAKER_01] (95:37.5 - 95:44.5): Now, what we've found is that the more specific a customer becomes, the more powerful Vertex becomes.
+[SPEAKER_01] (95:45.0 - 95:47.8): The more complex and the more complexity we introduce,
+[SPEAKER_01] (95:48.3 - 95:53.0):  the better customer results we can deliver, because the better Vertex performs.
+[SPEAKER_01] (95:53.5 - 95:56.0): So when customers get really specific,
+[SPEAKER_01] (95:56.4 - 96:00.9):  And I think, I don't know if Pedro Steele will be here, but I've stolen, this is the best consulting chart of the day.
+[SPEAKER_01] (96:02.0 - 96:08.9): When customers get more specific, so when they're looking, when they're in journey mode and they're entering 10 or more words,
+[SPEAKER_01] (96:09.4 - 96:16.8):  We see that Google's vertex outperformed by more than 300%, which is truly transformational.
+[SPEAKER_01] (96:18.0 - 96:24.7):  I think the one thing in terms of the way we're thinking about things, there's so much opportunity, there's so much innovation.
+[SPEAKER_01] (96:24.8 - 96:29.3): For us, it's all about bringing it back to our purpose and hopefully everything you've seen today
+[SPEAKER_01] (96:29.8 - 96:34.4):  You can see that being anchored to and ultimately brought to life and enabled by technology.
+[SPEAKER_01] (96:34.4 - 96:37.9): AI shouldn't exist for its own sake, obviously.
+[SPEAKER_01] (96:38.8 - 96:52.6):  Our low prices ultimately are an output of high efficiency, and what you've seen and will continue to see from us is using Agentech as a key way to make sure we can continue to be the home of low prices, and that those prices can stay low.
+[SPEAKER_01] (96:53.1 - 96:53.6):  for life.
+[SPEAKER_01] (96:54.2 - 96:57.0): So we're thoroughly enjoying partnering with Google.
+[SPEAKER_01] (96:57.6 - 97:03.3): We're really leveraging the integration of the AI architecture to move with speed to fulfill our purpose.
+[SPEAKER_01] (97:04.2 - 97:09.6):  ultimately all about making everyday living brighter for our customers and for our team members.
+[SPEAKER_01] (97:10.2 - 97:12.8): We're not looking back and neither should any of you.
+[SPEAKER_01] (97:13.4 - 97:14.2): Thank you for your time.
+[UNKNOWN] (97:20.7 - 97:21.9):  That was amazing.
+[SPEAKER_04] (97:23.1 - 97:29.1): I've obviously known of the Kmart story, but seeing the statistics and numbers of what we've achieved on a big screen.
+[SPEAKER_04] (97:32.6 - 97:33.1):  as well.
+[SPEAKER_04] (97:35.1 - 97:41.4): So moving on to now we're going to show you how to transform legacy systems in the energy market.
+[SPEAKER_04] (97:41.7 - 97:47.2):  I know everyone probably paid a lot for petrol getting here, so any savings we can get in real life right now is pretty good.
+[SPEAKER_04] (97:47.3 - 97:50.2): So please welcome Roger Barnes from Tally Group to present.
+[SPEAKER_03] (97:56.8 - 97:57.6):  Alright.
+[SPEAKER_03] (97:57.9 - 97:58.7): Morning, everybody.
+[SPEAKER_03] (97:58.7 - 98:02.4): Firstly, thank you for letting me come and talk to you about what we're doing.
+[SPEAKER_03] (98:02.9 - 98:04.8): As introduced, I'm Roger Ryan, the Chief Product Officer.
+[SPEAKER_03] (98:05.5 - 98:19.2):  What we do at Tally is we build software solutions for energy retailers, starting in Australia, but now globally, to the platforms that underpin energy billing, digital customer experience, customer management.
+[SPEAKER_03] (98:20.0 - 98:20.4):  solutions.
+[SPEAKER_03] (98:20.4 - 98:26.8): So there's a pretty good chance you haven't heard of us, there's a pretty good chance that you have or are current customers of some of the retailers that we provide.
+[SPEAKER_03] (98:27.4 - 98:33.1):  Okay, so I'm going to frame what we, the space within which we work to start off with, and I'm going to walk through a little bit around what we've done.
+[SPEAKER_03] (98:33.2 - 98:34.7): It's amazing, the presentation so far.
+[SPEAKER_03] (98:34.7 - 98:38.5): Thank you for talking about data, because that's absolutely crucial for the space in which we play.
+[SPEAKER_03] (98:38.5 - 98:39.9): We could build all kinds of cool tools.
+[SPEAKER_03] (98:40.3 - 98:48.3):  But actually, if they're not grounded on really strong data sets and the ability to pull those through quickly, they're absolutely useless in an industry that is so heavily regulated.
+[SPEAKER_03] (98:48.5 - 98:52.4): Because what you'll get is you'll get small benefit and a massive fine, but more than offset the benefits.
+[SPEAKER_03] (98:52.8 - 98:54.8):  So we work in that highly regulated space.
+[SPEAKER_03] (98:54.9 - 98:59.8): So access to data, ability to have access to accurate data within a timely manner is crucial to what we do.
+[SPEAKER_03] (99:00.7 - 99:02.7): So we've done a few short polls this morning.
+[SPEAKER_03] (99:02.8 - 99:03.8): We'll do another one.
+[SPEAKER_03] (99:04.5 - 99:07.1): How many of you look forward to an engagement with your energy retailer?
+[SPEAKER_03] (99:10.0 - 99:11.1):  One more than I expected.
+[SPEAKER_03] (99:11.1 - 99:11.5): That's pretty good.
+[SPEAKER_03] (99:11.5 - 99:12.5): Do you work for an injury dealer?
+[SPEAKER_03] (99:14.2 - 99:19.7): How many of you actively despise or have actively despised an engagement with your ex?
+[SPEAKER_03] (99:23.1 - 99:26.3):  It's depressing every time, but that's the market within which we operate.
+[SPEAKER_03] (99:26.6 - 99:27.3): So that's our starting point.
+[SPEAKER_03] (99:27.9 - 99:28.6):  And that's the reality.
+[SPEAKER_03] (99:28.7 - 99:29.8): It's a gross purchase.
+[SPEAKER_03] (99:30.1 - 99:31.5): It's a gross purchase that's complicated.
+[SPEAKER_03] (99:31.8 - 99:34.4): It's a gross purchase where prices only really seem to go one way.
+[SPEAKER_03] (99:34.6 - 99:37.1): And the benefit we're getting from the retail was all that price.
+[SPEAKER_03] (99:39.8 - 99:40.1):  Why?
+[SPEAKER_03] (99:40.5 - 99:47.2): So a little bit in defence of retailers, how energy retail, particularly in Australia, is wildly complicated.
+[SPEAKER_03] (99:48.2 - 99:59.0):  So there's obviously the data around usage, but there's a massive amount of other things like compliance and hardship obligations and concessions, and a whole heap of things go into the creation of an energy bill and the explaining of that energy bill.
+[SPEAKER_03] (99:59.5 - 100:04.7):  But even more than that is the regulatory and compliance risk and obligation, particularly in the Australian market.
+[SPEAKER_03] (100:04.8 - 100:11.8): We're probably the most regulated market in the world, and whilst all those regulations and changes have been incredibly well-meaning,
+[SPEAKER_03] (100:12.3 - 100:19.6):  In terms of how they started off, what they've resulted on is a huge blow on our bill for, at times, questionable customer outcomes and customer benefits.
+[SPEAKER_03] (100:19.8 - 100:21.7): But we keep layering regulation on regulation.
+[SPEAKER_03] (100:22.0 - 100:28.9):  which means retailers have to obviously oblige with those regulations, because otherwise, if you're vaulting it in the news, they get incredibly hefty fines.
+[SPEAKER_03] (100:29.4 - 100:31.4): And those, of course, end up back on our bills.
+[SPEAKER_03] (100:33.3 - 100:35.4):  Retailers have largely tried to balance this model.
+[SPEAKER_03] (100:35.4 - 100:38.2): So we've had customer experience, and we've had cost to serve.
+[SPEAKER_03] (100:38.6 - 100:41.7): And traditionally, for a retailer to improve one, they sacrifice the other.
+[SPEAKER_03] (100:42.0 - 100:47.9): Now, of course, if you talk to a retailer, they'll tell you that's not true, and they'll point to point examples, and those point examples will be valid.
+[SPEAKER_03] (100:48.2 - 101:01.6):  But on the whole, you know, energy retailers in the market, there's ones that are cheap and cheerful, you'll get a cheaper price, and there's ones that will give you a slightly more personalised experience, and on the whole, you'll pay a little bit more, and you're really dancing around the edges, not very much in both of those directions as well.
+[SPEAKER_03] (101:02.0 - 101:04.0):  You are looking at a trade-off across those cities.
+[SPEAKER_03] (101:04.4 - 101:06.5): And that's the legacy market.
+[SPEAKER_03] (101:06.9 - 101:14.3): Take to that what we know is happening today increasingly and what is obviously going to happen more and more with the integration of renewables into that environment.
+[SPEAKER_03] (101:15.0 - 101:20.3):  So you've bought an EV, you've bought solar panels, you've invested $15,000 in a solar battery array.
+[SPEAKER_03] (101:20.7 - 101:24.4): As an energy customer, your expectations of your energy retail are just increased.
+[SPEAKER_03] (101:29.7 - 101:39.5):  start off with, that then becomes exacerbated by the fact that you've invested in getting good outcomes from your energy, and you expect the retailer to help you deliver those and realize those, which is fair enough.
+[SPEAKER_03] (101:40.0 - 101:42.6):  But those have just exacerbated the data problem as well.
+[SPEAKER_03] (101:43.2 - 101:46.0): I talked about a massive amount of data that retailers had to understand.
+[SPEAKER_03] (101:46.0 - 101:53.1): Well, that massive amount of data has just increased by an order of magnitude, because all of these devices, all of these things that you integrate into your environment,
+[SPEAKER_03] (101:53.6 - 101:55.8):  at layer upon layer of data that has to be analyzed.
+[SPEAKER_03] (101:56.3 - 102:01.7):  So when your bill's high, the five things without 1,000 data points is now 50 things without 10,000 data points.
+[SPEAKER_03] (102:02.3 - 102:05.3): And all of those things have to be analysed, and you can't guess with the answers.
+[SPEAKER_03] (102:05.6 - 102:08.7): So if you're the poor course iteration on the other side of that conversation,
+[SPEAKER_03] (102:09.0 - 102:12.1):  You probably isn't doing your life's work, and I used to work at a call centre.
+[SPEAKER_03] (102:12.2 - 102:15.0): It wasn't my objective in life at that point in time.
+[SPEAKER_03] (102:15.0 - 102:16.8): You're faced with a really difficult challenge.
+[SPEAKER_03] (102:17.3 - 102:20.7): You're analysing tens of thousands of data points over multiple screens
+[SPEAKER_03] (102:21.0 - 102:21.3):  usually.
+[SPEAKER_03] (102:21.3 - 102:24.5): You've got a customer who's called up because, let's be honest, they have taste off.
+[SPEAKER_03] (102:26.4 - 102:28.0):  that puts you right on the back foot.
+[SPEAKER_03] (102:28.4 - 102:28.9): That's tough.
+[SPEAKER_03] (102:30.1 - 102:36.6): So, what we're trying to do at Tally, obviously, our RMO offers, we've only been in the market about 10 years, but we've obviously had some
+[SPEAKER_03] (102:39.4 - 102:43.7):  is it being able to support renewable products and the building of those renewable products as they hit the market.
+[SPEAKER_03] (102:44.5 - 102:48.7): And the other is helping energy retailers to move towards this AI-native position.
+[SPEAKER_03] (102:48.7 - 102:51.2): Before that, it was to be able to use data to improve customer
+[SPEAKER_03] (102:51.3 - 102:54.7):  customer experience and reduced cost to serve at the same time.
+[SPEAKER_03] (102:55.2 - 102:56.3): So how are we doing that now?
+[SPEAKER_03] (102:56.3 - 103:01.8): How are we doing that with the help of the Google team leveraging some of the tools and services that you've seen as we've been going today?
+[SPEAKER_03] (103:03.0 - 103:14.9):  And it comes back to, we're going to go back to data again, it comes back to being able to get our data in one place, in a way that could be understood by our models, and then being able to apply the AI on top of that, multiple different
+[SPEAKER_03] (103:18.3 - 103:25.3):  But they all have to anchor to that data and the availability and accessibility and low latency, crucially, of that data for our scenarios.
+[SPEAKER_03] (103:25.8 - 103:27.0): And then the action on the top.
+[SPEAKER_03] (103:27.1 - 103:31.0): And sometimes that action stops at helping a call center agent by helping them do their job better.
+[SPEAKER_03] (103:31.3 - 103:32.5): Sometimes it goes all the way through.
+[SPEAKER_03] (103:36.4 - 103:46.1):  to changing my thermostat temperature, for example, and just saving me money, because I've given permission for that action to be taken on my behalf without me having to be consulted in readymaking or one or two brief shifts.
+[SPEAKER_03] (103:46.7 - 103:49.8): But all of that needs to happen to underpin the answers for a really serious
+[SPEAKER_03] (103:52.5 - 103:54.0):  Which is, why is my bill high?
+[SPEAKER_03] (103:56.7 - 104:07.9):  So, that data superabundance I spoke about, we've got billing data, we've got weather data, we've got compliance data, we've got our own AI and machine learning models that we've been building for years, we've got market data and another dozen data sources.
+[SPEAKER_03] (104:08.8 - 104:15.2):  Then with the DER asset data, the distributed energy resource, the batteries, the solar panels, the EVs, data layered over the top.
+[SPEAKER_03] (104:20.1 - 104:25.0):  semantic data model, this is where, and back to your point, this is where the partnership has been incredibly powerful for us.
+[SPEAKER_03] (104:25.3 - 104:27.4): Because without getting that data layer in place,
+[SPEAKER_03] (104:27.7 - 104:30.7):  We really couldn't take advantage of the AI capability.
+[SPEAKER_03] (104:30.8 - 104:35.7): Now we can internally, we of course use it internally to drive a lot of our comms, our platform, all those type of things.
+[SPEAKER_03] (104:36.1 - 104:42.4):  We can't expose it to end customers until we're rock solid sure that it's giving a better situation to those customers than it is today.
+[SPEAKER_03] (104:42.6 - 104:47.0): Because otherwise, small benefit, massive fine, offset, retailers just can't take advantage of that.
+[SPEAKER_03] (104:47.7 - 104:56.2):  So pulling that data into a layer that we can access quickly, and then leveraging Google's AI services over the top with that multi-agent architecture.
+[SPEAKER_03] (104:56.6 - 104:59.5):  And we're using that right now to deliver a variety of outcomes.
+[SPEAKER_03] (104:59.8 - 105:01.8): And these are all things I'm talking about in the market at the moment.
+[SPEAKER_03] (105:01.8 - 105:05.1): So our AQM agents, our Automated Quality Management agents.
+[SPEAKER_03] (105:05.1 - 105:08.5): So I've talked a few times about compliance and compliance obligations.
+[SPEAKER_03] (105:09.1 - 105:20.5):  Well, actually, you know what, rather than having, and this is a real thing that happens, every time you ask for a disconnection on a call center with a retailer right now, they'll have a team who reviews that call, manually reviews that call, the next day.
+[SPEAKER_03] (105:21.1 - 105:27.1):  because the cost of compliance, by putting in the wrong date, when you said the 30th, and I entered the 13th, that's a wrongful disconnection.
+[SPEAKER_03] (105:27.8 - 105:29.7): Every retailer has had millions of dollars of clients.
+[SPEAKER_03] (105:38.3 - 105:50.6):  fully replaced with an AI service that performs better it is orders of magnitude cheaper that's a massive way then move across into digital channels so the example I gave you on the top of my axis will be where I come from
+[SPEAKER_03] (105:51.0 - 105:53.6):  I'm from probably a little bit further north than most of you would guess, I'm from Aberdeen.
+[SPEAKER_03] (105:54.3 - 105:57.7): So Aberdeen is bloody cold, so when it gets hot in Melbourne
+[SPEAKER_03] (106:03.1 - 106:11.6):  And I'm essentially useless, and I get then slumped with a big bill, because my air conditioning goes on, and it doesn't come off until the temperature's back at a civilized 18 or 19 degrees.
+[SPEAKER_03] (106:15.1 - 106:24.2):  I find this out at the end of the month with a high bill, but actually, you know what, and this is what we're doing now, is what would be far more useful than that is, tell me, hey Roger, it's going to be 40 degrees this weekend.
+[SPEAKER_03] (106:25.0 - 106:29.7):  When it's 40 degrees, you usually spend $20 more on your energy, because you were in the right condition.
+[SPEAKER_03] (106:30.1 - 106:34.1): Did you know if you change your thermostat temperature by 2 degrees, you get half that?
+[SPEAKER_03] (106:35.0 - 106:35.5):  That's massive.
+[SPEAKER_03] (106:35.6 - 106:37.0): That's valuable for me as an individual.
+[SPEAKER_03] (106:37.4 - 106:40.3): It's also super valuable for somebody who might be close to dropping in the budget.
+[SPEAKER_03] (106:40.7 - 106:42.5): So it's valuable at a social level as well.
+[SPEAKER_03] (106:42.5 - 106:46.8): So it steps beyond just spending more to being able to prevent people from falling into financial difficulty.
+[SPEAKER_03] (106:47.1 - 106:49.2): Back to that point around energy being a massive cost.
+[SPEAKER_03] (106:50.4 - 106:54.9):  And then the final one, right back to our engagement with energy retailers, is the call center agents.
+[SPEAKER_03] (106:55.1 - 106:59.0): Those call center agents who, let's be honest, have a pretty hard time today.
+[SPEAKER_03] (106:59.9 - 107:01.9):  So I'm going to bring up an example.
+[SPEAKER_03] (107:02.3 - 107:04.5): And this example is a real coal.
+[SPEAKER_03] (107:04.6 - 107:05.5): So this is a high-built coal.
+[SPEAKER_03] (107:05.9 - 107:08.3): High-built coals represent a huge proportion.
+[SPEAKER_03] (107:08.7 - 107:14.7):  Of course, when you reach out, there's anywhere between 30% and 50% of inbound calls that are received about their bills, depending on the season.
+[SPEAKER_03] (107:15.5 - 107:16.9): And those calls, and this is real.
+[SPEAKER_03] (107:17.3 - 107:20.2):  have an average handling time of between 15 and 20 minutes.
+[SPEAKER_03] (107:20.6 - 107:22.0): That's once you get through the kit.
+[SPEAKER_03] (107:22.3 - 107:24.5): So just put yourself in a business position.
+[SPEAKER_03] (107:24.5 - 107:27.6): I pull up, my bills die, I'm pulling up, I'm already annoyed.
+[SPEAKER_03] (107:28.1 - 107:30.6): I don't have to wait, I don't have to go through the IVR and all that kind of nonsense.
+[SPEAKER_03] (107:40.2 - 107:51.1):  why my bills high and then try and talk me off the ledge and explain why that bills high without me and the reality that in a competitive market like this, giving up halfway through that process and moving to another picture.
+[SPEAKER_03] (107:52.1 - 107:52.9): And that's what happens.
+[SPEAKER_03] (107:54.3 - 107:56.5):  Complex call, we've re-recorded a real call here.
+[SPEAKER_03] (107:56.7 - 107:57.8): This is a real call.
+[SPEAKER_03] (107:57.8 - 108:02.0): This call in a traditional sense of a retailer was just under 20 minutes.
+[SPEAKER_03] (108:02.0 - 108:08.7): It was an 18 and a half minute call and it took almost 12 minutes for the agent to work out the three reasons for this high bill.
+[SPEAKER_04] (108:12.7 - 108:14.6):  Hello, I'm Barbara from Energy Corp.
+[SPEAKER_04] (108:14.7 - 108:15.7): How may I help you?
+[SPEAKER_00] (108:16.9 - 108:17.2):  Okay, so
+[SPEAKER_03] (108:33.9 - 108:38.9):  So exact same scenario, what you're looking at here is our landing screen.
+[SPEAKER_03] (108:38.9 - 108:42.9): This is where the call center agent, the person talking to you on the other end of the phone, starts their journey.
+[SPEAKER_03] (108:43.3 - 108:45.8): In a traditional call, this type of scenario,
+[SPEAKER_03] (108:47.8 - 108:51.8):  multiple screens, multiple data points to try and find a reason for your hype.
+[SPEAKER_03] (108:52.3 - 108:53.4): Keep an eye on the right-hand side.
+[SPEAKER_03] (108:53.6 - 108:54.1): That's Adora.
+[SPEAKER_03] (108:54.1 - 108:55.5): It's what we call our AI services.
+[SPEAKER_03] (108:55.5 - 108:59.6): They're all powered by Google's technologies, and it's all underpinned by the data that I spoke about.
+[SPEAKER_00] (109:01.4 - 109:03.4):  So I'll be able to help you with that.
+[SPEAKER_04] (109:05.8 - 109:11.9): The main reason for the increase amount is your previous bill received $75 government credit.
+[SPEAKER_03] (109:14.7 - 109:15.7):  There's actually three reasons.
+[SPEAKER_03] (109:15.8 - 109:17.8): I said this was complex, there's three reasons that I built.
+[SPEAKER_03] (109:18.4 - 109:22.4): It took 12 minutes to establish those three reasons without AI.
+[SPEAKER_03] (109:22.6 - 109:24.1): It took us about 30 to 40 seconds with AI.
+[SPEAKER_03] (109:26.6 - 109:29.7):  So that shows it better than I can explain it in terms of the benefit we're getting.
+[SPEAKER_03] (109:30.7 - 109:32.1): So that is enormous.
+[SPEAKER_03] (109:32.5 - 109:33.2): It's high quality.
+[SPEAKER_03] (109:37.1 - 109:46.8):  So the reason is established in the real version of this poll where it played on legacy, the corporate version actually only adopted two of them and it took 12 minutes not 40 seconds.
+[SPEAKER_03] (109:47.7 - 109:51.1):  That's the kind of improvements that we're talking about and the kind of benefit that we see.
+[SPEAKER_03] (109:51.5 - 109:58.5): So it is genuinely helping us to help our customers, which is the resellers, which in the end, of course, helps all of us as energy customers.
+[SPEAKER_03] (110:02.7 - 110:08.7):  which is not just keeping bills down but it's supporting the renewable transformation and all the things that we have to do off the back of that.
+[SPEAKER_03] (110:08.8 - 110:12.8): We're far more able to do that when you've got a good relationship with your reseller and you know that you can make
+[SPEAKER_03] (110:15.7 - 110:18.2):  And you'll be able to take advantage of those elements as well.
+[SPEAKER_03] (110:18.6 - 110:19.4): And that's what we're able to do.
+[SPEAKER_03] (110:19.4 - 110:20.9): So I won't go through all of the things.
+[SPEAKER_03] (110:20.9 - 110:22.3): I'll probably be fairly tight on time.
+[SPEAKER_03] (110:22.3 - 110:23.9): Legitimate measurements.
+[SPEAKER_03] (110:24.1 - 110:25.2): I mean, you can see that for yourself.
+[SPEAKER_03] (110:25.2 - 110:29.9): It doesn't take particularly complicated maths to work out the value of what I just showed you on the pole-centered side.
+[SPEAKER_03] (110:35.5 - 110:36.8):  that's even more valuable.
+[SPEAKER_03] (110:37.2 - 110:40.8): And then the massive one on failure prevention, that's just legitimate.
+[SPEAKER_03] (110:40.8 - 110:49.9): You know, the industry that is so heavily regulated and so heavily fined, being able to automate all of those checks, improves compliance outcomes, and at the same time massively reduces
+[SPEAKER_03] (110:51.6 - 110:53.2):  a huge portion of our energy.
+[SPEAKER_03] (110:54.3 - 110:55.8): So we're all energy customers.
+[SPEAKER_03] (110:55.9 - 110:58.0): We all think about efficiency when we're buying items.
+[SPEAKER_03] (110:58.5 - 111:03.7): And really, and I'll work with Google for this, we're trying to drive the efficiency from the other side.
+[SPEAKER_03] (111:04.2 - 111:14.0):  So drive that efficiency that lets retailers support all of us better, so we can make the changes that we need, both for ourselves at a personal level, but also at that wider level in the growth of renewables.
+[SPEAKER_03] (111:15.1 - 111:16.3):  I'll put it out there now.
+[SPEAKER_03] (111:16.5 - 111:23.4): I very much hope that if any of us meets again in 12 months' time, we can have a very different conversation about how your interactions go with your energy retailer.
+[SPEAKER_03] (111:24.0 - 111:24.9): And I'll leave it there.
+[SPEAKER_03] (111:25.0 - 111:25.2): Thank you.
+[SPEAKER_00] (111:35.0 - 111:40.9):  accent as a Scottish person but I agree Erich Hahn saves me in that way.
+[SPEAKER_04] (111:41.8 - 111:42.3):  Thank you.
+[SPEAKER_04] (111:43.0 - 111:50.0): So exciting to see how Tally has, especially, what was the number, the cost to serve reduction?
+[SPEAKER_04] (111:50.1 - 111:52.1): Insane.
+[SPEAKER_04] (111:52.4 - 111:55.0): Thank you so much for sharing that with us today.
+[SPEAKER_04] (111:56.5 - 111:57.7):  So as we wrap up.
+[SPEAKER_04] (111:58.9 - 112:02.8):  I encourage you to think back to the travel agent metaphor we used at the start.
+[SPEAKER_04] (112:03.0 - 112:09.6): And so hopefully from today, you've seen how agent advantage isn't just a lucky one prompt.
+[SPEAKER_04] (112:10.0 - 112:11.6): It's not a one-off demo.
+[SPEAKER_04] (112:14.2 - 112:16.6):  source, the foundation, and the agency.
+[SPEAKER_04] (112:17.1 - 112:25.4): We have a fully integrated platform enabling your AI genetic journey that I hope you're super excited about moving forward in today.
+[SPEAKER_04] (112:28.3 - 112:36.2):  One last thing I would like to ask, and I'm staring at you all so I can see if you're going to do this or not, is to scan the QR code.
+[SPEAKER_04] (112:36.7 - 112:39.4): As my manager says to me all the time, feedback is a gift.
+[SPEAKER_04] (112:40.7 - 112:48.0):  And so we'd love to hear back from you what you liked, what you liked hearing, how Pedro's accent was, would be a really good feedback point, I think.
+[SPEAKER_04] (112:48.6 - 112:55.8):  And if you'd like anything to be followed up on from today, look, I can see so many of you without the phone.
+[SPEAKER_04] (112:55.9 - 113:01.6): So I'll give you a minute to fill in the feedback, and I'll come back to you.
+[UNKNOWN] (113:09.0 - 113:09.1):  Yeah.
+[UNKNOWN] (114:01.4 - 114:01.6):  so
+[SPEAKER_04] (114:44.5 - 114:45.7):  Okay, thank you everyone.
+[SPEAKER_00] (114:59.9 - 115:00.2):  Oh, no.
+[SPEAKER_04] (115:01.2 - 115:03.1):  So anyway, thank you everyone for coming.
+[SPEAKER_04] (115:03.2 - 115:09.2): It's not lost on us that you've taken time out from your day, from your work, to make the effort to come here today.
+[SPEAKER_04] (115:09.2 - 115:10.2): I hope it was valuable.
+[SPEAKER_04] (115:11.4 - 115:15.8): But that is a wrap on the agent advantage for today, and we'll see you in April for our security.
+[SPEAKER_04] (115:16.1 - 115:16.8):  Thank you.
+[UNKNOWN] (115:27.7 - 115:29.8):  Are you going back to the office?
+[SPEAKER_00] (115:43.3 - 115:44.7):  I'm going to get everything.
+[UNKNOWN] (115:57.4 - 115:58.1):  It's really great.
