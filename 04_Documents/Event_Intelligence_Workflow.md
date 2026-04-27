@@ -91,7 +91,7 @@ NotebookLM generates three outputs from the same source:
 | NotebookLM | Learning material generation | Converts structured text into podcast, video, and infographic |
 
 **Why not transcribe directly in NotebookLM?**  
-NotebookLM accepts audio uploads but does not perform speaker diarisation — it cannot tell you who said what. Routing through WhisperX first produces speaker-labelled output, which gives Claude (and therefore NotebookLM) the context it needs to structure content accurately by presenter.
+NotebookLM accepts audio uploads and transcribes them automatically — but it does not perform speaker diarisation. It cannot tell you who said what. Routing through WhisperX first produces speaker-labelled output, which gives Claude (and therefore NotebookLM) the context it needs to structure content accurately by presenter.
 
 **Why summarise with Claude before NotebookLM?**  
 Feeding a raw 2-hour transcript directly into NotebookLM risks hallucination and loss of structure. The Claude summary step compresses and structures the content first — giving NotebookLM a clean, well-organised source document that maps directly to the seminar's actual flow.
@@ -162,7 +162,7 @@ All outputs below were generated from a single phone recording of the Google Clo
 | Speaker-labelled transcript | TXT | WhisperX GPU pipeline |
 | Timestamped transcript | CSV | WhisperX GPU pipeline |
 | Structured summary | MD | Claude |
-| Podcast | Audio (MP3) | NotebookLM |
+| Podcast | M4A | NotebookLM |
 | Video presentation | MP4 | NotebookLM |
 | Infographic | PNG | NotebookLM |
 
