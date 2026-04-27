@@ -24,9 +24,8 @@ The result: investigators got reliable, speaker-labelled transcripts at scale, w
 
 - [The Workplace Build — Scripts 01–03](#the-workplace-build--scripts-0103)
 - [Use It Yourself — Scripts 04–06](#use-it-yourself--scripts-0406)
-- [A Real Use Case](#a-real-use-case)
 - [GPU Build](#gpu-build)
-- [Stack & Dependencies](#stack--dependencies)
+- [A Real Use Case](#a-real-use-case)
 - [Repo Structure](#repo-structure)
 
 ---
@@ -112,24 +111,7 @@ A test recording is included in `02_Audio/JFK_Test/` so you can verify your setu
 
 **`05_save_whisperx_result.R`** is an emergency save script. If the pipeline completes transcription but fails at the save step, run this script to recover the result from your R environment without re-transcribing.
 
-📄 **[Full setup and usage guide →](01_Documents/SOP_WhisperX_Standard_Build.md)** *(coming soon)*
-
----
-
-<br>
-
-## A Real Use Case
-
-I attended a Google Agentic AI seminar and wanted to make sure I actually retained what I learned — not just in the moment, but over time. Here's the workflow I used:
-
-1. **Recorded** the seminar audio on my phone
-2. **Transcribed** the recording using this pipeline — speaker-labelled, timestamped, ready to work with
-3. **Summarised** the transcript using Claude, grouping key topics and insights by speaker
-4. **Created** a NotebookLM podcast and video presentation from the summary for ongoing review
-
-The result was a structured, searchable record of the seminar that I could revisit repeatedly — far more useful than notes taken in the moment or a raw audio file sitting on my phone.
-
-This is the kind of workflow this pipeline enables beyond the workplace: any recorded conversation, interview, meeting, or event becomes a structured, reviewable knowledge asset with minimal effort.
+📄 **[Full setup and usage guide →](04_Documents/Standard_Build_Guide.md)**
 
 ---
 
@@ -149,7 +131,24 @@ Performance comparison on an NVIDIA RTX 3060:
 
 For context: a one-hour recording that takes approximately 1 hour 45 minutes on CPU completes in around 10 minutes on GPU.
 
-📄 **[GPU setup guide →](01_Documents/Setup_Guide_GPU_Build.md)** *(coming soon)*
+📄 **[GPU setup guide →](04_Documents/GPU_Build_Guide.md)**
+
+---
+
+<br>
+
+## A Real Use Case
+
+I attended a Google Agentic AI seminar and wanted to make sure I actually retained what I learned — not just in the moment, but over time. Here's the workflow I used:
+
+1. **Recorded** the seminar audio on my phone
+2. **Transcribed** the recording using this pipeline — speaker-labelled, timestamped, ready to work with
+3. **Summarised** the transcript using Claude, grouping key topics and insights by speaker
+4. **Created** a NotebookLM podcast and video presentation from the summary for ongoing review
+
+The result was a structured, searchable record of the seminar that I could revisit repeatedly — far more useful than notes taken in the moment or a raw audio file sitting on my phone.
+
+This is the kind of workflow this pipeline enables beyond the workplace: any recorded conversation, interview, meeting, or event becomes a structured, reviewable knowledge asset with minimal effort.
 
 ---
 
