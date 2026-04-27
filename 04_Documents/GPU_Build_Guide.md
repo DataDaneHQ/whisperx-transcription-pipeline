@@ -32,7 +32,7 @@ The same browser-based gadget UI from the standard build is used here — the ex
 ## Prerequisites
 
 Before starting:
-- [ ] Standard build working — [SOP WhisperX Standard Build](./SOP_WhisperX_Standard_Build.md)
+- [ ] Standard build working — [WhisperX Standard Build Guide](Standard_Build_Guide.md)
 - [ ] NVIDIA GPU with CUDA support (tested on RTX 3060 Laptop, 6GB VRAM)
 - [ ] NVIDIA driver version 525 or later (CUDA 12.x compatible)
 - [ ] Estimated additional disk space: 1–2GB (GPU environment)
@@ -143,7 +143,7 @@ Testing was conducted on an NVIDIA GeForce RTX 3060 Laptop GPU (6GB VRAM) using 
 
 ## Troubleshooting
 
-For general errors — path issues, audio not found, output save failures, and Hugging Face connectivity — refer to the [Standard Build troubleshooting guide](./SOP_WhisperX_Standard_Build.md#troubleshooting).
+For general errors — path issues, audio not found, output save failures, and Hugging Face connectivity — refer to the [Standard Build troubleshooting guide](Standard_Build_Guide.md#troubleshooting).
 
 **GPU-specific errors:**
 
