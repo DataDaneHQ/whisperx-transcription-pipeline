@@ -167,7 +167,7 @@ All outputs below were generated from a single phone recording of the Google Clo
 | Infographic | PNG | NotebookLM |
 
 Original recording and transcriptions are stored in [`03_Transcribe_Audio/Google Cloud Agentic AI`](../03_Transcribe_Audio/Google Cloud Agentic AI)
-Remaining documents are stored in [`04_Documents`](../04_Documents)
+Remaining documents are stored in [`04_Documents`](Google Agentic AI Seminar)
 
 ---
 
