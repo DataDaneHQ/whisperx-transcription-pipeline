@@ -11,3 +11,6 @@
 03_Transcribe_Audio/processed_files_log.csv
 03_Transcribe_Audio/processed_files_log_gpu.csv
 03_Transcribe_Audio/processed_files_log_standard.csv
+
+# Ignore Google Seminar Recording — exceeds GitHubs 100mb limit
+03_Transcribe_Audio/Google Cloud Agentic AI/Google Cloud Seminar.m4a
