@@ -6,7 +6,7 @@
 
 This is the GPU-accelerated version of the WhisperX transcription pipeline. If you have an NVIDIA GPU, this build will process audio significantly faster than the CPU build — tested at 10.4x faster on an NVIDIA RTX 3060 Laptop.
 
-**Prerequisite:** The [Standard Build](./SOP_WhisperX_Standard_Build.md) must be working before setting up GPU acceleration. This guide assumes you have already completed that setup.
+**Prerequisite:** The [Standard Build](Standard_Build_Guide.md) must be working before setting up GPU acceleration. This guide assumes you have already completed that setup.
 
 **Why a separate build?** RStudio's Python bridge (Reticulate) becomes unstable when managing large GPU memory objects on Windows, causing R session crashes. The GPU pipeline bypasses this by calling Python directly as a standalone process via R's `system()` function — RStudio acts as a configuration panel and launcher, while Python handles all the heavy lifting independently.
 
