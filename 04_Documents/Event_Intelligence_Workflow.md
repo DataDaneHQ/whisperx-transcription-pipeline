@@ -35,11 +35,11 @@ The result: a 1 hour 56 minute seminar became a searchable, reviewable knowledge
 
 ## The Workflow
 
-**Event:** Google Cloud Agentic AI Seminar
-**Date:** 5 March 2026, 0800–1100
-**Location:** Google Office, Australia
-**Format:** MC (Beth) + 5 speakers
-**Duration:** ~1 hour 56 minutes (first hour breakfast and networking, hours 2–3 the seminar itself)
+**Event:** Google Cloud Agentic AI Seminar  
+**Date:** 5 March 2026, 0800–1100  
+**Location:** Google Office, Australia  
+**Format:** MC (Beth) + 5 speakers  
+**Duration:** ~1 hour 56 minutes (first hour breakfast and networking, hours 2–3 the seminar itself)  
 
 ```mermaid
 flowchart LR
@@ -59,19 +59,19 @@ flowchart LR
     style E3 fill:#0f3460,color:#33C7BA,stroke:#33C7BA
 ```
 
-**Step 1 — Record**
+**Step 1 — Record**  
 Audio recorded on a phone during the seminar. No specialist equipment required.
 
-**Step 2 — Transcribe**
+**Step 2 — Transcribe**  
 Audio processed through the WhisperX GPU pipeline — speaker-labelled, timestamped output in TXT and CSV format. A ~2 hour recording processed in a fraction of real time.
 
-**Step 3 — Summarise**
+**Step 3 — Summarise**  
 The CSV transcript fed into Claude with a structured prompt. Output: a detailed, section-based summary grouped by speaker and topic — accurate enough to feed into NotebookLM without hallucinations.
 
-**Step 4 — Ingest**
+**Step 4 — Ingest**  
 The Claude summary uploaded to NotebookLM as the sole source document.
 
-**Step 5 — Generate**
+**Step 5 — Generate**  
 NotebookLM generates three outputs from the same source:
 - A two-person AI podcast for passive listening review
 - A video presentation walkthrough
@@ -90,10 +90,10 @@ NotebookLM generates three outputs from the same source:
 | Claude | Structured summarisation | Handles long transcripts, prompt-controllable output structure |
 | NotebookLM | Learning material generation | Converts structured text into podcast, video, and infographic |
 
-**Why not transcribe directly in NotebookLM?**
+**Why not transcribe directly in NotebookLM?**  
 NotebookLM accepts audio uploads but does not perform speaker diarisation — it cannot tell you who said what. Routing through WhisperX first produces speaker-labelled output, which gives Claude (and therefore NotebookLM) the context it needs to structure content accurately by presenter.
 
-**Why summarise with Claude before NotebookLM?**
+**Why summarise with Claude before NotebookLM?**  
 Feeding a raw 2-hour transcript directly into NotebookLM risks hallucination and loss of structure. The Claude summary step compresses and structures the content first — giving NotebookLM a clean, well-organised source document that maps directly to the seminar's actual flow.
 
 ---
@@ -166,7 +166,8 @@ All outputs below were generated from a single phone recording of the Google Clo
 | Video presentation | MP4 | NotebookLM |
 | Infographic | PNG | NotebookLM |
 
-📁 All outputs are stored in `02_Use_Cases/Google_Agentic_AI_Seminar/`
+Original recording and transcriptions are stored in [`03_Transcribe_Audio/Google Cloud Agentic AI`](../03_Transcribe_Audio/Google Cloud Agentic AI)
+Remaining documents are stored in [`04_Documents`](../04_Documents)
 
 ---
 
