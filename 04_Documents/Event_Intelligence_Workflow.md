@@ -2,18 +2,6 @@
 
 <br>
 
-## Table of Contents
-
-- [Overview](#overview)
-- [The Workflow](#the-workflow)
-- [Tools Used](#tools-used)
-- [The Prompt](#the-prompt)
-- [Outputs](#outputs)
-
----
-
-<br>
-
 ## Overview
 
 Attending a seminar is easy. Retaining what you learned is not.
@@ -28,6 +16,18 @@ Notes taken in the moment are incomplete. Raw audio sits on your phone and never
 - Creates an infographic for quick reference
 
 The result: a 1 hour 56 minute seminar became a searchable, reviewable knowledge asset in multiple formats — built entirely from one audio file recorded on a phone.
+
+---
+
+<br>
+
+## Table of Contents
+
+- [Overview](#overview)
+- [The Workflow](#the-workflow)
+- [Tools Used](#tools-used)
+- [The Prompt](#the-prompt)
+- [Outputs](#outputs)
 
 ---
 

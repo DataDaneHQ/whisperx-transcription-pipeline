@@ -4,7 +4,7 @@
 
 ## Overview
 
-This pipeline was originally built to transcribe over 1,000 sensitive enforcement call recordings — locally, offline, and without any audio leaving the team's infrastructure. The full workplace build and the design decisions behind it are documented in the repository [README](../README.md).
+This pipeline was originally built to transcribe 3,478 sensitive enforcement call recordings across 300 customers — locally, offline, and without any audio leaving the team's infrastructure. The full workplace build and the design decisions behind it are documented in the repository [README](../README.md).
 
 This guide covers the standard build — a portable version of the same pipeline that runs on your own machine for any transcription need where privacy and reliability matter. No SharePoint, no cloud services, no audio sent to third parties.
 
