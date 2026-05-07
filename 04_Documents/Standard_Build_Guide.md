@@ -346,3 +346,5 @@ reticulate::py_install("hf_xet", envname = "whisperx", pip = TRUE)
 ---
 
 <br>
+
+*Built by [Dane Tipene](https://github.com/DataDaneHQ) · Analytics & Automation Engineer*

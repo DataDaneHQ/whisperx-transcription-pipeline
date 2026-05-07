@@ -208,3 +208,5 @@ pip install speechbrain==0.5.16
 ---
 
 <br>
+
+*Built by [Dane Tipene](https://github.com/DataDaneHQ) · Analytics & Automation Engineer*

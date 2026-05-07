@@ -173,4 +173,4 @@ Remaining documents are stored in [`04_Documents`](../04_Documents/Google%20Agen
 
 <br>
 
-*Built by [Dane Tipene](https://github.com/ESC-DataDaneHQ) · Analytics & Automation Engineer*
+*Built by [Dane Tipene](https://github.com/DataDaneHQ) · Analytics & Automation Engineer*
