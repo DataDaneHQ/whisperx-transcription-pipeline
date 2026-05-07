@@ -16,7 +16,7 @@ Their existing tool was Word's built-in speech-to-text. It wasn't built for batc
 - Produces transcripts in multiple formats ready for investigator review
 - Logs every processed file so nothing is transcribed twice
 
-The result: 3,478 calls across 300 customers transcribed — reliably, at scale, with strict privacy maintained throughout. Investigators got speaker-labelled transcripts in the format they needed to filter and prioritise calls efficiently. A final consolidated report, built from a verified master log across all analysts, was delivered to the enforcement team on completion.
+**The result**: 3,478 calls across 300 customers transcribed — reliably, at scale, with strict privacy maintained throughout. Investigators got speaker-labelled transcripts in the format they needed to filter and prioritise calls efficiently. A final consolidated report, built from a verified master log across all analysts, was delivered to the enforcement team on completion.
 
 <br>
 
@@ -64,7 +64,7 @@ WhisperX and all AI models run entirely on local hardware. After the one-time se
 
 **Completion logging — no file is transcribed twice**
 
-Every processed file is logged to a local CSV on completion. On any subsequent run, the pipeline filters out already-processed files before beginning — meaning an analyst can run the script multiple nights in a row without risk of duplicating work.
+Every processed file is logged to a local CSV on completion. On any subsequent run, the pipeline filters out already-processed files before beginning — meaning an analyst can run the script repeatedly over multiple days without risk of duplicating work.
 
 ### Post-Processing & Delivery
 
@@ -75,11 +75,11 @@ Once transcription was complete across all analysts, two additional scripts hand
 A post-processing script connected to SharePoint, recursively traversed all 300 customer folders, and combined each customer's individual transcripts into a single structured Word document — automatically uploaded back to the customer's folder on completion.
 
 Each document followed a consistent structure:
-- Customer file name and metadata
-- Per recording: audio file name, date transcribed, and the full transcript formatted as `SPEAKER | START TIME | END TIME | TEXT`
+- Customer file name and date transcribed
+- Per recording: audio file name and the full transcript formatted as `SPEAKER | START TIME | END TIME | TEXT`
 - All recordings for that customer in sequence
 
-The result: investigators received one clean, structured document in their preferred format per customer rather than dozens of individual transcript files to manage manually.
+**The result**: investigators received one clean, structured document in their preferred format per customer rather than dozens of individual transcript files to manage manually.
 
 **Master log & verification**
 
@@ -207,4 +207,4 @@ whisperx-transcription-pipeline/
 
 <br>
 
-*Built by [Dane Tipene](https://github.com/ESC-DataDaneHQ) · Analytics & Automation Engineer*
+*Built by [Dane Tipene](https://github.com/DataDaneHQ) · Analytics & Automation Engineer*
