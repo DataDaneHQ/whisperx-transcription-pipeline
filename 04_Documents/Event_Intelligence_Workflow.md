@@ -15,7 +15,7 @@ Notes taken in the moment are incomplete. Raw audio sits on your phone and never
 - Generates a two-person podcast and video presentation for repeated, passive review
 - Creates an infographic for quick reference
 
-The result: a 1 hour 56 minute seminar became a searchable, reviewable knowledge asset in multiple formats — built entirely from one audio file recorded on a phone.
+**The result**: a 1 hour 56 minute seminar became a searchable, reviewable knowledge asset in multiple formats — built entirely from one audio file recorded on a phone.
 
 ---
 
