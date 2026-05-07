@@ -4,19 +4,19 @@
 
 ## Overview
 
-An enforcement team had over 1,000 call recordings to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
+An enforcement team had 3,478 call recordings across 300 customers to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
 
 Their existing tool was Word's built-in speech-to-text. It wasn't built for batch processing, produced unreliable output, and couldn't reliably identify who was speaking. A commercial transcription tool was the obvious answer, but procurement takes time, and the organisation's GenAI policy was still catching up with the technology. Neither path was going to move fast enough — and any solution had to operate within existing IT and GenAI policy boundaries. 
 
 **I tested and evaluated options, then built and deployed a pipeline in-house that met every requirement:**
 
-- Batch processes hundreds of audio files automatically — no manual intervention required
+- Batch processes thousands of audio files automatically — no manual intervention required
 - Identifies and labels individual speakers in each recording
 - Runs entirely on local hardware — no audio ever leaves the team's infrastructure
 - Produces transcripts in multiple formats ready for investigator review
 - Logs every processed file so nothing is transcribed twice
 
-The result: investigators got reliable, speaker-labelled transcripts at scale, with strict privacy maintained throughout — giving them exactly what they needed to filter and prioritise calls efficiently.
+The result: 3,478 calls across 300 customers transcribed — reliably, at scale, with strict privacy maintained throughout. Investigators got speaker-labelled transcripts in the format they needed to filter and prioritise calls efficiently. A final consolidated report, built from a verified master log across all analysts, was delivered to the enforcement team on completion.
 
 <br>
 
@@ -50,7 +50,7 @@ The pipeline runs in three scripts:
 
 **Distributed compute across team hardware**
 
-Running 1,000+ calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 19 days of overnight processing. By distributing the workload across the full team — each analyst running the pipeline on their own machine overnight — that timeframe dropped to a fraction.
+Running 3,478 calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 66 days of overnight processing. By distributing the workload across six analyst machines and running the pipeline continuously wherever possible, all 3,478 calls were completed in 7 days with no significant impact on day-to-day computer use. The pipeline was hardened with additional defensive programming to handle edge cases and ensure stability across extended unattended runs.
 
 **Privacy-by-design — analysts never see a single file**
 
@@ -65,6 +65,27 @@ WhisperX and all AI models run entirely on local hardware. After the one-time se
 **Completion logging — no file is transcribed twice**
 
 Every processed file is logged to a local CSV on completion. On any subsequent run, the pipeline filters out already-processed files before beginning — meaning an analyst can run the script multiple nights in a row without risk of duplicating work.
+
+### Post-Processing & Delivery
+
+Once transcription was complete across all analysts, two additional scripts handled consolidation and verification.
+
+**Transcript consolidation — per customer**
+
+A post-processing script connected to SharePoint, recursively traversed all 300 customer folders, and combined each customer's individual transcripts into a single structured Word document — automatically uploaded back to the customer's folder on completion.
+
+Each document followed a consistent structure:
+- Customer file name and metadata
+- Per recording: audio file name, date transcribed, and the full transcript formatted as `SPEAKER | START TIME | END TIME | TEXT`
+- All recordings for that customer in sequence
+
+The result: investigators received one clean, structured document in their preferred format per customer rather than dozens of individual transcript files to manage manually.
+
+**Master log & verification**
+
+Each analyst's `processed_files_log.csv` was collected and combined into a master log. The script checked for duplicates, removed test recordings run before the production run began, and produced a final verified count of all transcribed files — confirming every call had been processed exactly once.
+
+Outputs fed into a final analytical report delivered to the enforcement team.
 
 ### Stack
 
@@ -166,7 +187,12 @@ whisperx-transcription-pipeline/
 │   ├── 03_run_transcription_gadget_helper.R           # Gadget helper — workplace build
 │   ├── 04_transcribe_standard_ui_build.R              # Standard build — local transcription
 │   ├── 05_save_whisperx_result.R                      # Emergency result recovery
-│   └── 06_run_transcription_gadget_helper_standard.R  # Gadget helper — standard build
+│   ├── 06_run_transcription_gadget_helper_standard.R  # Gadget helper — standard build
+│   ├── 07_setup_whisperx_gpu.R                        # GPU build — one-time environment setup
+│   ├── 08_transcribe_audio_gpu.R                      # GPU build — transcription engine
+│   ├── 09_transcribe_gpu.py                           # GPU build — Python transcription script
+│   ├── 10_consolidate_transcripts.R                   # Post-processing — combine transcripts per customer, upload to SharePoint
+│   └── 11_master_log.R                                # Post-processing — combine analyst logs, deduplicate, verify final count
 ├── 02_Audio/
 │   ├── JFK_Test/                                      # 11 second test recording for setup verification
 |   └── Our_Common_Bond_Test/                          # 4:34 min test two person recording
