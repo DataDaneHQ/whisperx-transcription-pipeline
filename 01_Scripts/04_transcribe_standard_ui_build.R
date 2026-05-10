@@ -87,6 +87,7 @@ if (length(audio_files) == 0) {
   cat("============================================================\n")
   cat("✅ All files have already been processed. Nothing to do!\n")
   cat("============================================================\n")
+  stop("Ignore Error — Transcriptions Complete")
 }
 
 
@@ -188,6 +189,23 @@ print(f'Segments transcribed: {len(result[\"segments\"])}')
 whisperx_result <- py$result
 cat("\n✅ Result captured in R environment —", length(whisperx_result$segments), "segments\n\n")
 
+# ── Defensive: skip files with no detected speech ──
+# Logs the file so it isn't retried, cleans up, and moves to the next
+if (length(whisperx_result$segments) == 0) {
+  cat("\n⚠️  No speech detected in:", basename(current_audio), "— skipping\n")
+  
+  new_entry <- tibble(
+    file_name      = basename(current_audio),
+    processed_date = format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
+    file_path      = current_audio
+  )
+  processed_log <- bind_rows(processed_log, new_entry)
+  write.csv(processed_log, log_path, row.names = FALSE)
+  cat("  ✅ Logged:", basename(current_audio), "\n")
+  
+  next
+}
+
 
 # ── Save outputs ──
 json_str <- ifelse(save_json, "True", "False")
@@ -199,10 +217,15 @@ py_run_string(sprintf("
 import os
 import json
 import csv
+import re
 
 os.makedirs('%s', exist_ok=True)
 
-base_name   = 'Transcribed-' + os.path.splitext(os.path.basename('%s'))[0]
+raw_name  = os.path.splitext(os.path.basename('%s'))[0]
+
+# Defensive: sanitise filename to remove special characters that break file paths
+safe_name   = re.sub(r'[^\\w\\-]', '_', raw_name)
+base_name   = 'Transcribed-' + safe_name
 output_base = os.path.join('%s', base_name)
 
 print(f'Saving outputs to: {output_base}')

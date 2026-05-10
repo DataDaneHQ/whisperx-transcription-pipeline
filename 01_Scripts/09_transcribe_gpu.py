@@ -14,6 +14,7 @@ import sys
 import os
 import json
 import csv
+import re
 import time
 import torch
 import whisperx
@@ -230,7 +231,26 @@ for file_index, (audio_file, output_dir) in enumerate(zip(audio_files, output_di
 # Save outputs
 # ──────────────────────────────────────────────────────────────────────────────
 
-    base_name   = "Transcribed-" + os.path.splitext(os.path.basename(audio_file))[0]
+    # Defensive: skip files with no detected speech
+    # Logs the file so it isn't retried and moves to the next
+    if len(result["segments"]) == 0:
+        print(f"\n⚠️  No speech detected in: {os.path.basename(audio_file)} — skipping")
+        file_exists = os.path.exists(log_path)
+        with open(log_path, "a", newline="", encoding="utf-8") as f:
+            writer = csv_module.DictWriter(f, fieldnames=["file_name", "processed_date"])
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow({
+                "file_name": os.path.basename(audio_file),
+                "processed_date": __import__("datetime").datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            })
+        print(f"  ✅ Logged: {os.path.basename(audio_file)}")
+        continue
+    
+    raw_name    = os.path.splitext(os.path.basename(audio_file))[0]
+    # Defensive: sanitise filename to remove special characters that break file paths
+    safe_name   = re.sub(r'[^\w\-]', '_', raw_name)
+    base_name   = "Transcribed-" + safe_name
     output_base = os.path.join(output_dir, base_name)
 
     print("✅ Transcription complete!")

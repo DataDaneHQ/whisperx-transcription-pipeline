@@ -100,9 +100,9 @@ if (file.exists(log_path)) {
   processed_log <- read.csv(log_path, stringsAsFactors = FALSE)
 } else {
   processed_log <- tibble(
-    file_name      = character(),
-    analyst        = character(),
-    processed_date = character(),
+    file_name       = character(),
+    analyst         = character(),
+    processed_date  = character(),
     sharepoint_path = character()
   )
 }
@@ -115,8 +115,8 @@ cat("Files remaining after skipping already processed:", nrow(audio_df), "\n\n")
 
 if (nrow(audio_df) == 0) {
   cat("============================================================\n")
-  cat("✅ All files have already been processed. Contact the Pipeline owner!\n")
-  cat("============================================================\n") 
+  cat("✅ All files have already been processed. Contact the pipeline owner!\n")
+  cat("============================================================\n")
   stop("Ignore Error — Transcriptions Complete")
 }
 
@@ -140,6 +140,12 @@ for (i in seq_len(nrow(audio_df))) {
   file_ext   <- tools::file_ext(file_name)
   audio_file <- tempfile(fileext = paste0(".", file_ext)) |> normalizePath(winslash = "/", mustWork = FALSE)
   output_dir <- tempdir() |> normalizePath(winslash = "/", mustWork = FALSE)
+  
+  # ── Defensive: clean any leftover output files from previous iterations ──
+  # Prevents prior iteration outputs from being uploaded alongside the current file
+  old_files <- list.files(output_dir, full.names = TRUE) %>%
+    .[str_detect(., "Transcribed-")]
+  unlink(old_files)
   
   sp_file_path <- paste0(audio_df$folder_path[i], "/", file_name)
   drive$download_file(sp_file_path, dest = audio_file, overwrite = TRUE)
@@ -224,16 +230,35 @@ print(f'Segments transcribed: {len(result[\"segments\"])}')
 ", local_str, hf_token, hf_token, model_size, audio_file, language, language,
   as.character(min_speakers), as.character(max_speakers)))
 
+  
+# ── Defensive: skip files with no detected speech ──
+# Logs the file so it isn't retried, cleans up, and moves to the next
+whisperx_result <- py$result
+
+if (length(whisperx_result$segments) == 0) {
+  cat("\n⚠️  No speech detected in:", file_name, "— skipping\n")
+  
+  new_entry <- tibble(
+    file_name       = file_name,
+    analyst         = analyst_name,
+    processed_date  = format(Sys.time(), "%Y-%m-%d %H:%M:%S"),
+    sharepoint_path = sp_file_path
+  )
+  processed_log <- bind_rows(processed_log, new_entry)
+  write.csv(processed_log, log_path, row.names = FALSE)
+  cat("  ✅ Logged:", file_name, "\n")
+  
+  unlink(audio_file)
+  next
+}
+
 
 # ──────────────────────────────────────────────────────────────────────────────
 # 6️⃣ Save Outputs --------------------------------------------------------
 # ──────────────────────────────────────────────────────────────────────────────
 
-# Capture result
-whisperx_result <- py$result
 cat("\n✅ Result captured —", length(whisperx_result$segments), "segments\n\n")
 
-# Save outputs locally
 json_str <- ifelse(save_json, "True", "False")
 txt_str  <- ifelse(save_txt,  "True", "False")
 srt_str  <- ifelse(save_srt,  "True", "False")
@@ -243,8 +268,13 @@ py_run_string(sprintf("
 import os
 import json
 import csv
+import re
 
-base_name   = 'Transcribed-' + os.path.splitext(os.path.basename('%s'))[0]
+raw_name  = os.path.splitext('%s')[0]
+
+# Defensive: sanitise filename to remove special characters that break file paths
+safe_name = re.sub(r'[^\\w\\-]', '_', raw_name)
+base_name = 'Transcribed-' + safe_name
 output_base = os.path.join('%s', base_name)
 
 print(f'Saving outputs to: {output_base}')
