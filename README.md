@@ -192,7 +192,7 @@ whisperx-transcription-pipeline/
 │   ├── 08_transcribe_audio_gpu.R                      # GPU build — transcription engine
 │   ├── 09_transcribe_gpu.py                           # GPU build — Python transcription script
 │   ├── 10_consolidate_transcripts.R                   # Post-processing — combine transcripts per customer, upload to SharePoint
-│   └── 11_master_log.R                                # Post-processing — combine analyst logs, deduplicate, verify final count
+│   └── 11_complete_processed_log.R                    # Post-processing — combine analyst logs, deduplicate, verify final count
 ├── 02_Audio/
 │   ├── JFK_Test/                                      # 11 second test recording for setup verification
 |   └── Our_Common_Bond_Test/                          # 4:34 min test two person recording
