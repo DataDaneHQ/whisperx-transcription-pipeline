@@ -4,7 +4,7 @@
 
 ## Overview
 
-An enforcement team had 3,478 call recordings across 300 customers to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
+An enforcement team had ~3,500 call recordings across 300 customers to work through for an active investigation. They needed transcripts — fast — so investigators could filter and prioritise which calls to pursue.
 
 Their existing tool was Word's built-in speech-to-text. It wasn't built for batch processing, produced unreliable output, and couldn't reliably identify who was speaking. A commercial transcription tool was the obvious answer, but procurement takes time, and the organisation's GenAI policy was still catching up with the technology. Neither path was going to move fast enough — and any solution had to operate within existing IT and GenAI policy boundaries. 
 
@@ -16,7 +16,7 @@ Their existing tool was Word's built-in speech-to-text. It wasn't built for batc
 - Produces transcripts in multiple formats ready for investigator review
 - Logs every processed file so nothing is transcribed twice
 
-**The result**: 3,478 calls across 300 customers transcribed — reliably, at scale, with strict privacy maintained throughout. Investigators got speaker-labelled transcripts in the format they needed to filter and prioritise calls efficiently. A final consolidated report, built from a verified master log across all analysts, was delivered to the enforcement team on completion.
+**The result**: ~3,500 calls across 300 customers transcribed — reliably, at scale, with strict privacy maintained throughout. Investigators got speaker-labelled transcripts in the format they needed to filter and prioritise calls efficiently. A final consolidated report, built from a verified master log across all analysts, was delivered to the enforcement team on completion.
 
 <br>
 
@@ -50,7 +50,7 @@ The pipeline runs in three scripts:
 
 **Distributed compute across team hardware**
 
-Running 3,478 calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 66 days of overnight processing. By distributing the workload across six analyst machines and running the pipeline continuously wherever possible, all 3,478 calls were completed in 7 days with no significant impact on day-to-day computer use. The pipeline was hardened with additional defensive programming to handle edge cases and ensure stability across extended unattended runs.
+Running ~3,500 calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 66 days of overnight processing. By distributing the workload across six analyst machines and running the pipeline continuously wherever possible, all ~3,500 calls were completed in 7 days with no significant impact on day-to-day computer use. The pipeline was hardened with additional defensive programming to handle edge cases and ensure stability across extended unattended runs.
 
 **Privacy-by-design — analysts never see a single file**
 
