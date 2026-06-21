@@ -50,7 +50,7 @@ The pipeline runs in three scripts:
 
 **Distributed compute across team hardware**
 
-Running thousands of calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 68 days of processing. By distributing the workload across six analyst machines and running the pipeline continuously wherever possible, the full dataset was completed in 7 days with no significant impact on day-to-day computer use. The pipeline was hardened with additional defensive programming to handle edge cases and ensure stability across extended unattended runs.
+Running thousands of calls averaging five minutes each on a single CPU-only corporate machine would have taken approximately 68 working days of processing. By distributing the workload across six analyst machines and running the pipeline continuously wherever possible, the full dataset was completed in 7 days with no significant impact on day-to-day computer use. The pipeline was hardened with additional defensive programming to handle edge cases and ensure stability across extended unattended runs.
 
 **Privacy-by-design — analysts never see a single file**
 
