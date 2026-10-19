@@ -1,0 +1,24 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore completed test runs
+02_Test_Recordings/**/Completed/
+
+# Ignore script 11 outputs and Python cache
+01_Scripts/Feathers/
+__pycache__/
+
+# Ignore seminar transcripts and outputs (presenters' material)
+03_Transcribe_Audio/Google Cloud Agentic AI/
+03_Transcribe_Audio/Open Summit AI/
+04_Documents/Google Agentic AI Seminar/
+
+# Ignore processed files logs
+03_Transcribe_Audio/processed_files_log.csv
+03_Transcribe_Audio/processed_files_log_gpu.csv
+03_Transcribe_Audio/processed_files_log_standard.csv
+
+# Ignore local folder
+Local/
