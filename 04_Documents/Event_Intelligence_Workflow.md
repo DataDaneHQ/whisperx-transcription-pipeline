@@ -38,7 +38,7 @@ Notes taken in the moment are incomplete. Raw audio sits on your phone and never
 **Event:** Google Cloud Agentic AI Seminar  
 **Date:** 5 March 2026, 0800–1100  
 **Location:** Google Office, Australia  
-**Format:** MC (Beth) + 5 speakers  
+**Format:** MC + 5 speakers  
 **Duration:** ~1 hour 56 minutes (first hour breakfast and networking, hours 2–3 the seminar itself)  
 
 ```mermaid
@@ -143,7 +143,7 @@ Look for:
 
 CONTEXT
 Seminar topic: Google Cloud Agents
-Format: MC + 5 speakers
+Format: MC + 5 speakers with transition between each
 ```
 
 > **Why this prompt works:** The critical constraint acknowledging ~60% speaker label accuracy is key. WhisperX speaker diarisation is highly accurate for clean audio but can misattribute labels in crowded rooms with ambient noise and multiple speakers. Instructing Claude to use content analysis rather than speaker labels produces a structurally accurate summary regardless of diarisation imperfections.
@@ -167,6 +167,7 @@ All outputs below were generated from a single phone recording of the Google Clo
 | Infographic | PNG | NotebookLM |
 
 The outputs aren’t published here because they contain the presenters’ own material.
+
 ---
 
 <br>
