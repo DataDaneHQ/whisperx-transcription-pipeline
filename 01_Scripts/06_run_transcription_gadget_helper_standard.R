@@ -58,7 +58,7 @@ get_transcription_config <- function() {
           div(class = "card",
               div(class = "card-title", "Audio File or Folder"),
               textInput("audio_path", "Audio File or Folder Path",
-                        value = "02_Test_Recordings/JFK_Test/01_jfk.flac",
+                        value = "02_Test_Recordings/Our_Common_Bond_Test",
                         width = "100%"),
               div(class = "hint", HTML("<strong>Single file</strong>: 02_Test_Recordings/JFK_Test/01_jfk.flac || <strong>Folder</strong>: 02_Test_Recordings/JFK_Test"))
           ),

@@ -21,7 +21,7 @@
 # Hit ctrl + shift + enter and configure the control panel that opens in your browser
 # ──────────────────────────────────────────────────────────────────────────────
 
-library(here)
+suppressPackageStartupMessages(library(here))
 
 # Open Control Panel in browser
 source(here::here("01_Scripts", "06_run_transcription_gadget_helper_standard.R"))
@@ -107,6 +107,10 @@ cmd <- paste(
 # Stop Python buffering output so progress shows as it happens
 Sys.setenv(PYTHONUNBUFFERED = "1")
 Sys.setenv(PYTHONWARNINGS = "ignore")
+
+# Set offline mode before Python starts, so the Hugging Face libraries see it when they load
+offline_flag <- if (local_run) "1" else "0"
+Sys.setenv(HF_HUB_OFFLINE = offline_flag, TRANSFORMERS_OFFLINE = offline_flag, HF_DATASETS_OFFLINE = offline_flag)
 
 # Run Python script and stream output live to the console
 exit_code <- system(cmd)
